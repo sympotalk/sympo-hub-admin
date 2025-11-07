@@ -146,6 +146,34 @@ const getDummyHotels = (query: string): Hotel[] => {
       rating: 4.9,
       user_ratings_total: 3200,
     },
+    {
+      place_id: "dummy9",
+      name: "안다즈 서울 강남",
+      formatted_address: "서울특별시 강남구 테헤란로 152",
+      rating: 4.8,
+      user_ratings_total: 2800,
+    },
+    {
+      place_id: "dummy10",
+      name: "소피텔 앰버서더 서울",
+      formatted_address: "서울특별시 중구 소공로 135",
+      rating: 4.6,
+      user_ratings_total: 1650,
+    },
+    {
+      place_id: "dummy11",
+      name: "웨스틴 조선 서울",
+      formatted_address: "서울특별시 중구 소공로 106",
+      rating: 4.7,
+      user_ratings_total: 1950,
+    },
+    {
+      place_id: "dummy12",
+      name: "인터컨티넨탈 서울 코엑스",
+      formatted_address: "서울특별시 강남구 봉은사로 524",
+      rating: 4.5,
+      user_ratings_total: 1420,
+    },
   ];
 
   // 쿼리가 비어있으면 모든 호텔 반환
@@ -184,24 +212,31 @@ export const HotelSearch = ({
 
   // 검색어 변경 시 검색 실행
   useEffect(() => {
+    if (!open) {
+      // Popover가 닫혀있으면 검색하지 않음
+      return;
+    }
+
     if (debounceTimer.current) {
       clearTimeout(debounceTimer.current);
     }
 
+    if (searchQuery.trim().length === 0) {
+      // 검색어가 없을 때는 모든 호텔 표시
+      const results = getDummyHotels("");
+      setHotels(results);
+      return;
+    }
+
     if (searchQuery.trim().length < 2) {
-      // 2글자 미만일 때는 모든 호텔 표시
-      if (open) {
-        const results = getDummyHotels("");
-        setHotels(results);
-      } else {
-        setHotels([]);
-      }
+      // 1글자일 때는 빈 결과 표시
+      setHotels([]);
       return;
     }
 
     setLoading(true);
     debounceTimer.current = setTimeout(async () => {
-      const results = await searchHotels(searchQuery);
+      const results = await searchHotels(searchQuery.trim());
       setHotels(results);
       setLoading(false);
     }, 300);
@@ -256,17 +291,23 @@ export const HotelSearch = ({
             </span>
           </div>
           {value && (
-            <Button
-              variant="ghost"
-              size="sm"
-              className="h-6 w-6 p-0 shrink-0"
+            <div
+              className="h-6 w-6 p-0 shrink-0 flex items-center justify-center rounded-sm hover:bg-accent cursor-pointer"
               onClick={(e) => {
                 e.stopPropagation();
                 handleClear();
               }}
+              role="button"
+              tabIndex={0}
+              onKeyDown={(e) => {
+                if (e.key === "Enter" || e.key === " ") {
+                  e.preventDefault();
+                  handleClear();
+                }
+              }}
             >
               ×
-            </Button>
+            </div>
           )}
         </Button>
       </PopoverTrigger>
