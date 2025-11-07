@@ -15,17 +15,14 @@ import { ko } from "date-fns/locale";
 import { HotelSearch } from "@/components/HotelSearch";
 
 interface Hotel {
-  place_id: string;
+  id: string;
+  place_id: string | null;
   name: string;
   formatted_address: string;
-  geometry?: {
-    location: {
-      lat: number;
-      lng: number;
-    };
-  };
-  rating?: number;
-  user_ratings_total?: number;
+  latitude?: number | null;
+  longitude?: number | null;
+  rating?: number | null;
+  user_ratings_total?: number | null;
 }
 
 interface Project {
@@ -86,7 +83,7 @@ const Projects = () => {
           if (project.location) {
             try {
               const parsed = JSON.parse(project.location);
-              if (parsed.place_id) {
+              if (parsed.id || parsed.place_id) {
                 hotel = parsed;
               }
             } catch {

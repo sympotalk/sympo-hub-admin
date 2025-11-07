@@ -16,19 +16,17 @@ import {
 } from "@/components/ui/command";
 import { MapPin, Loader2, Check } from "lucide-react";
 import { cn } from "@/lib/utils";
+import { supabase } from "@/integrations/supabase/client";
 
 interface Hotel {
-  place_id: string;
+  id: string;
+  place_id: string | null;
   name: string;
   formatted_address: string;
-  geometry?: {
-    location: {
-      lat: number;
-      lng: number;
-    };
-  };
-  rating?: number;
-  user_ratings_total?: number;
+  latitude?: number | null;
+  longitude?: number | null;
+  rating?: number | null;
+  user_ratings_total?: number | null;
 }
 
 interface HotelSearchProps {
@@ -38,156 +36,46 @@ interface HotelSearchProps {
   className?: string;
 }
 
-// Google Places API를 사용한 호텔 검색
-// 주의: 브라우저에서 직접 호출하면 CORS 오류가 발생합니다.
-// 프로덕션에서는 서버 사이드 프록시를 사용하거나 Google Places JavaScript SDK를 사용해야 합니다.
+// Supabase에서 호텔 검색
 const searchHotels = async (query: string): Promise<Hotel[]> => {
-  if (!query.trim()) return [];
-
-  // 현재는 CORS 문제로 인해 더미 데이터만 사용
-  // TODO: 서버 사이드 프록시 또는 Google Places JavaScript SDK로 전환 필요
-  return getDummyHotels(query);
-
-  /* 
-  // 서버 사이드 프록시를 사용하는 경우 아래 코드 사용:
   try {
-    const apiKey = import.meta.env.VITE_GOOGLE_PLACES_API_KEY;
-    
-    if (!apiKey) {
-      return getDummyHotels(query);
+    let queryBuilder = supabase
+      .from("hotels")
+      .select("*")
+      .order("name", { ascending: true });
+
+    if (query.trim()) {
+      // 검색어가 있으면 이름이나 주소에서 검색
+      const searchTerm = query.trim();
+      queryBuilder = queryBuilder.or(
+        `name.ilike.%${searchTerm}%,formatted_address.ilike.%${searchTerm}%`
+      );
     }
 
-    // 서버 사이드 프록시를 통해 호출
-    const response = await fetch(
-      `/api/places/search?query=${encodeURIComponent(query + " 호텔")}&type=lodging`
-    );
+    const { data, error } = await queryBuilder.limit(50);
 
-    if (!response.ok) {
-      throw new Error("호텔 검색에 실패했습니다");
+    if (error) {
+      console.error("호텔 검색 오류:", error);
+      return [];
     }
 
-    const data = await response.json();
-
-    if (data.status === "OK" && data.results) {
-      return data.results.map((place: any) => ({
-        place_id: place.place_id,
-        name: place.name,
-        formatted_address: place.formatted_address,
-        geometry: place.geometry,
-        rating: place.rating,
-        user_ratings_total: place.user_ratings_total,
-      }));
-    }
-
-    return [];
+    // Hotel 인터페이스에 맞게 변환
+    return (data || []).map((hotel: any) => ({
+      id: hotel.id,
+      place_id: hotel.place_id || hotel.id,
+      name: hotel.name,
+      formatted_address: hotel.formatted_address,
+      latitude: hotel.latitude,
+      longitude: hotel.longitude,
+      rating: hotel.rating ? Number(hotel.rating) : null,
+      user_ratings_total: hotel.user_ratings_total || null,
+    }));
   } catch (error) {
-    // 오류 발생 시 더미 데이터 반환
-    return getDummyHotels(query);
+    console.error("호텔 검색 오류:", error);
+    return [];
   }
-  */
 };
 
-// 더미 호텔 데이터 (개발 및 테스트용)
-const getDummyHotels = (query: string): Hotel[] => {
-  const dummyHotels: Hotel[] = [
-    {
-      place_id: "dummy1",
-      name: "서울 그랜드 호텔",
-      formatted_address: "서울특별시 중구 세종대로 123",
-      rating: 4.5,
-      user_ratings_total: 1234,
-    },
-    {
-      place_id: "dummy2",
-      name: "롯데 호텔 서울",
-      formatted_address: "서울특별시 중구 을지로 30",
-      rating: 4.8,
-      user_ratings_total: 2345,
-    },
-    {
-      place_id: "dummy3",
-      name: "신라 호텔",
-      formatted_address: "서울특별시 중구 동호로 249",
-      rating: 4.7,
-      user_ratings_total: 3456,
-    },
-    {
-      place_id: "dummy4",
-      name: "콘래드 서울",
-      formatted_address: "서울특별시 영등포구 국제금융로 10",
-      rating: 4.6,
-      user_ratings_total: 1567,
-    },
-    {
-      place_id: "dummy5",
-      name: "파크 하얏트 서울",
-      formatted_address: "서울특별시 강남구 테헤란로 606",
-      rating: 4.4,
-      user_ratings_total: 987,
-    },
-    {
-      place_id: "dummy6",
-      name: "그랜드 하얏트 서울",
-      formatted_address: "서울특별시 용산구 소월로 322",
-      rating: 4.6,
-      user_ratings_total: 2100,
-    },
-    {
-      place_id: "dummy7",
-      name: "JW 메리어트 호텔 서울",
-      formatted_address: "서울특별시 서초구 신반포로 176",
-      rating: 4.7,
-      user_ratings_total: 1890,
-    },
-    {
-      place_id: "dummy8",
-      name: "포시즌스 호텔 서울",
-      formatted_address: "서울특별시 종로구 새문안로 97",
-      rating: 4.9,
-      user_ratings_total: 3200,
-    },
-    {
-      place_id: "dummy9",
-      name: "안다즈 서울 강남",
-      formatted_address: "서울특별시 강남구 테헤란로 152",
-      rating: 4.8,
-      user_ratings_total: 2800,
-    },
-    {
-      place_id: "dummy10",
-      name: "소피텔 앰버서더 서울",
-      formatted_address: "서울특별시 중구 소공로 135",
-      rating: 4.6,
-      user_ratings_total: 1650,
-    },
-    {
-      place_id: "dummy11",
-      name: "웨스틴 조선 서울",
-      formatted_address: "서울특별시 중구 소공로 106",
-      rating: 4.7,
-      user_ratings_total: 1950,
-    },
-    {
-      place_id: "dummy12",
-      name: "인터컨티넨탈 서울 코엑스",
-      formatted_address: "서울특별시 강남구 봉은사로 524",
-      rating: 4.5,
-      user_ratings_total: 1420,
-    },
-  ];
-
-  // 쿼리가 비어있으면 모든 호텔 반환
-  if (!query.trim()) {
-    return dummyHotels;
-  }
-
-  // 쿼리로 필터링 (호텔명 또는 주소에 포함된 경우)
-  const lowerQuery = query.toLowerCase();
-  return dummyHotels.filter((hotel) =>
-    hotel.name.toLowerCase().includes(lowerQuery) ||
-    hotel.formatted_address.toLowerCase().includes(lowerQuery)
-  );
-};
 
 export const HotelSearch = ({
   value,
@@ -205,8 +93,9 @@ export const HotelSearch = ({
   useEffect(() => {
     if (open && searchQuery.trim().length === 0) {
       // Popover가 열리고 검색어가 없을 때 모든 호텔 표시
-      const results = getDummyHotels("");
-      setHotels(results);
+      searchHotels("").then((results) => {
+        setHotels(results);
+      });
     }
   }, [open]);
 
@@ -223,8 +112,9 @@ export const HotelSearch = ({
 
     if (searchQuery.trim().length === 0) {
       // 검색어가 없을 때는 모든 호텔 표시
-      const results = getDummyHotels("");
-      setHotels(results);
+      searchHotels("").then((results) => {
+        setHotels(results);
+      });
       return;
     }
 
@@ -333,8 +223,8 @@ export const HotelSearch = ({
               <CommandGroup>
                 {hotels.map((hotel) => (
                   <CommandItem
-                    key={hotel.place_id}
-                    value={hotel.place_id}
+                    key={hotel.id}
+                    value={hotel.id}
                     onSelect={() => handleSelect(hotel)}
                     className="flex flex-col items-start gap-1 py-3"
                   >
@@ -342,7 +232,7 @@ export const HotelSearch = ({
                       <Check
                         className={cn(
                           "h-4 w-4 shrink-0",
-                          value?.place_id === hotel.place_id
+                          value?.id === hotel.id || value?.place_id === hotel.place_id
                             ? "opacity-100"
                             : "opacity-0"
                         )}
