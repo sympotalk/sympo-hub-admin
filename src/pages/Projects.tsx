@@ -9,9 +9,24 @@ import { Label } from "@/components/ui/label";
 import { useAuth } from "@/contexts/AuthContext";
 import { supabase } from "@/integrations/supabase/client";
 import { toast } from "sonner";
-import { Calendar, MapPin, Users, Plus, Search, Pencil, Trash2 } from "lucide-react";
+import { Calendar, MapPin, Users, Plus, Search, Pencil, Trash2, Hotel } from "lucide-react";
 import { format } from "date-fns";
 import { ko } from "date-fns/locale";
+import { HotelSearch } from "@/components/HotelSearch";
+
+interface Hotel {
+  place_id: string;
+  name: string;
+  formatted_address: string;
+  geometry?: {
+    location: {
+      lat: number;
+      lng: number;
+    };
+  };
+  rating?: number;
+  user_ratings_total?: number;
+}
 
 interface Project {
   id: string;
@@ -22,6 +37,7 @@ interface Project {
   status: string;
   description: string | null;
   participant_count?: number;
+  hotel?: Hotel | null;
 }
 
 const Projects = () => {
@@ -37,6 +53,7 @@ const Projects = () => {
     end_date: "",
     description: "",
   });
+  const [selectedHotel, setSelectedHotel] = useState<Hotel | null>(null);
 
   useEffect(() => {
     if (profile?.agency_id) {
@@ -56,14 +73,28 @@ const Projects = () => {
 
       if (error) throw error;
 
-      // Load participant counts
+      // Load participant counts and parse hotel data
       const projectsWithCounts = await Promise.all(
         (projectsData || []).map(async (project) => {
           const { count } = await supabase
             .from("participants")
             .select("*", { count: "exact", head: true })
             .eq("project_id", project.id);
-          return { ...project, participant_count: count || 0 };
+          
+          // Parse hotel data from location field if it's JSON
+          let hotel: Hotel | null = null;
+          if (project.location) {
+            try {
+              const parsed = JSON.parse(project.location);
+              if (parsed.place_id) {
+                hotel = parsed;
+              }
+            } catch {
+              // Not JSON, keep as string location
+            }
+          }
+          
+          return { ...project, participant_count: count || 0, hotel };
         })
       );
 
@@ -85,11 +116,19 @@ const Projects = () => {
     }
 
     try {
+      // 호텔이 선택된 경우 JSON으로 저장, 아니면 일반 텍스트로 저장
+      let locationValue: string | null = null;
+      if (selectedHotel) {
+        locationValue = JSON.stringify(selectedHotel);
+      } else if (formData.location.trim()) {
+        locationValue = formData.location.trim();
+      }
+
       const { error } = await supabase.from("projects").insert([
         {
           agency_id: profile.agency_id,
           name: formData.name,
-          location: formData.location || null,
+          location: locationValue,
           start_date: formData.start_date,
           end_date: formData.end_date,
           description: formData.description || null,
@@ -109,6 +148,7 @@ const Projects = () => {
         end_date: "",
         description: "",
       });
+      setSelectedHotel(null);
       loadProjects();
     } catch (error) {
       console.error("Failed to create project:", error);
@@ -195,13 +235,28 @@ const Projects = () => {
                         />
                       </div>
                       <div className="space-y-2">
-                        <Label htmlFor="location">장소</Label>
+                        <Label htmlFor="hotel">호텔 검색</Label>
+                        <HotelSearch
+                          value={selectedHotel}
+                          onSelect={setSelectedHotel}
+                          placeholder="호텔을 검색하여 선택하세요"
+                        />
+                      </div>
+                      <div className="space-y-2">
+                        <Label htmlFor="location">장소 (직접 입력)</Label>
                         <Input
                           id="location"
                           value={formData.location}
                           onChange={(e) => setFormData({ ...formData, location: e.target.value })}
+                          placeholder="호텔 검색을 사용하지 않는 경우 직접 입력"
                           className="rounded-xl"
+                          disabled={!!selectedHotel}
                         />
+                        {selectedHotel && (
+                          <p className="text-xs text-muted-foreground">
+                            호텔이 선택되어 있습니다. 직접 입력을 사용하려면 호텔 선택을 해제하세요.
+                          </p>
+                        )}
                       </div>
                       <div className="grid grid-cols-2 gap-4">
                         <div className="space-y-2">
@@ -303,12 +358,31 @@ const Projects = () => {
                             {format(new Date(project.end_date), "yyyy.MM.dd", { locale: ko })}
                           </span>
                         </div>
-                        {project.location && (
+                        {project.hotel ? (
+                          <div className="flex items-start gap-2 text-sm text-muted-foreground">
+                            <Hotel className="w-4 h-4 flex-shrink-0 mt-0.5" />
+                            <div className="flex-1 min-w-0">
+                              <div className="font-medium text-foreground line-clamp-1">
+                                {project.hotel.name}
+                              </div>
+                              <div className="line-clamp-1 text-xs">
+                                {project.hotel.formatted_address}
+                              </div>
+                              {project.hotel.rating && (
+                                <div className="text-xs mt-0.5">
+                                  ⭐ {project.hotel.rating.toFixed(1)}
+                                  {project.hotel.user_ratings_total &&
+                                    ` (${project.hotel.user_ratings_total.toLocaleString()})`}
+                                </div>
+                              )}
+                            </div>
+                          </div>
+                        ) : project.location ? (
                           <div className="flex items-center gap-2 text-sm text-muted-foreground">
                             <MapPin className="w-4 h-4 flex-shrink-0" />
                             <span className="line-clamp-1">{project.location}</span>
                           </div>
-                        )}
+                        ) : null}
                         <div className="flex items-center gap-2 text-sm text-muted-foreground">
                           <Users className="w-4 h-4 flex-shrink-0" />
                           <span>참가자 {project.participant_count}명</span>
