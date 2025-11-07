@@ -208,7 +208,23 @@ const Projects = () => {
                 </p>
               </div>
 
-              <Dialog open={dialogOpen} onOpenChange={setDialogOpen}>
+              <Dialog 
+                open={dialogOpen} 
+                onOpenChange={(open) => {
+                  setDialogOpen(open);
+                  if (!open) {
+                    // 모달이 닫힐 때 상태 초기화
+                    setFormData({
+                      name: "",
+                      location: "",
+                      start_date: "",
+                      end_date: "",
+                      description: "",
+                    });
+                    setSelectedHotel(null);
+                  }
+                }}
+              >
                 <DialogTrigger asChild>
                   <Button className="rounded-xl gap-2 shadow-md hover:scale-[1.02] transition-all">
                     <Plus className="w-4 h-4" />
