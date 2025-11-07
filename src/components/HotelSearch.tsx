@@ -173,13 +173,29 @@ export const HotelSearch = ({
   const [loading, setLoading] = useState(false);
   const debounceTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
+  // Popover가 열릴 때 초기 검색 결과 로드
+  useEffect(() => {
+    if (open && searchQuery.trim().length === 0) {
+      // Popover가 열리고 검색어가 없을 때 모든 호텔 표시
+      const results = getDummyHotels("");
+      setHotels(results);
+    }
+  }, [open]);
+
+  // 검색어 변경 시 검색 실행
   useEffect(() => {
     if (debounceTimer.current) {
       clearTimeout(debounceTimer.current);
     }
 
     if (searchQuery.trim().length < 2) {
-      setHotels([]);
+      // 2글자 미만일 때는 모든 호텔 표시
+      if (open) {
+        const results = getDummyHotels("");
+        setHotels(results);
+      } else {
+        setHotels([]);
+      }
       return;
     }
 
@@ -195,21 +211,33 @@ export const HotelSearch = ({
         clearTimeout(debounceTimer.current);
       }
     };
-  }, [searchQuery]);
+  }, [searchQuery, open]);
 
   const handleSelect = (hotel: Hotel) => {
     onSelect(hotel);
     setOpen(false);
     setSearchQuery("");
+    setHotels([]);
   };
 
   const handleClear = () => {
     onSelect(null);
     setSearchQuery("");
+    setHotels([]);
   };
 
   return (
-    <Popover open={open} onOpenChange={setOpen}>
+    <Popover 
+      open={open} 
+      onOpenChange={(isOpen) => {
+        setOpen(isOpen);
+        if (!isOpen) {
+          // Popover가 닫힐 때 검색어 초기화
+          setSearchQuery("");
+          setHotels([]);
+        }
+      }}
+    >
       <PopoverTrigger asChild>
         <Button
           variant="outline"
