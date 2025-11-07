@@ -39,24 +39,27 @@ interface HotelSearchProps {
 }
 
 // Google Places API를 사용한 호텔 검색
+// 주의: 브라우저에서 직접 호출하면 CORS 오류가 발생합니다.
+// 프로덕션에서는 서버 사이드 프록시를 사용하거나 Google Places JavaScript SDK를 사용해야 합니다.
 const searchHotels = async (query: string): Promise<Hotel[]> => {
   if (!query.trim()) return [];
 
+  // 현재는 CORS 문제로 인해 더미 데이터만 사용
+  // TODO: 서버 사이드 프록시 또는 Google Places JavaScript SDK로 전환 필요
+  return getDummyHotels(query);
+
+  /* 
+  // 서버 사이드 프록시를 사용하는 경우 아래 코드 사용:
   try {
-    // Google Places API 사용 (API 키는 환경변수에서 가져옴)
     const apiKey = import.meta.env.VITE_GOOGLE_PLACES_API_KEY;
     
     if (!apiKey) {
-      console.warn("Google Places API 키가 설정되지 않았습니다.");
-      // API 키가 없을 경우 더미 데이터 반환 (개발용)
       return getDummyHotels(query);
     }
 
-    // Google Places API Text Search
+    // 서버 사이드 프록시를 통해 호출
     const response = await fetch(
-      `https://maps.googleapis.com/maps/api/place/textsearch/json?query=${encodeURIComponent(
-        query + " 호텔"
-      )}&type=lodging&language=ko&key=${apiKey}`
+      `/api/places/search?query=${encodeURIComponent(query + " 호텔")}&type=lodging`
     );
 
     if (!response.ok) {
@@ -78,13 +81,13 @@ const searchHotels = async (query: string): Promise<Hotel[]> => {
 
     return [];
   } catch (error) {
-    console.error("호텔 검색 오류:", error);
     // 오류 발생 시 더미 데이터 반환
     return getDummyHotels(query);
   }
+  */
 };
 
-// API 키가 없을 때 사용할 더미 데이터
+// 더미 호텔 데이터 (개발 및 테스트용)
 const getDummyHotels = (query: string): Hotel[] => {
   const dummyHotels: Hotel[] = [
     {
@@ -122,12 +125,39 @@ const getDummyHotels = (query: string): Hotel[] => {
       rating: 4.4,
       user_ratings_total: 987,
     },
+    {
+      place_id: "dummy6",
+      name: "그랜드 하얏트 서울",
+      formatted_address: "서울특별시 용산구 소월로 322",
+      rating: 4.6,
+      user_ratings_total: 2100,
+    },
+    {
+      place_id: "dummy7",
+      name: "JW 메리어트 호텔 서울",
+      formatted_address: "서울특별시 서초구 신반포로 176",
+      rating: 4.7,
+      user_ratings_total: 1890,
+    },
+    {
+      place_id: "dummy8",
+      name: "포시즌스 호텔 서울",
+      formatted_address: "서울특별시 종로구 새문안로 97",
+      rating: 4.9,
+      user_ratings_total: 3200,
+    },
   ];
 
-  // 쿼리로 필터링
+  // 쿼리가 비어있으면 모든 호텔 반환
+  if (!query.trim()) {
+    return dummyHotels;
+  }
+
+  // 쿼리로 필터링 (호텔명 또는 주소에 포함된 경우)
+  const lowerQuery = query.toLowerCase();
   return dummyHotels.filter((hotel) =>
-    hotel.name.toLowerCase().includes(query.toLowerCase()) ||
-    hotel.formatted_address.toLowerCase().includes(query.toLowerCase())
+    hotel.name.toLowerCase().includes(lowerQuery) ||
+    hotel.formatted_address.toLowerCase().includes(lowerQuery)
   );
 };
 
