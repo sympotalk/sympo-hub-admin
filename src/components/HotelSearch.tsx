@@ -39,77 +39,59 @@ interface HotelSearchProps {
 // Supabase에서 호텔 검색
 const searchHotels = async (query: string): Promise<Hotel[]> => {
   try {
-    if (query.trim()) {
-      // 검색어가 있으면 이름이나 주소에서 검색
-      const searchTerm = query.trim().toLowerCase();
-      
-      // 이름과 주소에서 각각 검색 후 합치기
-      const [nameResult, addressResult] = await Promise.all([
-        supabase
-          .from("hotels")
-          .select("*")
-          .ilike("name", `%${searchTerm}%`)
-          .order("name", { ascending: true })
-          .limit(50),
-        supabase
-          .from("hotels")
-          .select("*")
-          .ilike("formatted_address", `%${searchTerm}%`)
-          .order("name", { ascending: true })
-          .limit(50),
-      ]);
-      
-      // 중복 제거를 위해 Map 사용
-      const hotelMap = new Map();
-      
-      if (nameResult.data) {
-        for (const hotel of nameResult.data) {
-          hotelMap.set(hotel.id, hotel);
-        }
-      }
-      
-      if (addressResult.data) {
-        for (const hotel of addressResult.data) {
-          hotelMap.set(hotel.id, hotel);
-        }
-      }
-      
-      const combinedData = Array.from(hotelMap.values());
-      
-      return combinedData.map((hotel: any) => ({
-        id: hotel.id,
-        place_id: hotel.place_id || hotel.id,
-        name: hotel.name,
-        formatted_address: hotel.formatted_address,
-        latitude: hotel.latitude,
-        longitude: hotel.longitude,
-        rating: hotel.rating ? Number(hotel.rating) : null,
-        user_ratings_total: hotel.user_ratings_total || null,
-      }));
-    } else {
-      // 검색어가 없으면 모든 호텔 반환
-      const { data, error } = await supabase
+    const trimmedQuery = query.trim();
+    
+    // 검색어가 2글자 미만이면 빈 배열 반환
+    if (trimmedQuery.length < 2) {
+      return [];
+    }
+    
+    // 검색어가 있으면 이름이나 주소에서 검색
+    const searchTerm = trimmedQuery.toLowerCase();
+    
+    // 이름과 주소에서 각각 검색 후 합치기
+    const [nameResult, addressResult] = await Promise.all([
+      supabase
         .from("hotels")
         .select("*")
+        .ilike("name", `%${searchTerm}%`)
         .order("name", { ascending: true })
-        .limit(100);
-
-      if (error) {
-        console.error("호텔 검색 오류:", error);
-        return [];
+        .limit(50),
+      supabase
+        .from("hotels")
+        .select("*")
+        .ilike("formatted_address", `%${searchTerm}%`)
+        .order("name", { ascending: true })
+        .limit(50),
+    ]);
+    
+    // 중복 제거를 위해 Map 사용
+    const hotelMap = new Map();
+    
+    if (nameResult.data) {
+      for (const hotel of nameResult.data) {
+        hotelMap.set(hotel.id, hotel);
       }
-
-      return (data || []).map((hotel: any) => ({
-        id: hotel.id,
-        place_id: hotel.place_id || hotel.id,
-        name: hotel.name,
-        formatted_address: hotel.formatted_address,
-        latitude: hotel.latitude,
-        longitude: hotel.longitude,
-        rating: hotel.rating ? Number(hotel.rating) : null,
-        user_ratings_total: hotel.user_ratings_total || null,
-      }));
     }
+    
+    if (addressResult.data) {
+      for (const hotel of addressResult.data) {
+        hotelMap.set(hotel.id, hotel);
+      }
+    }
+    
+    const combinedData = Array.from(hotelMap.values());
+    
+    return combinedData.map((hotel: any) => ({
+      id: hotel.id,
+      place_id: hotel.place_id || hotel.id,
+      name: hotel.name,
+      formatted_address: hotel.formatted_address,
+      latitude: hotel.latitude,
+      longitude: hotel.longitude,
+      rating: hotel.rating ? Number(hotel.rating) : null,
+      user_ratings_total: hotel.user_ratings_total || null,
+    }));
   } catch (error) {
     console.error("호텔 검색 오류:", error);
     return [];
@@ -129,16 +111,6 @@ export const HotelSearch = ({
   const [loading, setLoading] = useState(false);
   const debounceTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  // Popover가 열릴 때 초기 검색 결과 로드
-  useEffect(() => {
-    if (open && searchQuery.trim().length === 0) {
-      // Popover가 열리고 검색어가 없을 때 모든 호텔 표시
-      searchHotels("").then((results) => {
-        setHotels(results);
-      });
-    }
-  }, [open]);
-
   // 검색어 변경 시 검색 실행
   useEffect(() => {
     if (!open) {
@@ -150,19 +122,19 @@ export const HotelSearch = ({
       clearTimeout(debounceTimer.current);
     }
 
-    if (searchQuery.trim().length === 0) {
-      // 검색어가 없을 때는 모든 호텔 표시
-      searchHotels("").then((results) => {
-        setHotels(results);
-      });
+    const trimmedQuery = searchQuery.trim();
+    
+    // 검색어가 2글자 미만이면 결과 초기화
+    if (trimmedQuery.length < 2) {
+      setHotels([]);
+      setLoading(false);
       return;
     }
 
-    // 1글자 이상이면 검색 실행 (제한 제거)
-
+    // 2글자 이상이면 검색 실행
     setLoading(true);
     debounceTimer.current = setTimeout(async () => {
-      const results = await searchHotels(searchQuery.trim());
+      const results = await searchHotels(trimmedQuery);
       setHotels(results);
       setLoading(false);
     }, 300);
@@ -251,7 +223,9 @@ export const HotelSearch = ({
               </div>
             ) : hotels.length === 0 ? (
               <CommandEmpty>
-                {searchQuery.trim().length < 2
+                {searchQuery.trim().length === 0
+                  ? "호텔명 또는 주소를 입력해주세요"
+                  : searchQuery.trim().length < 2
                   ? "2글자 이상 입력해주세요"
                   : "검색 결과가 없습니다"}
               </CommandEmpty>
