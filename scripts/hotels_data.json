@@ -1,1 +1,3881 @@
-[]
+[
+  {
+    "name": "그랜드 워커힐 서울",
+    "formatted_address": "대한민국 서울특별시 광진구 워커힐로 177",
+    "latitude": 37.5552126,
+    "longitude": 127.1108905,
+    "rating": 4.4,
+    "user_ratings_total": 3833,
+    "place_id": "ChIJ12NRErq6fDURjhQX1gNvNKw"
+  },
+  {
+    "name": "호스텔 서울",
+    "formatted_address": "대한민국 서울특별시 종로구 숭인제2동 보문로9길 9",
+    "latitude": 37.5784144,
+    "longitude": 127.0223403,
+    "rating": 4,
+    "user_ratings_total": 32,
+    "place_id": "ChIJEWLgyLS8fDUR3ZtZ5bfceqA"
+  },
+  {
+    "name": "아늑호텔 구리점",
+    "formatted_address": "대한민국 경기도 구리시 안골로 81-7",
+    "latitude": 37.597792,
+    "longitude": 127.140207,
+    "rating": 4.4,
+    "user_ratings_total": 8,
+    "place_id": "ChIJ_ebpRbqwfDURvAEZnGDM-7g"
+  },
+  {
+    "name": "라이프스타일 S호텔",
+    "formatted_address": "대한민국 서울특별시 강서구 곰달래로 108",
+    "latitude": 37.530243,
+    "longitude": 126.8446877,
+    "rating": 4.1,
+    "user_ratings_total": 166,
+    "place_id": "ChIJAyQvwrOdfDURhcXUedOs8GQ"
+  },
+  {
+    "name": "골든서울호텔",
+    "formatted_address": "대한민국 서울특별시 강서구 공항대로 663",
+    "latitude": 37.5477916,
+    "longitude": 126.8781215,
+    "rating": 4,
+    "user_ratings_total": 1152,
+    "place_id": "ChIJ4fxt8K-efDURwFtdjAk_0c8"
+  },
+  {
+    "name": "Ocean's Guesthouse - foreigners only",
+    "formatted_address": "대한민국 서울특별시 마포구 희우정로 40",
+    "latitude": 37.550622,
+    "longitude": 126.906938,
+    "rating": 4,
+    "user_ratings_total": 46,
+    "place_id": "ChIJudBI4CuZfDURWRGFP8jZNYA"
+  },
+  {
+    "name": "워커힐 호텔앤리조트",
+    "formatted_address": "대한민국 서울특별시 광진구 광장동 워커힐로 177",
+    "latitude": 37.5544386,
+    "longitude": 127.1105579,
+    "rating": 4.5,
+    "user_ratings_total": 377,
+    "place_id": "ChIJi3IxpbC6fDURkVmtKHgltsM"
+  },
+  {
+    "name": "포시즌스 호텔 서울",
+    "formatted_address": "대한민국 서울특별시 종로구 당주동 새문안로 97",
+    "latitude": 37.5706978,
+    "longitude": 126.9755073,
+    "rating": 4.6,
+    "user_ratings_total": 7158,
+    "place_id": "ChIJ70ZLLpOifDUReqEQ7NGzGLw"
+  },
+  {
+    "name": "스텝인 명동 1",
+    "formatted_address": "대한민국 서울특별시 중구 명동1가 명동길 55",
+    "latitude": 37.5641021,
+    "longitude": 126.9853711,
+    "rating": 4.1,
+    "user_ratings_total": 437,
+    "place_id": "ChIJZxB04--ifDURE0tSqNBR49U"
+  },
+  {
+    "name": "호텔 더캐슬 잠실",
+    "formatted_address": "대한민국 서울특별시 송파구 방이동 올림픽로32길 7",
+    "latitude": 37.5154176,
+    "longitude": 127.109082,
+    "rating": 4.2,
+    "user_ratings_total": 109,
+    "place_id": "ChIJC6JOw3OlfDURh6jsVgvTPN4"
+  },
+  {
+    "name": "셀린트호텔",
+    "formatted_address": "대한민국 경기도 성남시 중원구 산성대로 166",
+    "latitude": 37.4351427,
+    "longitude": 127.137604,
+    "rating": 4,
+    "user_ratings_total": 72,
+    "place_id": "ChIJPUcqEZCofDUR8eOUFlYaxNU"
+  },
+  {
+    "name": "프레이저 플레이스 남대문 서울",
+    "formatted_address": "대한민국 서울특별시 중구 세종대로 58",
+    "latitude": 37.5613761,
+    "longitude": 126.9764287,
+    "rating": 4.3,
+    "user_ratings_total": 1190,
+    "place_id": "ChIJxcuIuPSifDUR5YYPnRZpovk"
+  },
+  {
+    "name": "호텔부티크나인",
+    "formatted_address": "대한민국 서울특별시 동대문구 왕산로 28",
+    "latitude": 37.5764295,
+    "longitude": 127.0266071,
+    "rating": 4,
+    "user_ratings_total": 304,
+    "place_id": "ChIJgWapKrO8fDUR0-nz5zLAwfY"
+  },
+  {
+    "name": "호스텔 한일",
+    "formatted_address": "대한민국 서울특별시 동대문구 홍릉로 47-6",
+    "latitude": 37.584574,
+    "longitude": 127.043401,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "place_id": "ChIJz0jUz167fDURgkq9_fjJNYY"
+  },
+  {
+    "name": "맹그로브 동대문",
+    "formatted_address": "대한민국 서울특별시 중구 퇴계로 334",
+    "latitude": 37.5641553,
+    "longitude": 127.0085995,
+    "rating": 4.3,
+    "user_ratings_total": 92,
+    "place_id": "ChIJO_bLp72jfDURhWh1dVzEKUc"
+  },
+  {
+    "name": "글래드 마포",
+    "formatted_address": "대한민국 서울특별시 마포구 마포대로 92",
+    "latitude": 37.5430163,
+    "longitude": 126.9512054,
+    "rating": 4.4,
+    "user_ratings_total": 1563,
+    "place_id": "ChIJy-l4OqGYfDURihnW9_yv4hU"
+  },
+  {
+    "name": "브릭스 호텔",
+    "formatted_address": "대한민국 서울특별시 은평구 응암동 은평로8길 1",
+    "latitude": 37.5998351,
+    "longitude": 126.9212409,
+    "rating": 4.2,
+    "user_ratings_total": 137,
+    "place_id": "ChIJiXpHXTeYfDURCe9TxzRiNig"
+  },
+  {
+    "name": "신천 호텔 더 캐슬",
+    "formatted_address": "대한민국 서울특별시 올림픽로12길 4-17",
+    "latitude": 37.51117,
+    "longitude": 127.0818,
+    "rating": 4.2,
+    "user_ratings_total": 105,
+    "place_id": "ChIJcxEBv1KkfDUR_d9PfubuvQ0"
+  },
+  {
+    "name": "나인트리 바이 파르나스 서울 인사동",
+    "formatted_address": "대한민국 서울특별시 종로구 인사동길 49",
+    "latitude": 37.5746394,
+    "longitude": 126.9832068,
+    "rating": 4.4,
+    "user_ratings_total": 1319,
+    "place_id": "ChIJYRZuA-KjfDUR3EIotimBRBQ"
+  },
+  {
+    "name": "코리아나 호텔",
+    "formatted_address": "대한민국 서울특별시 중구 세종대로 135 코리아나호텔",
+    "latitude": 37.5681809,
+    "longitude": 126.9765031,
+    "rating": 4,
+    "user_ratings_total": 2761,
+    "place_id": "ChIJ63mWOO2ifDURntI7_YxBx-w"
+  },
+  {
+    "name": "뉴시즈 오시리아 레지던스",
+    "formatted_address": "대한민국 부산광역시 기장군 동부산관광7로 17 203동 1층 제2호",
+    "latitude": 35.1894097,
+    "longitude": 129.2147169,
+    "rating": 4.6,
+    "user_ratings_total": 54,
+    "place_id": "ChIJ_eZlW3WNaDUR2lBJcCXQ26E"
+  },
+  {
+    "name": "아난티 앳 부산 코브",
+    "formatted_address": "대한민국 부산광역시 기장군 기장해안로 268-32",
+    "latitude": 35.1976638,
+    "longitude": 129.2280861,
+    "rating": 4.5,
+    "user_ratings_total": 9905,
+    "place_id": "ChIJG8-OSK-OaDURncpjymQgWWk"
+  },
+  {
+    "name": "기장 더뮤즈 호텔",
+    "formatted_address": "대한민국 부산광역시 기장군 일광면 해송3로 4",
+    "latitude": 35.2658039,
+    "longitude": 129.2305902,
+    "rating": 4.6,
+    "user_ratings_total": 37,
+    "place_id": "ChIJF3XqeFaPaDURo1MzC1XubY4"
+  },
+  {
+    "name": "롯데호텔 부산",
+    "formatted_address": "대한민국 부산광역시 부산진구 가야대로 772",
+    "latitude": 35.156766,
+    "longitude": 129.05587,
+    "rating": 4.4,
+    "user_ratings_total": 4948,
+    "place_id": "ChIJzZl9PXLraDURpgeBSXYqYSQ"
+  },
+  {
+    "name": "디오브 해운대 호텔",
+    "formatted_address": "대한민국 부산광역시 해운대구 구남로21번길 6",
+    "latitude": 35.16227629999999,
+    "longitude": 129.1607992,
+    "rating": 4.3,
+    "user_ratings_total": 52,
+    "place_id": "ChIJERqgfIiNaDURQ9y73Ki1tdM"
+  },
+  {
+    "name": "시그니엘 부산",
+    "formatted_address": "대한민국 부산광역시 해운대구 달맞이길 30",
+    "latitude": 35.1599375,
+    "longitude": 129.1698125,
+    "rating": 4.6,
+    "user_ratings_total": 1347,
+    "place_id": "ChIJSSysvS6NaDURhr99N981zfQ"
+  },
+  {
+    "name": "부산 광안리 애프터챕터호텔(After Chapter Hotel)",
+    "formatted_address": "대한민국 부산광역시 수영구 광남로 68",
+    "latitude": 35.148182,
+    "longitude": 129.1132723,
+    "rating": 4.3,
+    "user_ratings_total": 28,
+    "place_id": "ChIJn5e16GHtaDUROSgMTWsCrPQ"
+  },
+  {
+    "name": "부산 뉴시즈 해운대 레지던스",
+    "formatted_address": "대한민국 부산광역시 해운대구 해운대로570번길 30",
+    "latitude": 35.1603631,
+    "longitude": 129.1570796,
+    "rating": 4.2,
+    "user_ratings_total": 40,
+    "place_id": "ChIJE7rVPQCNaDUROedi_udSE9A"
+  },
+  {
+    "name": "한화리조트 해운대",
+    "formatted_address": "대한민국 부산광역시 해운대구 마린시티3로 52",
+    "latitude": 35.1544931,
+    "longitude": 129.145102,
+    "rating": 4.3,
+    "user_ratings_total": 6605,
+    "place_id": "ChIJE-cp562SaDURVkWeQcziN34"
+  },
+  {
+    "name": "호텔라온",
+    "formatted_address": "대한민국 부산광역시 해운대구 송정광어골로 39",
+    "latitude": 35.1776606,
+    "longitude": 129.1972707,
+    "rating": 4.3,
+    "user_ratings_total": 570,
+    "place_id": "ChIJP_P9QU2MaDURh9JM-gc-bfs"
+  },
+  {
+    "name": "광안리 오션뷰 The POINT HOTEL",
+    "formatted_address": "대한민국 부산광역시 수영구 광안해변로278번길 42 오션브릿지 A동 8층",
+    "latitude": 35.1540235,
+    "longitude": 129.1243042,
+    "rating": 4.2,
+    "user_ratings_total": 130,
+    "place_id": "ChIJU5E3PTLtaDURug5-YnJIqAo"
+  },
+  {
+    "name": "Sloth Hotel Busan Seomyeon",
+    "formatted_address": "대한민국 부산광역시 부산진구 신천대로62번길 10",
+    "latitude": 35.1511653,
+    "longitude": 129.0586483,
+    "rating": 4.4,
+    "user_ratings_total": 7,
+    "place_id": "ChIJk-IK0HDraDUR5Wq5cap0reU"
+  },
+  {
+    "name": "호텔티티 구포(Hotel tt Gupo)",
+    "formatted_address": "대한민국 부산광역시 북구 낙동대로 1684",
+    "latitude": 35.2050577,
+    "longitude": 128.9958223,
+    "rating": 4.5,
+    "user_ratings_total": 230,
+    "place_id": "ChIJNyGnPEnraDUREo3YV0hg4bs"
+  },
+  {
+    "name": "The Westin Josun Busan",
+    "formatted_address": "대한민국 부산광역시 67 동백로 Haeundae",
+    "latitude": 35.1559466,
+    "longitude": 129.1540745,
+    "rating": 4.4,
+    "user_ratings_total": 4830,
+    "place_id": "ChIJly6CvLaTaDURumwOFDhsPDk"
+  },
+  {
+    "name": "올집 아카이브 4H",
+    "formatted_address": "대한민국 부산광역시 부산진구 자유평화로 15",
+    "latitude": 35.1416005,
+    "longitude": 129.0615268,
+    "rating": 4.5,
+    "user_ratings_total": 83,
+    "place_id": "ChIJt2ojLn7raDURqSPmghiU9kQ"
+  },
+  {
+    "name": "커넥트 부산호텔 & 레지던스",
+    "formatted_address": "대한민국 부산광역시 중구 대교로 115-1",
+    "latitude": 35.1004686,
+    "longitude": 129.0374636,
+    "rating": 4,
+    "user_ratings_total": 434,
+    "place_id": "ChIJy-3wX17paDUR62ylL9j_sF4"
+  },
+  {
+    "name": "에이치에비뉴호텔 광안리점",
+    "formatted_address": "대한민국 부산광역시 수영구 민락수변로 29",
+    "latitude": 35.1531826,
+    "longitude": 129.1246887,
+    "rating": 4.2,
+    "user_ratings_total": 293,
+    "place_id": "ChIJwxlIijHtaDURqfoUnJxFgyc"
+  },
+  {
+    "name": "하운드호텔 송정",
+    "formatted_address": "대한민국 부산광역시 해운대구",
+    "latitude": 35.181201,
+    "longitude": 129.201413,
+    "rating": 4.8,
+    "user_ratings_total": 21,
+    "place_id": "ChIJQ_0VYUmMaDURyD2rAjB4ayc"
+  },
+  {
+    "name": "Beach Stay Guest House",
+    "formatted_address": "대한민국 부산광역시 해운대구 구남로41번길 46",
+    "latitude": 35.1621438,
+    "longitude": 129.1630449,
+    "rating": 4.6,
+    "user_ratings_total": 11,
+    "place_id": "ChIJvZAZsCaNaDURaViFIdVeSlw"
+  },
+  {
+    "name": "덴바스타포레스트호텔",
+    "formatted_address": "대한민국 부산광역시 북구 만덕고개길 72-3",
+    "latitude": 35.210676,
+    "longitude": 129.0474172,
+    "rating": 4.3,
+    "user_ratings_total": 55,
+    "place_id": "ChIJe_4ageuUaDURPq5Dndw0eRw"
+  },
+  {
+    "name": "호텔1",
+    "formatted_address": "대한민국 부산광역시 수영구 광안해변로 203",
+    "latitude": 35.1525025,
+    "longitude": 129.1174325,
+    "rating": 4.7,
+    "user_ratings_total": 2226,
+    "place_id": "ChIJ5S6_tyjtaDUR2A5jt3nQLCo"
+  },
+  {
+    "name": "Busan Hotel February Songdo Amnam",
+    "formatted_address": "대한민국 부산광역시 서구 암남공원로 247",
+    "latitude": 35.065272,
+    "longitude": 129.013622,
+    "rating": 4.2,
+    "user_ratings_total": 5,
+    "place_id": "ChIJM-DP_WvoaDURnGY2uUURtTo"
+  },
+  {
+    "name": "아난티 앳 부산 빌라쥬",
+    "formatted_address": "대한민국 부산광역시 기장군 기장읍 시랑리 733",
+    "latitude": 35.1988117,
+    "longitude": 129.2222653,
+    "rating": 4.8,
+    "user_ratings_total": 843,
+    "place_id": "ChIJI9zgY4GPaDURokF_gL7qU8Q"
+  },
+  {
+    "name": "시타딘커넥트호텔 하리 부산",
+    "formatted_address": "대한민국 부산광역시 영도구 동삼오션로 58",
+    "latitude": 35.0696259,
+    "longitude": 129.082346,
+    "rating": 4.6,
+    "user_ratings_total": 177,
+    "place_id": "ChIJ42zWOaHpaDURTp9-zmrGqXI"
+  },
+  {
+    "name": "호시카게료칸 동부산",
+    "formatted_address": "대한민국 부산광역시 기장군 기장읍 대변로 133",
+    "latitude": 35.227167,
+    "longitude": 129.2270833,
+    "rating": 4.3,
+    "user_ratings_total": 40,
+    "place_id": "ChIJefOY39mOaDURN_pzJ6pK-HI"
+  },
+  {
+    "name": "베스트루이스해밀턴호텔오션테라스",
+    "formatted_address": "대한민국 부산광역시 기장군 기장읍 연화리 376-4",
+    "latitude": 35.2137495,
+    "longitude": 129.2222464,
+    "rating": 4.2,
+    "user_ratings_total": 72,
+    "place_id": "ChIJq27vVseOaDURbhpJQ0siNa0"
+  },
+  {
+    "name": "켄트호텔 광안리 by 켄싱턴",
+    "formatted_address": "대한민국 부산광역시 수영구 광안해변로 229",
+    "latitude": 35.1543021,
+    "longitude": 129.1191957,
+    "rating": 4.1,
+    "user_ratings_total": 706,
+    "place_id": "ChIJh5B-vy7taDURaIjEejC5nD0"
+  },
+  {
+    "name": "머물다호텔",
+    "formatted_address": "대한민국 부산광역시 사하구 하단동 512-2",
+    "latitude": 35.1082398,
+    "longitude": 128.9656317,
+    "rating": 4.5,
+    "user_ratings_total": 4,
+    "place_id": "ChIJlycjoBzDaDURyOK7K1-18tY"
+  },
+  {
+    "name": "노엘비지니스호텔",
+    "formatted_address": "대한민국 부산광역시 해운대구 해운대로594번가길 40",
+    "latitude": 35.160464,
+    "longitude": 129.1585413,
+    "rating": 4.6,
+    "user_ratings_total": 29,
+    "place_id": "ChIJuyTxk16NaDURndNgaQuHCRo"
+  },
+  {
+    "name": "상상스테이 부산",
+    "formatted_address": "대한민국 부산광역시 부산진구 서면로 39 상상마당 7F",
+    "latitude": 35.1542273,
+    "longitude": 129.0573061,
+    "rating": 4.8,
+    "user_ratings_total": 87,
+    "place_id": "ChIJEazPogvraDURVz3yYCWX-VU"
+  },
+  {
+    "name": "오션스테이 호텔",
+    "formatted_address": "대한민국 부산광역시 수영구 민락동 광안해변로278번길 42 오션브릿지 B동 7층",
+    "latitude": 35.1539709,
+    "longitude": 129.1245349,
+    "rating": 4,
+    "user_ratings_total": 18,
+    "place_id": "ChIJy-mBykjtaDURGZgCo2scAoU"
+  },
+  {
+    "name": "베스트 웨스턴 해운대",
+    "formatted_address": "대한민국 부산광역시 해운대구 구남로 42",
+    "latitude": 35.1603282,
+    "longitude": 129.1613316,
+    "rating": 4.1,
+    "user_ratings_total": 1180,
+    "place_id": "ChIJPb1os12NaDURARgWn-mBkMk"
+  },
+  {
+    "name": "지엔비호텔",
+    "formatted_address": "대한민국 부산광역시 중구 흑교로 19",
+    "latitude": 35.1012701,
+    "longitude": 129.0248275,
+    "rating": 4,
+    "user_ratings_total": 1173,
+    "place_id": "ChIJIdj_kaHpaDURGZTVnfZxC8E"
+  },
+  {
+    "name": "제주 라온호텔 앤 리조트",
+    "formatted_address": "대한민국 제주특별자치도 제주시 한림읍 금능남로 127",
+    "latitude": 33.37851200000001,
+    "longitude": 126.241215,
+    "rating": 4.1,
+    "user_ratings_total": 1039,
+    "place_id": "ChIJL96ugLZgDDURIH46VcyGRVE"
+  },
+  {
+    "name": "롯데시티호텔 제주",
+    "formatted_address": "대한민국 제주특별자치도 제주시 도령로 83",
+    "latitude": 33.4905955,
+    "longitude": 126.4864277,
+    "rating": 4.3,
+    "user_ratings_total": 2680,
+    "place_id": "ChIJM6YF9QT7DDURHys0PtT4HZM"
+  },
+  {
+    "name": "롯데호텔 제주",
+    "formatted_address": "대한민국 제주특별자치도 서귀포시 중문관광로72번길 35",
+    "latitude": 33.2484468,
+    "longitude": 126.4106058,
+    "rating": 4.5,
+    "user_ratings_total": 4780,
+    "place_id": "ChIJfxHgaMZaDDURwcUN_UgUQx0"
+  },
+  {
+    "name": "베스트 웨스턴 제주",
+    "formatted_address": "대한민국 제주특별자치도 제주시 도령로 27",
+    "latitude": 33.4877957,
+    "longitude": 126.4818957,
+    "rating": 4,
+    "user_ratings_total": 2588,
+    "place_id": "ChIJuQ-HqwH7DDURR_7t3H7ZUbs"
+  },
+  {
+    "name": "팜파스 호텔 제주",
+    "formatted_address": "대한민국 제주특별자치도 제주시 서해안로 368-3",
+    "latitude": 33.5115783,
+    "longitude": 126.4847587,
+    "rating": 4.1,
+    "user_ratings_total": 188,
+    "place_id": "ChIJPbQ10TP7DDURydkfj4DpIog"
+  },
+  {
+    "name": "제주 센터포인트N",
+    "formatted_address": "대한민국 제주특별자치도 제주시 원노형3길 3",
+    "latitude": 33.4864053,
+    "longitude": 126.4855621,
+    "rating": 4.2,
+    "user_ratings_total": 31,
+    "place_id": "ChIJN2TB1gb7DDURrGqcIRs84YY"
+  },
+  {
+    "name": "라마다 제주시티호텔",
+    "formatted_address": "대한민국 제주특별자치도 제주시 중앙로 304",
+    "latitude": 33.4934657,
+    "longitude": 126.5343138,
+    "rating": 4.1,
+    "user_ratings_total": 2491,
+    "place_id": "ChIJV9_VN6n8DDURng67IMLJUJY"
+  },
+  {
+    "name": "별빛하우스",
+    "formatted_address": "대한민국 제주시 KR특별자치도 제주시 조천읍 북촌리 721",
+    "latitude": 33.5438196,
+    "longitude": 126.6977776,
+    "rating": 4.4,
+    "user_ratings_total": 19,
+    "place_id": "ChIJFTIBYXQZDTURMaQlcZ-mQlE"
+  },
+  {
+    "name": "메종 글래드 제주",
+    "formatted_address": "대한민국 제주특별자치도 제주시 특별자치도, 노연로 80",
+    "latitude": 33.4848645,
+    "longitude": 126.4885577,
+    "rating": 4.2,
+    "user_ratings_total": 4094,
+    "place_id": "ChIJ-ezysgf7DDURn_H8fj_naek"
+  },
+  {
+    "name": "호텔난타",
+    "formatted_address": "대한민국 제주특별자치도 제주시 특별자치도, 선돌목동길 56-26",
+    "latitude": 33.4458234,
+    "longitude": 126.5479559,
+    "rating": 4.4,
+    "user_ratings_total": 1578,
+    "place_id": "ChIJ4-NXVED8DDURVmA4rlxSwXs"
+  },
+  {
+    "name": "오션스위츠 제주호텔",
+    "formatted_address": "대한민국 제주특별자치도 제주시 삼도이동 탑동해안로 74",
+    "latitude": 33.5182319,
+    "longitude": 126.5231737,
+    "rating": 4.1,
+    "user_ratings_total": 2518,
+    "place_id": "ChIJw4Mv3lfjDDURZSEah7eNxtk"
+  },
+  {
+    "name": "해비치 호텔&리조트 제주",
+    "formatted_address": "대한민국 제주특별자치도 서귀포시 표선면 민속해안로 537",
+    "latitude": 33.323125,
+    "longitude": 126.8447251,
+    "rating": 4.5,
+    "user_ratings_total": 5748,
+    "place_id": "ChIJLyua3MoODTUR-rB0bCb_jlo"
+  },
+  {
+    "name": "WE호텔 제주",
+    "formatted_address": "대한민국 제주특별자치도 서귀포시 1100로 453-95",
+    "latitude": 33.2861399,
+    "longitude": 126.4442086,
+    "rating": 4.4,
+    "user_ratings_total": 1015,
+    "place_id": "ChIJEfvBU6JQDDURs7hn6t5mrdQ"
+  },
+  {
+    "name": "벤티모 호텔 앤 레지던스 제주",
+    "formatted_address": "대한민국 제주특별자치도 제주시 특별자치도, 연삼로 14",
+    "latitude": 33.4934577,
+    "longitude": 126.4937634,
+    "rating": 4.6,
+    "user_ratings_total": 456,
+    "place_id": "ChIJXwjLnBj7DDURqR7-quY90_Q"
+  },
+  {
+    "name": "제주신화월드 메리어트 리조트",
+    "formatted_address": "대한민국 제주특별자치도 서귀포시 특별자치도, 38 Sinhwayeoksa-Ro 304beon-Gil Andeok-Myeon,Seogwipo-Si",
+    "latitude": 33.3075638,
+    "longitude": 126.3176387,
+    "rating": 4.2,
+    "user_ratings_total": 7461,
+    "place_id": "ChIJWQi2UfdcDDURX1pf0oraCTY"
+  },
+  {
+    "name": "그랜드 하얏트 제주",
+    "formatted_address": "대한민국 제주특별자치도 제주시 노연로 12",
+    "latitude": 33.4853707,
+    "longitude": 126.4815713,
+    "rating": 4.6,
+    "user_ratings_total": 2893,
+    "place_id": "ChIJoS4LPgz7DDURUcX6vlTxSt4"
+  },
+  {
+    "name": "신라스테이 제주",
+    "formatted_address": "대한민국 제주특별자치도 제주시 특별자치도, 노연로 100",
+    "latitude": 33.4855434,
+    "longitude": 126.4908994,
+    "rating": 4.1,
+    "user_ratings_total": 2554,
+    "place_id": "ChIJp45togj7DDURMFZH0suF7I0"
+  },
+  {
+    "name": "チャンピオンホテルジェジュ",
+    "formatted_address": "대한민국 131namseong-ro済州63172",
+    "latitude": 33.508769,
+    "longitude": 126.519902,
+    "rating": 4,
+    "user_ratings_total": 1,
+    "place_id": "ChIJ5zVPsU37DDUR6lrEvYXfviU"
+  },
+  {
+    "name": "스탠포드호텔앤리조트 제주",
+    "formatted_address": "대한민국 제주특별자치도 제주시 특별자치도, 애월읍 애월해안로 406",
+    "latitude": 33.4726211,
+    "longitude": 126.3521223,
+    "rating": 4.4,
+    "user_ratings_total": 68,
+    "place_id": "ChIJU5VgCsn3DDURKibNqgU7ycQ"
+  },
+  {
+    "name": "그라벨호텔제주",
+    "formatted_address": "대한민국 제주특별자치도 제주시 일주서로 7316",
+    "latitude": 33.492444,
+    "longitude": 126.4286588,
+    "rating": 4.2,
+    "user_ratings_total": 1364,
+    "place_id": "ChIJEcRlcKLwDDURfOGauMLHl1g"
+  },
+  {
+    "name": "유탑유블레스호텔 제주",
+    "formatted_address": "대한민국 제주특별자치도 제주시 조천읍 함덕리 1269-9",
+    "latitude": 33.5423291,
+    "longitude": 126.6661651,
+    "rating": 4.1,
+    "user_ratings_total": 1555,
+    "place_id": "ChIJ-fm7YZweDTURr_R6flXgVWo"
+  },
+  {
+    "name": "琥珀酒店中心店",
+    "formatted_address": "대한민국 제주특별자치도 제주시 특별자치도 노연로 25",
+    "latitude": 33.4861313,
+    "longitude": 126.4827703,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "place_id": "ChIJxyj9tiX7DDUR-fbPKooPk2Q"
+  },
+  {
+    "name": "에코랜드 호텔",
+    "formatted_address": "대한민국 제주특별자치도 제주시 특별자치도, 조천읍 번영로 1278-169",
+    "latitude": 33.4518774,
+    "longitude": 126.6719209,
+    "rating": 4.5,
+    "user_ratings_total": 298,
+    "place_id": "ChIJZe_cz-MDDTURDGQ5EXsSgfE"
+  },
+  {
+    "name": "제주 윈스톤 호텔 앤 리조트",
+    "formatted_address": "대한민국 제주특별자치도 제주시 특별자치도, 한림읍 협재로 226",
+    "latitude": 33.378355,
+    "longitude": 126.2513113,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "place_id": "ChIJodZrt6lhDDUR_F9Ge6KdWTM"
+  },
+  {
+    "name": "제주 벙커호텔앤리조트",
+    "formatted_address": "대한민국 제주특별자치도 서귀포시 중산간동로8183번길 16",
+    "latitude": 33.2612268,
+    "longitude": 126.5426803,
+    "rating": 4.5,
+    "user_ratings_total": 15,
+    "place_id": "ChIJg8E8k_JTDDURBDamcFG1Eg0"
+  },
+  {
+    "name": "제주 나인부띠끄 호텔",
+    "formatted_address": "대한민국 제주특별자치도 서귀포시 특별자치도, 서귀동 644-1",
+    "latitude": 33.2425962,
+    "longitude": 126.5628682,
+    "rating": 4.8,
+    "user_ratings_total": 513,
+    "place_id": "ChIJT2TSyKFTDDURf9vfi0HTDBQ"
+  },
+  {
+    "name": "제주센트럴파크 레지던스",
+    "formatted_address": "대한민국 제주특별자치도 제주시 신대로12길 14",
+    "latitude": 33.4888209,
+    "longitude": 126.495136,
+    "rating": 4.3,
+    "user_ratings_total": 113,
+    "place_id": "ChIJsetXE2T7DDUR-KHbmiqIngw"
+  },
+  {
+    "name": "한림리조트",
+    "formatted_address": "대한민국 제주특별자치도 제주시 특별자치도, 한림읍 일주서로 5083-5",
+    "latitude": 33.3894854,
+    "longitude": 126.2496855,
+    "rating": 4.6,
+    "user_ratings_total": 212,
+    "place_id": "ChIJrxc8zJdgDDURbLoSbPxRlyI"
+  },
+  {
+    "name": "맹그로브 제주시티",
+    "formatted_address": "대한민국 제주특별자치도 제주시 특별자치도 탑동로 5",
+    "latitude": 33.5167668,
+    "longitude": 126.5241772,
+    "rating": 4.3,
+    "user_ratings_total": 12,
+    "place_id": "ChIJYcLVNwDjDDURu0OrWsoYr7E"
+  },
+  {
+    "name": "네스트 호텔",
+    "formatted_address": "대한민국 인천광역시 중구 영종해안남로 19-5",
+    "latitude": 37.4249727,
+    "longitude": 126.4280671,
+    "rating": 4.3,
+    "user_ratings_total": 3802,
+    "place_id": "ChIJIVlojq6QezURmUuIiznB3_U"
+  },
+  {
+    "name": "파라다이스시티",
+    "formatted_address": "대한민국 인천광역시 중구 영종해안남로321번길 186",
+    "latitude": 37.4370548,
+    "longitude": 126.4557987,
+    "rating": 4.6,
+    "user_ratings_total": 9363,
+    "place_id": "ChIJpVxgEOybezURxtwahZfhvz8"
+  },
+  {
+    "name": "셀럽스테이송도",
+    "formatted_address": "대한민국 인천광역시 연수구 송도2동",
+    "latitude": 37.40573,
+    "longitude": 126.6290775,
+    "rating": 4.5,
+    "user_ratings_total": 22,
+    "place_id": "ChIJW25PdQV3ezURF-hPpv4mb9g"
+  },
+  {
+    "name": "쉐라톤 그랜드 인천",
+    "formatted_address": "153 Convensia-Road, 연수구 인천광역시 대한민국",
+    "latitude": 37.3902477,
+    "longitude": 126.6455026,
+    "rating": 4.3,
+    "user_ratings_total": 3215,
+    "place_id": "ChIJy3uhZq93ezURoUvfxWecmiM"
+  },
+  {
+    "name": "아늑호텔 인천 송도점",
+    "formatted_address": "대한민국 인천광역시 연수구 옥련동 인권로9번길 9",
+    "latitude": 37.41874,
+    "longitude": 126.6509365,
+    "rating": 4.7,
+    "user_ratings_total": 10,
+    "place_id": "ChIJD8E-UpF5ezURm78IFrttfgg"
+  },
+  {
+    "name": "아늑호텔 인천 구월점",
+    "formatted_address": "대한민국 인천광역시 남동구 예술로204번길 15",
+    "latitude": 37.4523302,
+    "longitude": 126.7023666,
+    "rating": 4.3,
+    "user_ratings_total": 52,
+    "place_id": "ChIJvZP8wN17ezURZ2gNQyKbT4M"
+  },
+  {
+    "name": "하버파크호텔",
+    "formatted_address": "대한민국 인천광역시 중구 제물량로 217",
+    "latitude": 37.4721353,
+    "longitude": 126.6195509,
+    "rating": 4.1,
+    "user_ratings_total": 1263,
+    "place_id": "ChIJYUhaE-Z7ezURJaZ8cvkyMC4"
+  },
+  {
+    "name": "더 위크앤 리조트",
+    "formatted_address": "대한민국 인천광역시 중구 용유서로 379",
+    "latitude": 37.4503772,
+    "longitude": 126.3709407,
+    "rating": 4.3,
+    "user_ratings_total": 539,
+    "place_id": "ChIJKZlbGEiRezURz6ThoWH7Zp0"
+  },
+  {
+    "name": "송도 ING",
+    "formatted_address": "대한민국 인천광역시 연수구 능허대로104번길 51",
+    "latitude": 37.4217671,
+    "longitude": 126.6392772,
+    "rating": 4,
+    "user_ratings_total": 4,
+    "place_id": "ChIJ-S_JoSd4ezURUqzmooeC4mA"
+  },
+  {
+    "name": "더스테이송도",
+    "formatted_address": "대한민국 인천광역시 연수구 송도동 아트센터대로168번길 100 한라 웨스턴파크 송도 더스테이 송도",
+    "latitude": 37.406077,
+    "longitude": 126.6289566,
+    "rating": 4.3,
+    "user_ratings_total": 9,
+    "place_id": "ChIJyyDuoiR3ezURYr4yqZPGsiE"
+  },
+  {
+    "name": "오션 솔레뷰 호텔",
+    "formatted_address": "대한민국 인천광역시 중구 영종진광장로 32",
+    "latitude": 37.4946397,
+    "longitude": 126.5793212,
+    "rating": 4.1,
+    "user_ratings_total": 321,
+    "place_id": "ChIJY8Cnl0V8ezUR-10iDhgDqo4"
+  },
+  {
+    "name": "Incheon Hotel Prague",
+    "formatted_address": "대한민국 인천광역시 남동대로916번길 49",
+    "latitude": 37.463999,
+    "longitude": 126.711166,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "place_id": "ChIJq-vsTfF7ezURj5OoPWg2HwQ"
+  },
+  {
+    "name": "Grape Residence Hotel",
+    "formatted_address": "Blueocean 1, 911 영종대로 중구 인천광역시 대한민국",
+    "latitude": 37.487303,
+    "longitude": 126.563586,
+    "rating": 4,
+    "user_ratings_total": 4,
+    "place_id": "ChIJh6brAKuDezURQx3bmTNd1Ws"
+  },
+  {
+    "name": "오션파크나인호텔",
+    "formatted_address": "10 Yeongjongjingwangjang-ro, 중구 인천광역시 대한민국",
+    "latitude": 37.492735,
+    "longitude": 126.579129,
+    "rating": 4.2,
+    "user_ratings_total": 200,
+    "place_id": "ChIJ97bu0EWCezURX5rBzOOQEZE"
+  },
+  {
+    "name": "이코노미호텔 인천부평점",
+    "formatted_address": "대한민국 인천광역시 부평구 부평대로296번길 88-6",
+    "latitude": 37.5185264,
+    "longitude": 126.7262669,
+    "rating": 4,
+    "user_ratings_total": 137,
+    "place_id": "ChIJv7gTZb19ezURgZBdx5AJo7I"
+  },
+  {
+    "name": "인천공항호텔",
+    "formatted_address": "대한민국 인천광역시 중구 운서동 신도시남로149번길 11",
+    "latitude": 37.4944653,
+    "longitude": 126.4891041,
+    "rating": 4,
+    "user_ratings_total": 529,
+    "place_id": "ChIJ33qKuOeEezURwdJld4XQvGU"
+  },
+  {
+    "name": "에어스카이 호텔 인천",
+    "formatted_address": "대한민국 인천광역시 중구 은하수로29번길 31",
+    "latitude": 37.49078290000001,
+    "longitude": 126.5803993,
+    "rating": 4.2,
+    "user_ratings_total": 410,
+    "place_id": "ChIJe6XYRESCezURWbppWBF9p9w"
+  },
+  {
+    "name": "데이즈 호텔 앤 스위트 인천공항",
+    "formatted_address": "대한민국 인천광역시 중구 신도시남로142번길 6",
+    "latitude": 37.4934341,
+    "longitude": 126.4914921,
+    "rating": 4.1,
+    "user_ratings_total": 1051,
+    "place_id": "ChIJX4tnpCWFezURS6pgxwRUK_Y"
+  },
+  {
+    "name": "그랜드 하얏트 인천",
+    "formatted_address": "대한민국 인천광역시 중구 영종해안남로321번길 208",
+    "latitude": 37.4404925,
+    "longitude": 126.4574508,
+    "rating": 4.4,
+    "user_ratings_total": 6669,
+    "place_id": "ChIJVYAJjWeaezURdFrsbZa27f4"
+  },
+  {
+    "name": "오라카이 송도파크 호텔, BW 프리미어 컬렉션",
+    "formatted_address": "대한민국 인천광역시 연수구 테크노파크로 151",
+    "latitude": 37.3881632,
+    "longitude": 126.6409129,
+    "rating": 4.1,
+    "user_ratings_total": 2404,
+    "place_id": "ChIJjQIuNa53ezURotCl0y1QjDo"
+  },
+  {
+    "name": "토요코인 인천 부평",
+    "formatted_address": "대한민국 인천광역시 부평구 광장로 10",
+    "latitude": 37.4904129,
+    "longitude": 126.7220522,
+    "rating": 4.3,
+    "user_ratings_total": 1176,
+    "place_id": "ChIJk0XOfEZ8ezURa8GFgogB3w0"
+  },
+  {
+    "name": "워커힐 인천공항 환승호텔(T2)",
+    "formatted_address": "대한민국 인천광역시 중구 공항로 272 제2여객터미널 4층",
+    "latitude": 37.4683755,
+    "longitude": 126.4356422,
+    "rating": 4.3,
+    "user_ratings_total": 1359,
+    "place_id": "ChIJrSTm22OaezURQDyFxs1pufs"
+  },
+  {
+    "name": "브라운도트호텔 인천을왕리점",
+    "formatted_address": "대한민국 인천광역시 중구 용유서로480번길 6",
+    "latitude": 37.4612033,
+    "longitude": 126.3723212,
+    "rating": 4,
+    "user_ratings_total": 42,
+    "place_id": "ChIJgYFYRhWRezURpQSrkZtxwfM"
+  },
+  {
+    "name": "영종샤인호텔",
+    "formatted_address": "대한민국 인천광역시 중구 영종대로196번길 15-7",
+    "latitude": 37.4912474,
+    "longitude": 126.5003941,
+    "rating": 4.2,
+    "user_ratings_total": 57,
+    "place_id": "ChIJgwTedyuFezUR-jM_XE2grw8"
+  },
+  {
+    "name": "에어릴렉스호텔",
+    "formatted_address": "대한민국 인천광역시 중구 운서동 신도시남로149번길 7",
+    "latitude": 37.4944508,
+    "longitude": 126.4894482,
+    "rating": 4.1,
+    "user_ratings_total": 636,
+    "place_id": "ChIJ8ys4NeaEezURLMMTlrdHPfs"
+  },
+  {
+    "name": "인천 STAY 호텔",
+    "formatted_address": "대한민국 인천광역시 연수구 옥련동 능허대로 181",
+    "latitude": 37.4192369,
+    "longitude": 126.649558,
+    "rating": 4.1,
+    "user_ratings_total": 208,
+    "place_id": "ChIJ6Rlcqyt4ezURpit9lWZrAbo"
+  },
+  {
+    "name": "호텔 센트로스테이",
+    "formatted_address": "대한민국 인천광역시 부평구 부평문화로105번길 13",
+    "latitude": 37.494946,
+    "longitude": 126.7280537,
+    "rating": 4.5,
+    "user_ratings_total": 14,
+    "place_id": "ChIJVwVFsAF9ezUR-WWsYi6tseU"
+  },
+  {
+    "name": "캡슐호텔 다락휴 인천국제공항 제1여객터미널",
+    "formatted_address": "대한민국 KR 인천광역시 중구 운서동 공항로 272 인천공항 1여객터미널 교통센터 캡슐호텔 다락휴 1층",
+    "latitude": 37.447594,
+    "longitude": 126.4523755,
+    "rating": 4.3,
+    "user_ratings_total": 793,
+    "place_id": "ChIJaQtU0baaezURZ1gzIvaTEGI"
+  },
+  {
+    "name": "Incheon Guwol Hotel Bay 204",
+    "formatted_address": "대한민국 인천광역시 남동구 인하로507번길 21-1",
+    "latitude": 37.44414,
+    "longitude": 126.70247,
+    "rating": 4.3,
+    "user_ratings_total": 51,
+    "place_id": "ChIJx2f2n9B7ezURDkjC3-1y24U"
+  },
+  {
+    "name": "호텔월미도",
+    "formatted_address": "대한민국 인천광역시 중구 월미로 274",
+    "latitude": 37.4723739,
+    "longitude": 126.5968635,
+    "rating": 4.4,
+    "user_ratings_total": 73,
+    "place_id": "ChIJSWIqzS-DezURnOuN_OGp37E"
+  },
+  {
+    "name": "Incheon Airport Global Hotel & Suites",
+    "formatted_address": "3~10F, 8 흰바위로59번길 중구 인천광역시 대한민국",
+    "latitude": 37.492229,
+    "longitude": 126.492424,
+    "rating": 4.5,
+    "user_ratings_total": 16,
+    "place_id": "ChIJsV0lJeiEezUROo9P491h7wM"
+  },
+  {
+    "name": "신포 호텔소노",
+    "formatted_address": "대한민국 인천광역시 중구 우현로9번길 13",
+    "latitude": 37.4688902,
+    "longitude": 126.625455,
+    "rating": 4.4,
+    "user_ratings_total": 17,
+    "place_id": "ChIJfUoYnY54ezUR0PGcXuh9hpA"
+  },
+  {
+    "name": "호텔인터불고 대구",
+    "formatted_address": "대한민국 대구광역시 수성구 팔현길 212",
+    "latitude": 35.8745962,
+    "longitude": 128.6596154,
+    "rating": 4.3,
+    "user_ratings_total": 4944,
+    "place_id": "ChIJa1-68QwKZjURN1RT3rSzgmU"
+  },
+  {
+    "name": "대구 메리어트 호텔",
+    "formatted_address": "대한민국 대구광역시 동구 동부로26길 6",
+    "latitude": 35.8753862,
+    "longitude": 128.6276397,
+    "rating": 4.4,
+    "user_ratings_total": 876,
+    "place_id": "ChIJaelMwqHhZTUR1PYvayCx5ao"
+  },
+  {
+    "name": "호텔여기어때 대구역점",
+    "formatted_address": "대한민국 대구광역시 중구 서성로 102-6",
+    "latitude": 35.8755864,
+    "longitude": 128.5883051,
+    "rating": 4.1,
+    "user_ratings_total": 148,
+    "place_id": "ChIJQT6p2-fjZTURZRwP0ZFS6-k"
+  },
+  {
+    "name": "이스턴호텔",
+    "formatted_address": "대한민국 대구광역시 동구 동부로22길 24",
+    "latitude": 35.8744692,
+    "longitude": 128.6265979,
+    "rating": 4.4,
+    "user_ratings_total": 134,
+    "place_id": "ChIJr0zjro7hZTURaQ6kHl8xy2I"
+  },
+  {
+    "name": "대구 체리쉬호텔 죽전역점",
+    "formatted_address": "대한민국 대구광역시 달서구 감삼남길 10",
+    "latitude": 35.8471073,
+    "longitude": 128.5379057,
+    "rating": 4.1,
+    "user_ratings_total": 99,
+    "place_id": "ChIJ__55qcLkZTURSUCgbYSMX1I"
+  },
+  {
+    "name": "ACT 관광호텔",
+    "formatted_address": "대한민국 대구광역시 수성구 알파시티 1로 32길 28-17",
+    "latitude": 35.8365357,
+    "longitude": 128.6834866,
+    "rating": 4.3,
+    "user_ratings_total": 83,
+    "place_id": "ChIJ9TDbqpEJZjUR5uo6x-blAe4"
+  },
+  {
+    "name": "컨벤션비지니스호텔",
+    "formatted_address": "대한민국 대구광역시 북구 유통단지로8길 86",
+    "latitude": 35.90595649999999,
+    "longitude": 128.6140392,
+    "rating": 4.6,
+    "user_ratings_total": 46,
+    "place_id": "ChIJqZVBcanhZTURbB77l-yGyXc"
+  },
+  {
+    "name": "FEBRUARY HOTEL LIONS PARK DAEGU",
+    "formatted_address": "19-7 Alphacity 1-ro 4-gil, 수성구 대구광역시 대한민국",
+    "latitude": 35.840101,
+    "longitude": 128.688019,
+    "rating": 4.8,
+    "user_ratings_total": 21,
+    "place_id": "ChIJmRnKRoQJZjURakIqZE9Dm4M"
+  },
+  {
+    "name": "호텔크라페 성서점",
+    "formatted_address": "대한민국 대구광역시 달서구 성서공단로11길 6-4",
+    "latitude": 35.8354593,
+    "longitude": 128.4885276,
+    "rating": 4.6,
+    "user_ratings_total": 28,
+    "place_id": "ChIJC0dtl_D7ZTURORrNwgpU6HY"
+  },
+  {
+    "name": "브라운도트호텔 대구성서점",
+    "formatted_address": "대한민국 대구광역시 달서구 호산동 712-17",
+    "latitude": 35.8410387,
+    "longitude": 128.488852,
+    "rating": 4.3,
+    "user_ratings_total": 100,
+    "place_id": "ChIJkVpGUSH7ZTUR9koQcKYs_rI"
+  },
+  {
+    "name": "호텔 포레스트701",
+    "formatted_address": "대한민국 대구광역시 동구 동부로22길 86",
+    "latitude": 35.8688855,
+    "longitude": 128.627142,
+    "rating": 4.1,
+    "user_ratings_total": 122,
+    "place_id": "ChIJCaHEriDiZTURpJSRY2lVMXk"
+  },
+  {
+    "name": "앙코르호텔",
+    "formatted_address": "대한민국 대구광역시 동구 상매동 505-9",
+    "latitude": 35.8880976,
+    "longitude": 128.7047322,
+    "rating": 4.4,
+    "user_ratings_total": 348,
+    "place_id": "ChIJZV-gk04LZjURsZJqxby8aW8"
+  },
+  {
+    "name": "호텔 오스카 서문시장점",
+    "formatted_address": "대한민국 대구광역시 서구 달서로 151",
+    "latitude": 35.8756585,
+    "longitude": 128.5708014,
+    "rating": 4.2,
+    "user_ratings_total": 167,
+    "place_id": "ChIJa-fkxvXjZTURv6AkWPRf-jQ"
+  },
+  {
+    "name": "브라운도트호텔 두류점",
+    "formatted_address": "대한민국 대구광역시 달서구 달구벌대로 1774",
+    "latitude": 35.8580669,
+    "longitude": 128.559249,
+    "rating": 4.2,
+    "user_ratings_total": 44,
+    "place_id": "ChIJQ62hzYLlZTURDb2Ssi8zQw8"
+  },
+  {
+    "name": "호텔수성",
+    "formatted_address": "대한민국 대구광역시 수성구 용학로 106-7",
+    "latitude": 35.8244696,
+    "longitude": 128.6197776,
+    "rating": 4.2,
+    "user_ratings_total": 1587,
+    "place_id": "ChIJm7ahReXiZTURb4-z3rujyJI"
+  },
+  {
+    "name": "호텔 인섬니아",
+    "formatted_address": "대한민국 대구광역시 중구 동성로2길 21-8",
+    "latitude": 35.8671703,
+    "longitude": 128.5959432,
+    "rating": 4.2,
+    "user_ratings_total": 232,
+    "place_id": "ChIJ7zgwHcTjZTURCm-R-eO_0A0"
+  },
+  {
+    "name": "아마레호텔",
+    "formatted_address": "대한민국 대구광역시 동구 율암로 156-15",
+    "latitude": 35.8883625,
+    "longitude": 128.7062969,
+    "rating": 4.5,
+    "user_ratings_total": 71,
+    "place_id": "ChIJ1aCdjxALZjURSpO1c3DCh4Q"
+  },
+  {
+    "name": "제이에스호텔",
+    "formatted_address": "대한민국 대구광역시 동구 동부로26길 19",
+    "latitude": 35.8742193,
+    "longitude": 128.6280245,
+    "rating": 4,
+    "user_ratings_total": 39,
+    "place_id": "ChIJS94eF4zhZTURjDE3ES5r-xM"
+  },
+  {
+    "name": "대구 수성 더 아르코호텔",
+    "formatted_address": "대한민국 대구광역시 수성구 알파시티1로40길 6",
+    "latitude": 35.8371293,
+    "longitude": 128.6822645,
+    "rating": 4.2,
+    "user_ratings_total": 36,
+    "place_id": "ChIJe13eLrIJZjURPOikEGoQr4M"
+  },
+  {
+    "name": "엘리시아호텔",
+    "formatted_address": "대한민국 대구광역시 달서구 갈밭남로 45",
+    "latitude": 35.8011375,
+    "longitude": 128.5334844,
+    "rating": 4.2,
+    "user_ratings_total": 150,
+    "place_id": "ChIJ9al06vL7ZTURLmgSV_lQDY0"
+  },
+  {
+    "name": "하운드호텔",
+    "formatted_address": "대한민국 대구광역시 동구 검사동 해동로 208",
+    "latitude": 35.885351,
+    "longitude": 128.6512894,
+    "rating": 4.4,
+    "user_ratings_total": 54,
+    "place_id": "ChIJddM0yE3hZTURNtp5GXDDtaw"
+  },
+  {
+    "name": "노블스테이호텔",
+    "formatted_address": "대한민국 대구광역시 중구 국채보상로123길 23",
+    "latitude": 35.8716911,
+    "longitude": 128.5972792,
+    "rating": 4.3,
+    "user_ratings_total": 188,
+    "place_id": "ChIJ0eQpvaLjZTURNoIvsRF2dWE"
+  },
+  {
+    "name": "브라운도트 호텔 동대구역점",
+    "formatted_address": "대한민국 대구광역시 동구 동부로28길 50",
+    "latitude": 35.8716606,
+    "longitude": 128.6282194,
+    "rating": 4.7,
+    "user_ratings_total": 3,
+    "place_id": "ChIJMQeIHwDhZTUR1IlePoNR9eo"
+  },
+  {
+    "name": "호텔 시리즈5.0",
+    "formatted_address": "대한민국 대구광역시 달서구 달서대로85길 6-15",
+    "latitude": 35.8384711,
+    "longitude": 128.4908994,
+    "rating": 4.6,
+    "user_ratings_total": 15,
+    "place_id": "ChIJ7UpgN6_6ZTURdjKnz9WIatc"
+  },
+  {
+    "name": "대구 2월호텔 라이온즈파크점",
+    "formatted_address": "대한민국 대구광역시 수성구 알파시티1로4길 19-7",
+    "latitude": 35.8401956,
+    "longitude": 128.6882614,
+    "rating": 4.4,
+    "user_ratings_total": 8,
+    "place_id": "ChIJNeScCx4JZjUR0baqt8oSD1M"
+  },
+  {
+    "name": "리버틴호텔",
+    "formatted_address": "대한민국 대구광역시 중구 경상감영길 193",
+    "latitude": 35.8720588,
+    "longitude": 128.5980118,
+    "rating": 4.4,
+    "user_ratings_total": 433,
+    "place_id": "ChIJ23UB4NrjZTURU1M8JKOSv9E"
+  },
+  {
+    "name": "브라운도트 성당못점",
+    "formatted_address": "대한민국 대구광역시 남구 성당로 84",
+    "latitude": 35.8440604,
+    "longitude": 128.5632931,
+    "rating": 4,
+    "user_ratings_total": 21,
+    "place_id": "ChIJHSR4hZvkZTURwOqm1fnOmaE"
+  },
+  {
+    "name": "체리쉬호텔",
+    "formatted_address": "대한민국 대구광역시 동구 동부로30길 74",
+    "latitude": 35.870457,
+    "longitude": 128.62877,
+    "rating": 4.4,
+    "user_ratings_total": 16,
+    "place_id": "ChIJFz49UIrhZTURBYywMhIVK3E"
+  },
+  {
+    "name": "대구 빌리언 웨스턴 호텔",
+    "formatted_address": "대한민국 대구광역시 달서구 달서대로 467",
+    "latitude": 35.8411112,
+    "longitude": 128.4915392,
+    "rating": 4.6,
+    "user_ratings_total": 44,
+    "place_id": "ChIJgcAx4cP7ZTURdPSYWCNYERQ"
+  },
+  {
+    "name": "호텔어반브라운",
+    "formatted_address": "대한민국 대전광역시",
+    "latitude": 36.3595374,
+    "longitude": 127.4256759,
+    "rating": 4.3,
+    "user_ratings_total": 69,
+    "place_id": "ChIJcVu5S1NIZTURrYITE3SdDUo"
+  },
+  {
+    "name": "워커스 호텔 대전월평 by 아늑",
+    "formatted_address": "대한민국 대전광역시 서구 한밭대로570번길 29-12",
+    "latitude": 36.3569477,
+    "longitude": 127.3627597,
+    "rating": 4.6,
+    "user_ratings_total": 11,
+    "place_id": "ChIJr9y-6upLZTURoCRGqRyxxvg"
+  },
+  {
+    "name": "저스트슬립호텔 대전둔산점",
+    "formatted_address": "대한민국 대전광역시 서구 둔산로137번길 21 6,7층",
+    "latitude": 36.3522563,
+    "longitude": 127.3889736,
+    "rating": 4.1,
+    "user_ratings_total": 44,
+    "place_id": "ChIJdbK8psxJZTURnAi6_rqhzWc"
+  },
+  {
+    "name": "호텔 오노마 대전, 오토그래프 컬렉션",
+    "formatted_address": "대한민국 대전광역시 유성구 1 엑스포로",
+    "latitude": 36.3748002,
+    "longitude": 127.3833567,
+    "rating": 4.1,
+    "user_ratings_total": 218,
+    "place_id": "ChIJIXe1wZlLZTUR0olAlP8pyMI"
+  },
+  {
+    "name": "레지던스 호텔 라인",
+    "formatted_address": "대한민국 대전광역시 서구 둔산동 1351 2층",
+    "latitude": 36.3546339,
+    "longitude": 127.3806099,
+    "rating": 4,
+    "user_ratings_total": 375,
+    "place_id": "ChIJ3UbEGt9LZTUR0Wgkhi1_rOQ"
+  },
+  {
+    "name": "토요코인 대전정부청사앞",
+    "formatted_address": "대한민국 대전광역시 서구 둔산중로134번길 13",
+    "latitude": 36.3589548,
+    "longitude": 127.3876336,
+    "rating": 4.2,
+    "user_ratings_total": 1672,
+    "place_id": "ChIJf3Rcr3xJZTURbmJ02cU15SI"
+  },
+  {
+    "name": "컨티뉴호텔 대전점",
+    "formatted_address": "대한민국 대전광역시 서구 월평로 53-9",
+    "latitude": 36.3566023,
+    "longitude": 127.3627589,
+    "rating": 4.4,
+    "user_ratings_total": 28,
+    "place_id": "ChIJ1b6U6epLZTURx07xsdHt3fs"
+  },
+  {
+    "name": "호텔 디에디션",
+    "formatted_address": "대한민국 대전광역시 서구 둔산남로91번길 13",
+    "latitude": 36.3496481,
+    "longitude": 127.3874157,
+    "rating": 4.4,
+    "user_ratings_total": 60,
+    "place_id": "ChIJGbb8sWBJZTURdIVSaIypPUw"
+  },
+  {
+    "name": "굿모닝레지던스호텔휴",
+    "formatted_address": "대한민국 대전광역시 서구 둔산로73번길 21",
+    "latitude": 36.3522915,
+    "longitude": 127.381679,
+    "rating": 4.2,
+    "user_ratings_total": 333,
+    "place_id": "ChIJk1k_s9ZLZTURMqwpfLi06ls"
+  },
+  {
+    "name": "롯데시티호텔 대전",
+    "formatted_address": "대한민국 대전광역시 유성구 엑스포로123번길 33",
+    "latitude": 36.3759913,
+    "longitude": 127.3928884,
+    "rating": 4.3,
+    "user_ratings_total": 2992,
+    "place_id": "ChIJLb38iY9JZTURC-w8mj5E8mQ"
+  },
+  {
+    "name": "스탕달 호텔 HOTEL Stendhal",
+    "formatted_address": "대한민국 대전광역시 유성구 온천북로 14",
+    "latitude": 36.356871,
+    "longitude": 127.3447005,
+    "rating": 4.3,
+    "user_ratings_total": 494,
+    "place_id": "ChIJt0Nvl5xLZTURcTbHIvM-y1I"
+  },
+  {
+    "name": "브라운도트호텔 대전역점",
+    "formatted_address": "대한민국 대전광역시 중구 대흥동 대종로460번길 29",
+    "latitude": 36.3263955,
+    "longitude": 127.4289788,
+    "rating": 4.3,
+    "user_ratings_total": 47,
+    "place_id": "ChIJcedTozBJZTUR6VSc7Hu1ZBM"
+  },
+  {
+    "name": "대전 신탄진 스테이 아야나",
+    "formatted_address": "대한민국 대전광역시 대덕구 덕암로148번길 30",
+    "latitude": 36.432709,
+    "longitude": 127.422636,
+    "rating": 4.3,
+    "user_ratings_total": 17,
+    "place_id": "ChIJP7Ol9_42ZTURRJNF5Kd38bQ"
+  },
+  {
+    "name": "아늑에어 호텔 대전 문창점",
+    "formatted_address": "대한민국 대전광역시 중구 문창로94번길 28",
+    "latitude": 36.321695,
+    "longitude": 127.433687,
+    "rating": 4.3,
+    "user_ratings_total": 4,
+    "place_id": "ChIJCxdBXtBIZTURYAmn11fAH7k"
+  },
+  {
+    "name": "라마다 바이 윈덤 대전",
+    "formatted_address": "대한민국 대전광역시 유성구 계룡로 127",
+    "latitude": 36.3530989,
+    "longitude": 127.3446575,
+    "rating": 4.3,
+    "user_ratings_total": 772,
+    "place_id": "ChIJ9wm5fblLZTUR5JavAC4D-UI"
+  },
+  {
+    "name": "호텔레인보우",
+    "formatted_address": "대한민국 대전광역시 서구 월평로 53-10",
+    "latitude": 36.3567389,
+    "longitude": 127.3632387,
+    "rating": 4.4,
+    "user_ratings_total": 71,
+    "place_id": "ChIJWSG77epLZTUR_XA4eR_n4Ek"
+  },
+  {
+    "name": "호텔 메테오",
+    "formatted_address": "대한민국 대전광역시 서구 대덕대로220번길 23",
+    "latitude": 36.3522924,
+    "longitude": 127.3806527,
+    "rating": 4.6,
+    "user_ratings_total": 5,
+    "place_id": "ChIJF3OAagBLZTUROkDMcTF8WeE"
+  },
+  {
+    "name": "대전 아늑 에어호텔 대전역점",
+    "formatted_address": "대한민국 대전광역시 중구 목척9길 6",
+    "latitude": 36.3309843,
+    "longitude": 127.4264224,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "place_id": "ChIJb_3TRd9IZTURR9UmKd3Ld8s"
+  },
+  {
+    "name": "대전 아이호텔 (I-HOTEL)",
+    "formatted_address": "대한민국 대전광역시 유성구 엑스포로123번길 27-5",
+    "latitude": 36.3748969,
+    "longitude": 127.3931044,
+    "rating": 4,
+    "user_ratings_total": 50,
+    "place_id": "ChIJJ6VTUYVJZTURmolFhxPwmhk"
+  },
+  {
+    "name": "아늑호텔 대전 유성 1호점",
+    "formatted_address": "대한민국 대전광역시 유성구 계룡로123번길 38",
+    "latitude": 36.354597,
+    "longitude": 127.345119,
+    "rating": 4.5,
+    "user_ratings_total": 2,
+    "place_id": "ChIJ68O3WYNLZTURcdWmee-zgsI"
+  },
+  {
+    "name": "둔산 THE HOTEL ARIA",
+    "formatted_address": "대한민국 대전광역시 서구 대덕대로234번길 21",
+    "latitude": 36.3537614,
+    "longitude": 127.3809365,
+    "rating": 4.1,
+    "user_ratings_total": 23,
+    "place_id": "ChIJwRobp99LZTURF9CPWBfKcqM"
+  },
+  {
+    "name": "호텔 인터시티",
+    "formatted_address": "대한민국 대전광역시 유성구 봉명동 545-5",
+    "latitude": 36.3543013,
+    "longitude": 127.3478769,
+    "rating": 4,
+    "user_ratings_total": 1262,
+    "place_id": "ChIJoVury4RLZTURfQ3VeXtANFY"
+  },
+  {
+    "name": "대전 Boutique 호텔 이틀",
+    "formatted_address": "대한민국 대전광역시 동구 동서대로1705번길 81",
+    "latitude": 36.3533444,
+    "longitude": 127.4384164,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "place_id": "ChIJ5_qthFlIZTURx2eE44WOxbQ"
+  },
+  {
+    "name": "NINESPOT HOTEL",
+    "formatted_address": "대한민국 대전광역시 중앙로129번길 28",
+    "latitude": 36.329266,
+    "longitude": 127.42373,
+    "rating": 4.4,
+    "user_ratings_total": 37,
+    "place_id": "ChIJk167DidJZTURT9aXxfTfCBo"
+  },
+  {
+    "name": "신탄진 저스트스테이호텔-신탄진역점",
+    "formatted_address": "대한민국 대전광역시 신탄진동로23번길 60",
+    "latitude": 36.4505534,
+    "longitude": 127.4314316,
+    "rating": 4.5,
+    "user_ratings_total": 2,
+    "place_id": "ChIJjWV5GiQ3ZTURxb3-71Uq4dQ"
+  },
+  {
+    "name": "대전블랑365호텔",
+    "formatted_address": "대한민국 대전광역시 대덕구 한밭대로1149번길 15-9",
+    "latitude": 36.3595333,
+    "longitude": 127.4258757,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "place_id": "ChIJ5d9_CQBJZTURAuw9QtVYcCc"
+  },
+  {
+    "name": "AANON Hotel Daejeon Yuseong",
+    "formatted_address": "대한민국 대전광역시 유성구 온천북로59번길 17",
+    "latitude": 36.357024,
+    "longitude": 127.349375,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "place_id": "ChIJQ8JvappLZTURPZdrIDNIn3Q"
+  },
+  {
+    "name": "베스트인시티호텔",
+    "formatted_address": "대한민국 대전광역시 중구 대종로386번길 7",
+    "latitude": 36.3200583,
+    "longitude": 127.4313426,
+    "rating": 4.2,
+    "user_ratings_total": 217,
+    "place_id": "ChIJv6llAMtJZTURcwzqI5EtcZY"
+  },
+  {
+    "name": "대전 루오호텔-대흥점",
+    "formatted_address": "대한민국 대전광역시 중구 인창로6번길 25",
+    "latitude": 36.3209083,
+    "longitude": 127.4312641,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "place_id": "ChIJkd3VMdFIZTURixRWeaBRMMY"
+  },
+  {
+    "name": "호텔 노크 온",
+    "formatted_address": "대한민국 대전광역시 중구 인창로 7",
+    "latitude": 36.3220878,
+    "longitude": 127.4305549,
+    "rating": 4.2,
+    "user_ratings_total": 19,
+    "place_id": "ChIJt3JfCQ9JZTUR-nugdjW08FA"
+  },
+  {
+    "name": "홀리데이 인 광주",
+    "formatted_address": "대한민국 광주광역시 서구 치평동 상무누리로 55",
+    "latitude": 35.1477065,
+    "longitude": 126.8381013,
+    "rating": 4.1,
+    "user_ratings_total": 2189,
+    "place_id": "ChIJ50um-RaJcTURI9oRrukBk9I"
+  },
+  {
+    "name": "광주브라운도트호텔 풍암점",
+    "formatted_address": "대한민국 광주광역시 서구 풍암동 1117-9번지 이층~칠층",
+    "latitude": 35.1261342,
+    "longitude": 126.8792414,
+    "rating": 4.3,
+    "user_ratings_total": 16,
+    "place_id": "ChIJ0UA_-c-LcTURvSdX_BmpHyA"
+  },
+  {
+    "name": "유탑부티크호텔&레지던스",
+    "formatted_address": "대한민국 광주광역시 서구 시청로 53",
+    "latitude": 35.1531555,
+    "longitude": 126.851325,
+    "rating": 4.3,
+    "user_ratings_total": 722,
+    "place_id": "ChIJH_tEY0aJcTURucEScF6Nju0"
+  },
+  {
+    "name": "탑클라우드호텔 광주점",
+    "formatted_address": "대한민국 광주광역시 광산구 임방울대로825번길 57-1",
+    "latitude": 35.220438,
+    "longitude": 126.8481982,
+    "rating": 4.1,
+    "user_ratings_total": 230,
+    "place_id": "ChIJk1wvX2qOcTUREZpFDXhOcrY"
+  },
+  {
+    "name": "브라운도트호텔 신안점",
+    "formatted_address": "대한민국 광주광역시 북구 자미로10번길 5",
+    "latitude": 35.1669344,
+    "longitude": 126.9032505,
+    "rating": 4.5,
+    "user_ratings_total": 11,
+    "place_id": "ChIJi4dopF2McTUR9lQB8rbjm0c"
+  },
+  {
+    "name": "에이치원호텔",
+    "formatted_address": "10-6, 450 4번지 대자로106번길 운암동 북구 광주광역시 대한민국",
+    "latitude": 35.1727006,
+    "longitude": 126.8838645,
+    "rating": 4.5,
+    "user_ratings_total": 72,
+    "place_id": "ChIJ0fE_vjmNcTURfOOxaQRq0_s"
+  },
+  {
+    "name": "호텔야자 광주풍암점",
+    "formatted_address": "대한민국 광주광역시 서구 풍암1로21번길 9-19",
+    "latitude": 35.1264223,
+    "longitude": 126.8786174,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "place_id": "ChIJ4ZEmHQCLcTURf5PfF84ZWnI"
+  },
+  {
+    "name": "마드리드비지니스호텔",
+    "formatted_address": "대한민국 광주광역시 광산구 광산로19번길 11",
+    "latitude": 35.1386992,
+    "longitude": 126.7935549,
+    "rating": 4.4,
+    "user_ratings_total": 349,
+    "place_id": "ChIJo5CKM2WIcTURmAQV-p9iVPk"
+  },
+  {
+    "name": "호텔더스팟",
+    "formatted_address": "대한민국 광주광역시 북구 앰코로 32",
+    "latitude": 35.220717,
+    "longitude": 126.8531921,
+    "rating": 4.1,
+    "user_ratings_total": 250,
+    "place_id": "ChIJlUPDsGyOcTURenNgBgAL6r0"
+  },
+  {
+    "name": "광주관광호텔",
+    "formatted_address": "대한민국 광주광역시 북구 서하로183번길 56",
+    "latitude": 35.19234,
+    "longitude": 126.90137,
+    "rating": 4.4,
+    "user_ratings_total": 59,
+    "place_id": "ChIJw39gy6-NcTURF53GyrQ7KiQ"
+  },
+  {
+    "name": "광주 금호 YAM 광주금호점",
+    "formatted_address": "대한민국 광주광역시 서구 금화로85번길 4-10",
+    "latitude": 35.132756,
+    "longitude": 126.858503,
+    "rating": 4.3,
+    "user_ratings_total": 4,
+    "place_id": "ChIJm7wpv3qJcTURYcBdSz4E5PM"
+  },
+  {
+    "name": "메종 드 온유 호텔 광주 첨단점",
+    "formatted_address": "대한민국 광주광역시 광산구 임방울대로825번길 21-23 KR 광주광역시 광산구 681-2",
+    "latitude": 35.2195259,
+    "longitude": 126.8476938,
+    "rating": 5,
+    "user_ratings_total": 5,
+    "place_id": "ChIJJQhdX4GPcTURRrnRQZHSvcA"
+  },
+  {
+    "name": "페드로하우스",
+    "formatted_address": "대한민국 광주광역시 서구 월드컵4강로181번길 42",
+    "latitude": 35.1522462,
+    "longitude": 126.8648882,
+    "rating": 4.3,
+    "user_ratings_total": 62,
+    "place_id": "ChIJf5GI4VaJcTUR6Wtk3Dw0xTw"
+  },
+  {
+    "name": "호텔써밋",
+    "formatted_address": "대한민국 광주광역시 광산구 사암로171번길 90-20",
+    "latitude": 35.1605801,
+    "longitude": 126.8022301,
+    "rating": 4.7,
+    "user_ratings_total": 47,
+    "place_id": "ChIJB7uXruGJcTURudw2NxZs5nE"
+  },
+  {
+    "name": "광주 에디션호텔",
+    "formatted_address": "대한민국 광주광역시 서구 죽봉대로78번길 11 에디션호텔 본점",
+    "latitude": 35.1604554,
+    "longitude": 126.8847253,
+    "rating": 4.2,
+    "user_ratings_total": 156,
+    "place_id": "ChIJ560a1A2McTURISPtu7vOuoM"
+  },
+  {
+    "name": "세븐브릭스호텔",
+    "formatted_address": "대한민국 광주광역시 서구 상무중앙로68번길 21",
+    "latitude": 35.1531511,
+    "longitude": 126.8508221,
+    "rating": 4.3,
+    "user_ratings_total": 32,
+    "place_id": "ChIJCRewYUaJcTURMujLy941zM4"
+  },
+  {
+    "name": "하운드호텔 상무점",
+    "formatted_address": "대한민국 광주광역시 서구 상무중앙로38번길 5-6",
+    "latitude": 35.1506625,
+    "longitude": 126.8494844,
+    "rating": 4.1,
+    "user_ratings_total": 127,
+    "place_id": "ChIJjUHnJUGJcTURQk6L8hjK4bc"
+  },
+  {
+    "name": "하운드호텔",
+    "formatted_address": "대한민국 광주광역시 동구 문화전당로35번길 33",
+    "latitude": 35.1442085,
+    "longitude": 126.9158626,
+    "rating": 4.2,
+    "user_ratings_total": 53,
+    "place_id": "ChIJ24HZgoGMcTURMoEXhsV5k5U"
+  },
+  {
+    "name": "호텔B",
+    "formatted_address": "대한민국 광주광역시 서구 시청로60번길 6",
+    "latitude": 35.15376620000001,
+    "longitude": 126.8524941,
+    "rating": 4.2,
+    "user_ratings_total": 404,
+    "place_id": "ChIJd5Nx50WJcTUR0PIViaZTCT4"
+  },
+  {
+    "name": "호텔여기어때 광주역점",
+    "formatted_address": "대한민국 광주광역시 북구 중흥로140번길 19",
+    "latitude": 35.161325,
+    "longitude": 126.9090488,
+    "rating": 4.2,
+    "user_ratings_total": 19,
+    "place_id": "ChIJg9P5UWCMcTURb3JtfMVN9Sw"
+  },
+  {
+    "name": "소풍호텔",
+    "formatted_address": "대한민국 광주광역시 북구 북문대로 15",
+    "latitude": 35.1735543,
+    "longitude": 126.8832632,
+    "rating": 4.3,
+    "user_ratings_total": 31,
+    "place_id": "ChIJkZmd6T2McTURSjvVj9n1_9w"
+  },
+  {
+    "name": "비지니스호텔 어반라이프",
+    "formatted_address": "대한민국 광주광역시 서구 죽봉대로78번길 9",
+    "latitude": 35.1604569,
+    "longitude": 126.8845958,
+    "rating": 4.2,
+    "user_ratings_total": 21,
+    "place_id": "ChIJUdhZ0Q2McTURvyY-t8eZYLY"
+  },
+  {
+    "name": "라마다플라자 바이 윈덤 충장",
+    "formatted_address": "대한민국 광주광역시 동구 천변우로 369",
+    "latitude": 35.1477803,
+    "longitude": 126.9118019,
+    "rating": 4.3,
+    "user_ratings_total": 102,
+    "place_id": "ChIJO3olcvuNcTURyiHWny1txt4"
+  },
+  {
+    "name": "웨스턴호텔",
+    "formatted_address": "대한민국 전라남도 나주시 빛가람동 348-19",
+    "latitude": 35.0201457,
+    "longitude": 126.78578,
+    "rating": 4.4,
+    "user_ratings_total": 157,
+    "place_id": "ChIJxQalQh0lcjURZJEWf5RalN0"
+  },
+  {
+    "name": "호텔하이브인",
+    "formatted_address": "대한민국 광주광역시 광산구 임방울대로825번길 43",
+    "latitude": 35.2200956,
+    "longitude": 126.8484952,
+    "rating": 4.6,
+    "user_ratings_total": 54,
+    "place_id": "ChIJ0RrAH9CPcTURWhGBBAxFvtQ"
+  },
+  {
+    "name": "호텔스테이53",
+    "formatted_address": "대한민국 광주광역시 서구 상무연하로 6",
+    "latitude": 35.1487434,
+    "longitude": 126.8505406,
+    "rating": 4.2,
+    "user_ratings_total": 250,
+    "place_id": "ChIJT1S4DEGJcTURT4ldAZsKWGA"
+  },
+  {
+    "name": "Culture Hotel Laam",
+    "formatted_address": "대한민국 광주광역시 동구 서석로 89 KR",
+    "latitude": 35.1498549,
+    "longitude": 126.9207264,
+    "rating": 4.4,
+    "user_ratings_total": 20,
+    "place_id": "ChIJ1Si79Y-McTURvU-f5uszYRs"
+  },
+  {
+    "name": "에이치에비뉴 호텔 광주 첨단점 H.AVENUE",
+    "formatted_address": "대한민국 광주광역시 광산구 쌍암동 668-4 KR 광주광역시 광산구 첨단중앙로152번길 50",
+    "latitude": 35.2187992,
+    "longitude": 126.8449874,
+    "rating": 4.5,
+    "user_ratings_total": 11,
+    "place_id": "ChIJLdkSfgCPcTURU0SDdpq3oNQ"
+  },
+  {
+    "name": "별밤",
+    "formatted_address": "대한민국 광주광역시 북구 경양로147번길 8-6",
+    "latitude": 35.1611171,
+    "longitude": 126.9084822,
+    "rating": 4.6,
+    "user_ratings_total": 44,
+    "place_id": "ChIJQWuKqmGMcTURxkyg5Gz5NcA"
+  },
+  {
+    "name": "볼튼호텔",
+    "formatted_address": "대한민국 광주광역시 서구 상무연하로 31",
+    "latitude": 35.151046,
+    "longitude": 126.8500667,
+    "rating": 4.1,
+    "user_ratings_total": 175,
+    "place_id": "ChIJyxU9zUaJcTURP7aWsDPKzLo"
+  },
+  {
+    "name": "하운드호텔 광주첨단",
+    "formatted_address": "대한민국 광주광역시 광산구 월계동 880-4",
+    "latitude": 35.2160839,
+    "longitude": 126.8476888,
+    "rating": 4.1,
+    "user_ratings_total": 259,
+    "place_id": "ChIJPdDoNGiOcTURgM8wFSXnLRo"
+  },
+  {
+    "name": "베스트세븐호텔",
+    "formatted_address": "대한민국 광주광역시 광산구 무진대로212번길 14-19",
+    "latitude": 35.1609938,
+    "longitude": 126.8025083,
+    "rating": 4.8,
+    "user_ratings_total": 5,
+    "place_id": "ChIJz6fMGACJcTURHipVF730x3Q"
+  },
+  {
+    "name": "샵 비즈니스 호텔",
+    "formatted_address": "대한민국 광주광역시 용아로401번길 31 KR 샵 호텔",
+    "latitude": 35.1799064,
+    "longitude": 126.8034233,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "place_id": "ChIJvb-5YrWIcTURWgpW1je8kLY"
+  },
+  {
+    "name": "롯데시티호텔 울산",
+    "formatted_address": "대한민국 울산광역시 남구 삼산로 204",
+    "latitude": 35.5375844,
+    "longitude": 129.3297917,
+    "rating": 4.3,
+    "user_ratings_total": 2201,
+    "place_id": "ChIJLwiuDU_NZzUR1dT2cGEMVX4"
+  },
+  {
+    "name": "호텔현대 바이 라한 울산",
+    "formatted_address": "대한민국 울산광역시 동구 방어진순환도로 875",
+    "latitude": 35.5195996,
+    "longitude": 129.4303478,
+    "rating": 4.2,
+    "user_ratings_total": 1610,
+    "place_id": "ChIJD5RxWVnOZzUR2mK9CtLtKbc"
+  },
+  {
+    "name": "신라스테이 울산",
+    "formatted_address": "대한민국 울산광역시 남구 삼산로 200",
+    "latitude": 35.5374049,
+    "longitude": 129.3291728,
+    "rating": 4.2,
+    "user_ratings_total": 537,
+    "place_id": "ChIJwZKGeAjNZzURwBpft9t394E"
+  },
+  {
+    "name": "머큐어 앰배서더 울산",
+    "formatted_address": "7 Gangdongsanha 2 Ro, 북구 울산광역시 대한민국",
+    "latitude": 35.6259898,
+    "longitude": 129.4414551,
+    "rating": 4.4,
+    "user_ratings_total": 629,
+    "place_id": "ChIJW8nmn2zJZzURtcJczvIFmuo"
+  },
+  {
+    "name": "토요코인 울산삼산",
+    "formatted_address": "대한민국 울산광역시 남구 삼산로 308",
+    "latitude": 35.5396093,
+    "longitude": 129.3407359,
+    "rating": 4.3,
+    "user_ratings_total": 353,
+    "place_id": "ChIJe_eB0OzNZzUR-bU2udOawQY"
+  },
+  {
+    "name": "울산시티호텔",
+    "formatted_address": "대한민국 울산광역시 남구 달동 1256-4",
+    "latitude": 35.538398,
+    "longitude": 129.334005,
+    "rating": 4.2,
+    "user_ratings_total": 526,
+    "place_id": "ChIJw-pgj0bNZzURUTvJ6HcByQA"
+  },
+  {
+    "name": "울산 타니베이 호텔",
+    "formatted_address": "대한민국 울산광역시 동구 해수욕장5길 43",
+    "latitude": 35.4926605,
+    "longitude": 129.4307085,
+    "rating": 4.4,
+    "user_ratings_total": 68,
+    "place_id": "ChIJyQgyvSPOZzURaYvsZql2gFk"
+  },
+  {
+    "name": "스타즈호텔 울산",
+    "formatted_address": "대한민국 울산광역시 남구 남중로 65",
+    "latitude": 35.5401596,
+    "longitude": 129.3474024,
+    "rating": 4.2,
+    "user_ratings_total": 1119,
+    "place_id": "ChIJlUqbkBPNZzURnBgDBscNMg0"
+  },
+  {
+    "name": "H2 Hotel",
+    "formatted_address": "대한민국 울산광역시 남구 왕생로62번길 16-1",
+    "latitude": 35.539202,
+    "longitude": 129.333671,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "place_id": "ChIJVV5t9UbNZzUR_FoGr7ogs94"
+  },
+  {
+    "name": "롯데호텔 울산",
+    "formatted_address": "대한민국 울산광역시 남구 삼산로 282",
+    "latitude": 35.5385265,
+    "longitude": 129.3381605,
+    "rating": 4.3,
+    "user_ratings_total": 1740,
+    "place_id": "ChIJNVrwXEDNZzURCXkj3kE_F0E"
+  },
+  {
+    "name": "브이온천모텔",
+    "formatted_address": "대한민국 울산광역시 울주군 상북면 알프스온천2길 10-3",
+    "latitude": 35.5535076,
+    "longitude": 129.0787786,
+    "rating": 4,
+    "user_ratings_total": 179,
+    "place_id": "ChIJF_66fAQkZjUR_X0TpMcrnwg"
+  },
+  {
+    "name": "두안 스테이 울산",
+    "formatted_address": "대한민국 울산광역시 147beon-gil, 대학로 23-5",
+    "latitude": 35.54940200000001,
+    "longitude": 129.260573,
+    "rating": 4.7,
+    "user_ratings_total": 3,
+    "place_id": "ChIJh9BWD4stZjUR2tlWmjKDxbg"
+  },
+  {
+    "name": "호텔 다움",
+    "formatted_address": "Beonyoung-ro 538 ( Bangu-dong), 울산광역시 South Korea, 대한민국",
+    "latitude": 35.5671199,
+    "longitude": 129.3414533,
+    "rating": 4.2,
+    "user_ratings_total": 207,
+    "place_id": "ChIJabGk_-fMZzURy34Z9RLwj0Y"
+  },
+  {
+    "name": "라온호텔",
+    "formatted_address": "대한민국 울산광역시 남구 삼산동 1559-6",
+    "latitude": 35.5409335,
+    "longitude": 129.3434675,
+    "rating": 4.3,
+    "user_ratings_total": 54,
+    "place_id": "ChIJO_ytZVHNZzURWazi7h9ykXo"
+  },
+  {
+    "name": "Ulsan Some",
+    "formatted_address": "50 Sanhajungang 1-ro, 북구 울산광역시 대한민국",
+    "latitude": 35.628653,
+    "longitude": 129.43976,
+    "rating": 4.3,
+    "user_ratings_total": 7,
+    "place_id": "ChIJ79tAgNbJZzURlJgHni8vPos"
+  },
+  {
+    "name": "호텔리버사이드 울산",
+    "formatted_address": "대한민국 울산광역시 중구 젊음의거리 20",
+    "latitude": 35.5532545,
+    "longitude": 129.3176829,
+    "rating": 4.5,
+    "user_ratings_total": 729,
+    "place_id": "ChIJiSIdhMsyZjUR0Cmf1Hhw-60"
+  },
+  {
+    "name": "Gyeongju MTM Hotel",
+    "formatted_address": "8, Jinhyeon-ro 3-gil, Gyeongju-s, 경주시 경상북도 대한민국",
+    "latitude": 35.783876,
+    "longitude": 129.32253,
+    "rating": 4.3,
+    "user_ratings_total": 40,
+    "place_id": "ChIJ0QsabiuzZzUR8yqkYI4SsBI"
+  },
+  {
+    "name": "애쉬튼 호텔",
+    "formatted_address": "8 Jungang-ro 213beon-gil, 남구 울산광역시 대한민국",
+    "latitude": 35.539864,
+    "longitude": 129.31107,
+    "rating": 4.6,
+    "user_ratings_total": 89,
+    "place_id": "ChIJK8Wrna8yZjURhl-LFHLtyY4"
+  },
+  {
+    "name": "공담 스테이 호텔",
+    "formatted_address": "대한민국 울산광역시 남구 산업로647번길 5",
+    "latitude": 35.5389777,
+    "longitude": 129.3504625,
+    "rating": 4.5,
+    "user_ratings_total": 8,
+    "place_id": "ChIJV9CqwevNZzURnGPkvOzi7gA"
+  },
+  {
+    "name": "Ulsan Jinha V Victoria",
+    "formatted_address": "대한민국 울산광역시 Seosaeng-myeo, 깨목4길 12",
+    "latitude": 35.382987,
+    "longitude": 129.344758,
+    "rating": 4.1,
+    "user_ratings_total": 11,
+    "place_id": "ChIJPSH6HGnVZzURCaFikBGmo28"
+  },
+  {
+    "name": "하운드호텔 울산",
+    "formatted_address": "대한민국 울산광역시 북구 산하동 1022-7",
+    "latitude": 35.6269763,
+    "longitude": 129.4406442,
+    "rating": 4.9,
+    "user_ratings_total": 22,
+    "place_id": "ChIJ86x3f2vJZzUR0-pW0ejddLc"
+  },
+  {
+    "name": "Ulsan Jinjangdong Hidden Bay",
+    "formatted_address": "대한민국 울산광역시 북구 진장1길 7",
+    "latitude": 35.569337,
+    "longitude": 129.35895,
+    "rating": 4.7,
+    "user_ratings_total": 3,
+    "place_id": "ChIJNQcV0PTMZzURmvQLwna7MbE"
+  },
+  {
+    "name": "Ulsan Jeonhadong Naeyeong",
+    "formatted_address": "43 Jinseong 8-gil, 동구 울산광역시 대한민국",
+    "latitude": 35.506662,
+    "longitude": 129.428947,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "place_id": "ChIJJzC5t0DOZzURqBVu-oAMJYU"
+  },
+  {
+    "name": "호텔 욜로",
+    "formatted_address": "대한민국 경주시 진현로1길 12",
+    "latitude": 35.7829738,
+    "longitude": 129.3257074,
+    "rating": 4.3,
+    "user_ratings_total": 74,
+    "place_id": "ChIJ12V24CuzZzUR561uP0LZNoU"
+  },
+  {
+    "name": "경주숙소 체크인불국",
+    "formatted_address": "대한민국 경상북도 경주시 영불로 214",
+    "latitude": 35.7816766,
+    "longitude": 129.3258706,
+    "rating": 5,
+    "user_ratings_total": 4,
+    "place_id": "ChIJQ5eWqi6zZzURypjXrXX6VQI"
+  },
+  {
+    "name": "젠모텔",
+    "formatted_address": "대한민국 울산광역시",
+    "latitude": 35.5392116,
+    "longitude": 129.350828,
+    "rating": 4,
+    "user_ratings_total": 67,
+    "place_id": "ChIJb3NvbBLNZzURVG5Xbpwiv_E"
+  },
+  {
+    "name": "YAM 경주시청점",
+    "formatted_address": "대한민국 경상북도 경주시 양정로225번길 24",
+    "latitude": 35.8544519,
+    "longitude": 129.2236999,
+    "rating": 4,
+    "user_ratings_total": 43,
+    "place_id": "ChIJNeXB3J1PZjURnFK9C5DAr9Y"
+  },
+  {
+    "name": "경주 라쿠스 호텔",
+    "formatted_address": "대한민국 경상북도 경주시 진현로2길 11",
+    "latitude": 35.7833894,
+    "longitude": 129.3235526,
+    "rating": 4.8,
+    "user_ratings_total": 17,
+    "place_id": "ChIJ0zem_CmzZzURoMm7kMKoGLI"
+  },
+  {
+    "name": "제이아이스테이 불국사",
+    "formatted_address": "대한민국 경상북도 경주시 구정1길 10-4",
+    "latitude": 35.7775666,
+    "longitude": 129.2983327,
+    "rating": 4.2,
+    "user_ratings_total": 6,
+    "place_id": "ChIJxedePpVMZjURBYYSssIwjAU"
+  },
+  {
+    "name": "경주 넘버25 경주터미널점",
+    "formatted_address": "대한민국 경상북도 경주시 금성로259번길 17",
+    "latitude": 35.840701,
+    "longitude": 129.205186,
+    "rating": 4.3,
+    "user_ratings_total": 10,
+    "place_id": "ChIJM5LZZ1BOZjURHjRrwerbJRY"
+  },
+  {
+    "name": "블루365",
+    "formatted_address": "대한민국 경상북도 경주시 양남면 솔숲3길 14",
+    "latitude": 35.6646875,
+    "longitude": 129.4060625,
+    "rating": 4.4,
+    "user_ratings_total": 31,
+    "place_id": "ChIJv74K5Tq0ZzURaJb9io5wrCw"
+  },
+  {
+    "name": "경주읍성한옥",
+    "formatted_address": "대한민국 경상북도 경주시 북부동 22-5",
+    "latitude": 35.8495001,
+    "longitude": 129.2114478,
+    "rating": 4.8,
+    "user_ratings_total": 5,
+    "place_id": "ChIJpfQ4HlpPZjURriEfH35jeuE"
+  },
+  {
+    "name": "미림모텔",
+    "formatted_address": "대한민국 경상북도 경주시 황오동 북성로129번길 10-8 KR",
+    "latitude": 35.84768820000001,
+    "longitude": 129.2165455,
+    "rating": 4,
+    "user_ratings_total": 107,
+    "place_id": "ChIJS8OIlqZPZjURPxO6q2njAqk"
+  },
+  {
+    "name": "힐튼 경주",
+    "formatted_address": "대한민국 경상북도 경주시 보덕동 보문로 484-7",
+    "latitude": 35.839999,
+    "longitude": 129.2859734,
+    "rating": 4.3,
+    "user_ratings_total": 4729,
+    "place_id": "ChIJ97c8JBFOZjURbO2bxUDBiMk"
+  },
+  {
+    "name": "경주봉황맨션",
+    "formatted_address": "대한민국 경상북도 경주시 원효로 104-6 2층",
+    "latitude": 35.84168,
+    "longitude": 129.2122,
+    "rating": 4.8,
+    "user_ratings_total": 133,
+    "place_id": "ChIJT1accENOZjURefJ4u9D3qEY"
+  },
+  {
+    "name": "경주 그리듯호텔",
+    "formatted_address": "대한민국 경상북도 경주시 화랑로38번길 6",
+    "latitude": 35.84428,
+    "longitude": 129.204643,
+    "rating": 4.6,
+    "user_ratings_total": 13,
+    "place_id": "ChIJN3kOu09OZjURrzMoDbbY5uk"
+  },
+  {
+    "name": "경주 데이스위트 모텔",
+    "formatted_address": "대한민국 경상북도 경주시 황오동 245-11",
+    "latitude": 35.84279300000001,
+    "longitude": 129.2150053,
+    "rating": 4.8,
+    "user_ratings_total": 6,
+    "place_id": "ChIJlYjtIpRPZjURfgxBGfQW2sY"
+  },
+  {
+    "name": "경주",
+    "formatted_address": "대한민국 경상북도 경주시",
+    "latitude": 35.8447433,
+    "longitude": 129.206998,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "place_id": "ChIJ_zy7GgBPZjURyooBDy3QBcs"
+  },
+  {
+    "name": "에이치에비뉴호텔 경주불국사점",
+    "formatted_address": "대한민국 경상북도 경주시 진현동 700-13",
+    "latitude": 35.7833894,
+    "longitude": 129.3235526,
+    "rating": 4.9,
+    "user_ratings_total": 15,
+    "place_id": "ChIJiX1aXICzZzURmQoums-m4jI"
+  },
+  {
+    "name": "경주 오렌지",
+    "formatted_address": "대한민국 경상북도 경주시 충효녹지길 68-7",
+    "latitude": 35.8432623,
+    "longitude": 129.184065,
+    "rating": 4.2,
+    "user_ratings_total": 5,
+    "place_id": "ChIJjR7jtqdPZjURDPKFRhbLB48"
+  },
+  {
+    "name": "경주신라한옥호텔",
+    "formatted_address": "대한민국 경상북도 경주시 소티남길 19-25",
+    "latitude": 35.8134112,
+    "longitude": 129.1883497,
+    "rating": 4.1,
+    "user_ratings_total": 142,
+    "place_id": "ChIJjykfDMtPZjURIig68LBPGvs"
+  },
+  {
+    "name": "코모도호텔 경주",
+    "formatted_address": "대한민국 경상북도 경주시 보문로 422",
+    "latitude": 35.8447013,
+    "longitude": 129.285076,
+    "rating": 4.1,
+    "user_ratings_total": 2179,
+    "place_id": "ChIJY-HOtSBOZjURPap5rtW-iUQ"
+  },
+  {
+    "name": "Poverta Stay Hotel",
+    "formatted_address": "대한민국 경상북도 경주시 태종로699번길 20-10",
+    "latitude": 35.8401376,
+    "longitude": 129.2052596,
+    "rating": 4,
+    "user_ratings_total": 6,
+    "place_id": "ChIJr64nFQBPZjURzsTL0HZtj3w"
+  },
+  {
+    "name": "프라이빗 경주",
+    "formatted_address": "대한민국 경상북도 경주시 노서동 130-10",
+    "latitude": 35.8416539,
+    "longitude": 129.2058248,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "place_id": "ChIJ3evUPABPZjURPZwfYfo3V-c"
+  },
+  {
+    "name": "경주지지관광호텔",
+    "formatted_address": "대한민국 경상북도 경주시 태종로699번길 3",
+    "latitude": 35.839042,
+    "longitude": 129.2044284,
+    "rating": 4.1,
+    "user_ratings_total": 569,
+    "place_id": "ChIJn41ejVBOZjURysRUTJuHF44"
+  },
+  {
+    "name": "강동리조트 패밀리콘도",
+    "formatted_address": "대한민국 경상북도 경주시 보불로 391 KR",
+    "latitude": 35.8265138,
+    "longitude": 129.2883708,
+    "rating": 4.2,
+    "user_ratings_total": 1001,
+    "place_id": "ChIJxSCdPGlNZjUR8P_tnWepmls"
+  },
+  {
+    "name": "포항맨션6",
+    "formatted_address": "대한민국 경상북도 포항시 남구 새천년대로450번길 6",
+    "latitude": 36.0152307,
+    "longitude": 129.3461853,
+    "rating": 4.1,
+    "user_ratings_total": 11,
+    "place_id": "ChIJFbU16_gBZzURe7SmX2jVSfU"
+  },
+  {
+    "name": "경주 공간호텔",
+    "formatted_address": "대한민국 경상북도 경주시 원효로26번길 10",
+    "latitude": 35.8413759,
+    "longitude": 129.2034204,
+    "rating": 4.7,
+    "user_ratings_total": 14,
+    "place_id": "ChIJe99oaxhPZjURn1uqkpG6uWQ"
+  },
+  {
+    "name": "경주 엘리건스 황리단길점",
+    "formatted_address": "대한민국 경상북도 경주시 화랑로37번길 13",
+    "latitude": 35.845983,
+    "longitude": 129.204719,
+    "rating": 4,
+    "user_ratings_total": 4,
+    "place_id": "ChIJHbR7Fk9OZjURZhTY1MozziY"
+  },
+  {
+    "name": "키녹",
+    "formatted_address": "대한민국 경상북도 경주시 보문로 280-12",
+    "latitude": 35.8537307,
+    "longitude": 129.277359,
+    "rating": 4.8,
+    "user_ratings_total": 16,
+    "place_id": "ChIJcZybCbFTZjUR_VTjhfU8OKI"
+  },
+  {
+    "name": "더세븐 호텔",
+    "formatted_address": "대한민국 포항시 북구 중흥로113번길 7-4",
+    "latitude": 36.01522420000001,
+    "longitude": 129.3506791,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "place_id": "ChIJWXEAhQ4BZzUROim58v_X-Dc"
+  },
+  {
+    "name": "슈가호텔",
+    "formatted_address": "대한민국 경상북도 경주시 태종로685번길 34-1",
+    "latitude": 35.8413314,
+    "longitude": 129.2030683,
+    "rating": 4.1,
+    "user_ratings_total": 328,
+    "place_id": "ChIJ47CTpVFOZjURuFMIocXWskM"
+  },
+  {
+    "name": "경주 서라벌한옥관",
+    "formatted_address": "대한민국 경상북도 경주시 태종로700번길 7-2",
+    "latitude": 35.8381238,
+    "longitude": 129.2048606,
+    "rating": 4.1,
+    "user_ratings_total": 28,
+    "place_id": "ChIJVRPDsVZOZjUR8CxvF1GBivs"
+  },
+  {
+    "name": "한옥스테이 소화",
+    "formatted_address": "대한민국 경상북도 경주시 국당2길 5",
+    "latitude": 35.826585,
+    "longitude": 129.2065454,
+    "rating": 5,
+    "user_ratings_total": 3,
+    "place_id": "ChIJLSSyQzpPZjUR22wPYXfalrI"
+  },
+  {
+    "name": "아라뜰팬션",
+    "formatted_address": "대한민국 경상북도 경주시 감포읍 10길 40-7",
+    "latitude": 35.8126643,
+    "longitude": 129.5028559,
+    "rating": 4.2,
+    "user_ratings_total": 48,
+    "place_id": "ChIJC6ebQOilZzURNOlWBIsWYD0"
+  },
+  {
+    "name": "라한셀렉트 경주",
+    "formatted_address": "대한민국 경상북도 경주시 보문로 338 라한셀렉트",
+    "latitude": 35.8503809,
+    "longitude": 129.2771519,
+    "rating": 4.3,
+    "user_ratings_total": 4123,
+    "place_id": "ChIJ4TRtIn1SZjURsVHxKLyV8pk"
+  },
+  {
+    "name": "JI Boutique Hotel",
+    "formatted_address": "대한민국 경상북도 경주시 충효중앙길 71",
+    "latitude": 35.843721,
+    "longitude": 129.183215,
+    "rating": 4.5,
+    "user_ratings_total": 4,
+    "place_id": "ChIJCW1gqadPZjURn4bPJS89y64"
+  },
+  {
+    "name": "한옥스테이 여여",
+    "formatted_address": "대한민국 경상북도 경주시 갯마을길 53",
+    "latitude": 35.8146361,
+    "longitude": 129.2369643,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "place_id": "ChIJtfPMUTVPZjUR_g00gbVsg0o"
+  },
+  {
+    "name": "경주 덴바스타 헤리티지호텔",
+    "formatted_address": "대한민국 경상북도 경주시 태종로 691-20",
+    "latitude": 35.8390177,
+    "longitude": 129.2040727,
+    "rating": 4.8,
+    "user_ratings_total": 8,
+    "place_id": "ChIJPd-OpkFPZjURrkpn7oI7aoU"
+  },
+  {
+    "name": "스카이베이호텔 경포",
+    "formatted_address": "대한민국 강원특별자치도 강릉시 해안로 476",
+    "latitude": 37.8043635,
+    "longitude": 128.9077159,
+    "rating": 4.1,
+    "user_ratings_total": 4873,
+    "place_id": "ChIJd0Vo7qbmYTURS8N5hcfqPNg"
+  },
+  {
+    "name": "썬크루즈리조트",
+    "formatted_address": "대한민국 강원특별자치도 강릉시 강동면 헌화로 950-39",
+    "latitude": 37.6834634,
+    "longitude": 129.0438501,
+    "rating": 4.3,
+    "user_ratings_total": 7278,
+    "place_id": "ChIJl04CBTDDYTURS_Ug_CPZhi8"
+  },
+  {
+    "name": "호텔 탑스텐",
+    "formatted_address": "대한민국 강원특별자치도 강릉시 옥계면 헌화로 455-34",
+    "latitude": 37.6552461,
+    "longitude": 129.0513566,
+    "rating": 4.3,
+    "user_ratings_total": 3097,
+    "place_id": "ChIJh5PoonTDYTURCH82-nPz92Y"
+  },
+  {
+    "name": "씨마크 호텔",
+    "formatted_address": "대한민국 강원특별자치도 강릉시 해안로406번길 2",
+    "latitude": 37.7979577,
+    "longitude": 128.9153587,
+    "rating": 4.6,
+    "user_ratings_total": 2714,
+    "place_id": "ChIJe5GP07zmYTURU0uT7kfq4Vg"
+  },
+  {
+    "name": "경포마레호텔",
+    "formatted_address": "대한민국 강원특별자치도 강릉시 창해로 443",
+    "latitude": 37.8005268,
+    "longitude": 128.9122887,
+    "rating": 4.4,
+    "user_ratings_total": 44,
+    "place_id": "ChIJA3XMbdznYTURj8oISV_vzAw"
+  },
+  {
+    "name": "하이오션 경포",
+    "formatted_address": "대한민국 강원특별자치도 강릉시 경포로463번길 30-5",
+    "latitude": 37.8039567,
+    "longitude": 128.9034226,
+    "rating": 4.3,
+    "user_ratings_total": 293,
+    "place_id": "ChIJ49uKBR7kYTURhLa5O3v2mog"
+  },
+  {
+    "name": "강릉 컨피네스 오션 스위트 호텔",
+    "formatted_address": "대한민국 강원특별자치도 강릉시 사천 사천면 진리항구2길 5",
+    "latitude": 37.8367441,
+    "longitude": 128.8744876,
+    "rating": 4.2,
+    "user_ratings_total": 270,
+    "place_id": "ChIJISTIz9jjYTUR5mFT_Fqo59U"
+  },
+  {
+    "name": "강릉 호텔 바르한 HOTEL BARCHAN",
+    "formatted_address": "대한민국 강원특별자치도 강릉시 토성로 194",
+    "latitude": 37.7574536,
+    "longitude": 128.8970569,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "place_id": "ChIJB1nKz-TlYTURU1K0MugXslI"
+  },
+  {
+    "name": "스테이레메디",
+    "formatted_address": "대한민국 강원특별자치도 강릉시 해안로711번길",
+    "latitude": 37.8166155,
+    "longitude": 128.8898611,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "place_id": "ChIJi1BBegDlYTURjOCcSO41KJI"
+  },
+  {
+    "name": "브라운도트강릉역점",
+    "formatted_address": "대한민국 강원특별자치도 강릉시 동부시장길 14 브라운도트 강릉역점",
+    "latitude": 37.7591818,
+    "longitude": 128.9003847,
+    "rating": 4.3,
+    "user_ratings_total": 18,
+    "place_id": "ChIJh99xwOPlYTUR9g5mLSl44lg"
+  },
+  {
+    "name": "위너스 호텔",
+    "formatted_address": "대한민국 강원특별자치도 강릉시 주문진읍 해안로 1725-3 KR",
+    "latitude": 37.8890335,
+    "longitude": 128.827573,
+    "rating": 4,
+    "user_ratings_total": 473,
+    "place_id": "ChIJ9TALO9HiYTURbBcaoNd7mug"
+  },
+  {
+    "name": "경포 호텔이코노미",
+    "formatted_address": "대한민국 강원특별자치도 강릉시 해안로 539",
+    "latitude": 37.803427,
+    "longitude": 128.9066562,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "place_id": "ChIJBdu8KafmYTURXvqjJaX6eT8"
+  },
+  {
+    "name": "파인시티호텔",
+    "formatted_address": "대한민국 강원특별자치도 강릉시 옥천로 KR 옥천로62번길 13",
+    "latitude": 37.7608319,
+    "longitude": 128.899175,
+    "rating": 4.1,
+    "user_ratings_total": 193,
+    "place_id": "ChIJcTe4VeHlYTURAnfLGK3lkFY"
+  },
+  {
+    "name": "경포스테이195&경포칼국수",
+    "formatted_address": "대한민국 강원특별자치도 강릉시 저동 493",
+    "latitude": 37.8059862,
+    "longitude": 128.8913085,
+    "rating": 4.4,
+    "user_ratings_total": 50,
+    "place_id": "ChIJqwtBdh3lYTURcGDRuBF3WAk"
+  },
+  {
+    "name": "경포수호텔",
+    "formatted_address": "대한민국 강원특별자치도 강릉시 창해로 439",
+    "latitude": 37.80024179999999,
+    "longitude": 128.9126229,
+    "rating": 4.2,
+    "user_ratings_total": 439,
+    "place_id": "ChIJ9wOjeqPmYTURS5hfpgNDCzE"
+  },
+  {
+    "name": "강릉 씨티 호텔",
+    "formatted_address": "대한민국 강원특별자치도 강릉시 교동광장로 112",
+    "latitude": 37.7643693,
+    "longitude": 128.8767892,
+    "rating": 4.3,
+    "user_ratings_total": 586,
+    "place_id": "ChIJPYfddBblYTURikNGf7L24g0"
+  },
+  {
+    "name": "라카이 샌드파인",
+    "formatted_address": "대한민국 강원특별자치도 강릉시 안현동 해안로 536",
+    "latitude": 37.8060474,
+    "longitude": 128.9043789,
+    "rating": 4.5,
+    "user_ratings_total": 3264,
+    "place_id": "ChIJOYZ2gh3kYTURQydm3mmkow8"
+  },
+  {
+    "name": "브라운도트호텔 경포",
+    "formatted_address": "대한민국 강원특별자치도 강릉시 강문동 창해로 429",
+    "latitude": 37.7996851,
+    "longitude": 128.9133932,
+    "rating": 4.5,
+    "user_ratings_total": 81,
+    "place_id": "ChIJxVkTQqPmYTURr7ndscaUz4I"
+  },
+  {
+    "name": "더앤리조트",
+    "formatted_address": "대한민국 강원특별자치도 양양군 현남면 개매길 260",
+    "latitude": 37.942043,
+    "longitude": 128.769548,
+    "rating": 4.1,
+    "user_ratings_total": 1012,
+    "place_id": "ChIJl8mUrDD9YTURT-prqGwieXA"
+  },
+  {
+    "name": "파인아트라벨 호텔",
+    "formatted_address": "대한민국 강원특별자치도 강릉시 송정동 해안로 32",
+    "latitude": 37.7756546,
+    "longitude": 128.9417455,
+    "rating": 4,
+    "user_ratings_total": 310,
+    "place_id": "ChIJ88p3XkPnYTURNAV3dbYKFIc"
+  },
+  {
+    "name": "스테이리베라",
+    "formatted_address": "대한민국 강원특별자치도 강릉시 용지로 147",
+    "latitude": 37.7598608,
+    "longitude": 128.901096,
+    "rating": 4.5,
+    "user_ratings_total": 2,
+    "place_id": "ChIJN30PHcflYTUR9FlxWPh0aKU"
+  },
+  {
+    "name": "호텔여기어때 강릉경포점",
+    "formatted_address": "대한민국 강원특별자치도 강릉시 해안로406번길 13-9 KR",
+    "latitude": 37.7994101,
+    "longitude": 128.9127494,
+    "rating": 4.1,
+    "user_ratings_total": 409,
+    "place_id": "ChIJMyzmEqPmYTUROloMlLBMGYc"
+  },
+  {
+    "name": "더 홍씨호텔 강릉(The Hong C Hotel Gangneung)",
+    "formatted_address": "8, Gyodonggwangjang-ro 100beon-gil Gangneung-si Gangwon-do KR, 대한민국",
+    "latitude": 37.765387,
+    "longitude": 128.8762473,
+    "rating": 4.4,
+    "user_ratings_total": 236,
+    "place_id": "ChIJi5xXLY7lYTUR-9oOmV9Odug"
+  },
+  {
+    "name": "호텔이스트나인",
+    "formatted_address": "대한민국 강원특별자치도 강릉시 교동 1879-2",
+    "latitude": 37.765353,
+    "longitude": 128.8765766,
+    "rating": 4.2,
+    "user_ratings_total": 166,
+    "place_id": "ChIJnVbL3ZHlYTURuqzOI0pHEEM"
+  },
+  {
+    "name": "경포에메랄드",
+    "formatted_address": "대한민국 강원특별자치도 강릉시 강문동 해안로406번길 26",
+    "latitude": 37.798635,
+    "longitude": 128.9146875,
+    "rating": 4.2,
+    "user_ratings_total": 381,
+    "place_id": "ChIJ-yVlNKPmYTURxotQHhyjFLU"
+  },
+  {
+    "name": "강릉관광호텔",
+    "formatted_address": "대한민국 강원특별자치도 강릉시 특별자치도, 금성로 62",
+    "latitude": 37.7517256,
+    "longitude": 128.8946308,
+    "rating": 4.1,
+    "user_ratings_total": 817,
+    "place_id": "ChIJO9aEz_nlYTURUyUou3Khy7Y"
+  },
+  {
+    "name": "강릉 W Spa",
+    "formatted_address": "대한민국 강원특별자치도 강릉시 안현동 266",
+    "latitude": 37.8161651,
+    "longitude": 128.8916602,
+    "rating": 4.1,
+    "user_ratings_total": 58,
+    "place_id": "ChIJ68MNBQ_kYTURUje8RYRvOzE"
+  },
+  {
+    "name": "라마다 호텔 & 스위트 평창",
+    "formatted_address": "대한민국 강원특별자치도 평창군 대관령면 오목길 107",
+    "latitude": 37.6598281,
+    "longitude": 128.7176688,
+    "rating": 4.3,
+    "user_ratings_total": 2317,
+    "place_id": "ChIJx7L8BImLYTURFV5cMc7nl3k"
+  },
+  {
+    "name": "뷰티호텔",
+    "formatted_address": "대한민국 강원특별자치도 강릉시 교동 137-4",
+    "latitude": 37.7614443,
+    "longitude": 128.8994265,
+    "rating": 4.4,
+    "user_ratings_total": 283,
+    "place_id": "ChIJFcvXTuHlYTURMELRZC-5RqQ"
+  },
+  {
+    "name": "호텔 H Avenue",
+    "formatted_address": "대한민국 강원특별자치도 강릉시 강문동 창해로 423",
+    "latitude": 37.7992458,
+    "longitude": 128.9138555,
+    "rating": 4.1,
+    "user_ratings_total": 222,
+    "place_id": "ChIJWYEzSKPmYTURfft7QQEli4M"
+  },
+  {
+    "name": "부티크 호텔 봄봄",
+    "formatted_address": "대한민국 강원특별자치도 강릉시 교동광장로100번길 19 KR",
+    "latitude": 37.7665494,
+    "longitude": 128.8762089,
+    "rating": 4.1,
+    "user_ratings_total": 224,
+    "place_id": "ChIJlX0aupHlYTURs4k6RzuKmtQ"
+  },
+  {
+    "name": "강릉 그레이 호텔",
+    "formatted_address": "대한민국 강릉시 하슬라로 192번길 6",
+    "latitude": 37.7665801,
+    "longitude": 128.8760505,
+    "rating": 4.4,
+    "user_ratings_total": 133,
+    "place_id": "ChIJEWdLhZHlYTURu78iIgjkxIM"
+  },
+  {
+    "name": "솔라뷰 호텔 앤 리조트",
+    "formatted_address": "대한민국 강원특별자치도 강릉시 강동면 헌화로 920-16",
+    "latitude": 37.6823505,
+    "longitude": 129.0418415,
+    "rating": 4.1,
+    "user_ratings_total": 11,
+    "place_id": "ChIJf0I2eDDDYTURyXKyaODja0Y"
+  },
+  {
+    "name": "신라스테이 여수",
+    "formatted_address": "대한민국 전라남도 여수시 수정3길 8",
+    "latitude": 34.744233,
+    "longitude": 127.748576,
+    "rating": 4.4,
+    "user_ratings_total": 437,
+    "place_id": "ChIJw2YT2evYbTURFHsgrW2fx1c"
+  },
+  {
+    "name": "소노캄 여수",
+    "formatted_address": "대한민국 전라남도 여수시 한려동 오동도로 111",
+    "latitude": 34.7422879,
+    "longitude": 127.7542821,
+    "rating": 4.4,
+    "user_ratings_total": 4033,
+    "place_id": "ChIJx3BFc-7YbTURK0t1NcEv9Vg"
+  },
+  {
+    "name": "여수 베네치아호텔 앤 스위트",
+    "formatted_address": "대한민국 전라남도 여수시 수정동 오동도로 61-13",
+    "latitude": 34.7457579,
+    "longitude": 127.7517124,
+    "rating": 4.3,
+    "user_ratings_total": 2561,
+    "place_id": "ChIJM9UEn0fZbTURNYGsNRFL0Hw"
+  },
+  {
+    "name": "라마다프라자 바이 윈덤 여수",
+    "formatted_address": "대한민국 전라남도 여수시 돌산읍 강남로 11",
+    "latitude": 34.7168253,
+    "longitude": 127.7483058,
+    "rating": 4.2,
+    "user_ratings_total": 1217,
+    "place_id": "ChIJiwMmtLHZbTURPjE6Dswnhzo"
+  },
+  {
+    "name": "히든베이호텔",
+    "formatted_address": "대한민국 전라남도 여수시 월호동 신월로 496-25 KR",
+    "latitude": 34.7216033,
+    "longitude": 127.6994465,
+    "rating": 4.2,
+    "user_ratings_total": 2030,
+    "place_id": "ChIJ5VPJ_ZbebTURWYXlCsVfkpk"
+  },
+  {
+    "name": "여수 호텔 더비 By BonReve",
+    "formatted_address": "대한민국 전라남도 여수시 선소로 41",
+    "latitude": 34.7568745,
+    "longitude": 127.665989,
+    "rating": 4.1,
+    "user_ratings_total": 41,
+    "place_id": "ChIJKw7kZEzebTURHF2zYta6kAQ"
+  },
+  {
+    "name": "여수 벨메르",
+    "formatted_address": "대한민국 전라남도 여수시 웅천동 웅천남4로 17",
+    "latitude": 34.7431223,
+    "longitude": 127.6722439,
+    "rating": 4.4,
+    "user_ratings_total": 528,
+    "place_id": "ChIJvU3EyD_fbTURSY3HnixZlvg"
+  },
+  {
+    "name": "유탑 마리나 호텔&리조트",
+    "formatted_address": "대한민국 전라남도 여수시 오동도로 61-15",
+    "latitude": 34.7444698,
+    "longitude": 127.7506806,
+    "rating": 4.2,
+    "user_ratings_total": 2296,
+    "place_id": "ChIJJQM2cCnZbTURoaLCNoZSV7Y"
+  },
+  {
+    "name": "여수 오션힐호텔",
+    "formatted_address": "대한민국 전라남도 여수시 돌산읍 강남해안로 81",
+    "latitude": 34.7186643,
+    "longitude": 127.7463758,
+    "rating": 4.3,
+    "user_ratings_total": 1125,
+    "place_id": "ChIJ376ZNBbZbTURuMHVPIeVh84"
+  },
+  {
+    "name": "한옥호텔 오동재",
+    "formatted_address": "대한민국 전라남도 여수시 박람회길 99",
+    "latitude": 34.7553256,
+    "longitude": 127.7470412,
+    "rating": 4.3,
+    "user_ratings_total": 488,
+    "place_id": "ChIJxb7vV5bYbTURdUIfKbjLy7c"
+  },
+  {
+    "name": "코업스테이 호텔 여수",
+    "formatted_address": "대한민국 전라남도 여수시 학동 75",
+    "latitude": 34.7623597,
+    "longitude": 127.6654955,
+    "rating": 4.3,
+    "user_ratings_total": 38,
+    "place_id": "ChIJh3WU1FXfbTURuU7kkY5kKA0"
+  },
+  {
+    "name": "베니키아호텔 여수",
+    "formatted_address": "대한민국 전라남도 여수시 쌍봉동 시청서6길 19",
+    "latitude": 34.7565495,
+    "longitude": 127.6591417,
+    "rating": 4.2,
+    "user_ratings_total": 542,
+    "place_id": "ChIJL5EqETbebTURnKhybBsWpbk"
+  },
+  {
+    "name": "호텔마띠유",
+    "formatted_address": "대한민국 전라남도 여수시 공화동 오동도로 20",
+    "latitude": 34.745204,
+    "longitude": 127.74484,
+    "rating": 4.2,
+    "user_ratings_total": 754,
+    "place_id": "ChIJXeTCAMLYbTUR6Tkl6yEHfZA"
+  },
+  {
+    "name": "블랑호텔&리조트",
+    "formatted_address": "대한민국 전라남도 여수시 대경도4길 14",
+    "latitude": 34.717725,
+    "longitude": 127.724599,
+    "rating": 4.7,
+    "user_ratings_total": 14,
+    "place_id": "ChIJzwQUEWPZbTURAQ8z-NSSgwY"
+  },
+  {
+    "name": "여수호텔헤이븐",
+    "formatted_address": "대한민국 전라남도 여수시 돌산읍 진두해안길 131 KR",
+    "latitude": 34.7323046,
+    "longitude": 127.7492075,
+    "rating": 4.2,
+    "user_ratings_total": 934,
+    "place_id": "ChIJGbuCML_ZbTURdEXLX0ccE14"
+  },
+  {
+    "name": "여수 삼학1947풀빌라",
+    "formatted_address": "대한민국 전라남도 여수시 이순신광장로 200-3",
+    "latitude": 34.7390964,
+    "longitude": 127.7452481,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "place_id": "ChIJfdKyARvZbTUR3-5A2tOcS1Q"
+  },
+  {
+    "name": "다락휴 | 전라남도 여수",
+    "formatted_address": "대한민국 전라남도 여수시 덕충동 박람회길 1",
+    "latitude": 34.7507448,
+    "longitude": 127.7482922,
+    "rating": 4.1,
+    "user_ratings_total": 376,
+    "place_id": "ChIJWaRUIpXYbTUR3FYQP-ITzyA"
+  },
+  {
+    "name": "씨사이드호텔앤리조트",
+    "formatted_address": "대한민국 전라남도 여수시 국포1로 47",
+    "latitude": 34.7274048,
+    "longitude": 127.7205567,
+    "rating": 4.8,
+    "user_ratings_total": 17,
+    "place_id": "ChIJrf-yx_7fbTUR3n5o8uVs_mY"
+  },
+  {
+    "name": "여수퍼스트시티호텔",
+    "formatted_address": "대한민국 전라남도 여수시 웅천남1로 52 퍼스트시티호텔",
+    "latitude": 34.7421423,
+    "longitude": 127.6761136,
+    "rating": 4.3,
+    "user_ratings_total": 96,
+    "place_id": "ChIJ4ShsKf7ebTURuudViIhOmlc"
+  },
+  {
+    "name": "여수 웅천 퍼스트 바이 쏘타",
+    "formatted_address": "대한민국 전라남도 여수시 웅천동 남1로 52",
+    "latitude": 34.7420249,
+    "longitude": 127.6759912,
+    "rating": 4.3,
+    "user_ratings_total": 20,
+    "place_id": "ChIJjckhignfbTURZZt_IH7a3XE"
+  },
+  {
+    "name": "여수 프라이빗 독채풀빌라 포스테이",
+    "formatted_address": "대한민국 전라남도 여수시 돌산읍 돌산로 3117-21",
+    "latitude": 34.6946519,
+    "longitude": 127.766955,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "place_id": "ChIJpShVTZ3ZbTURZS-kLaHvr48"
+  },
+  {
+    "name": "디오션리조트",
+    "formatted_address": "대한민국 전라남도 여수시 소호동 소호로 295",
+    "latitude": 34.7319929,
+    "longitude": 127.6441219,
+    "rating": 4.1,
+    "user_ratings_total": 3139,
+    "place_id": "ChIJP3dU1wDebTURLiTOWixNOFM"
+  },
+  {
+    "name": "여수 HOTEL GD",
+    "formatted_address": "대한민국 전라남도 여수시 봉산남5길 8",
+    "latitude": 34.7345401,
+    "longitude": 127.7246272,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "place_id": "ChIJu1A2RCvZbTURfpCrLspSbjI"
+  },
+  {
+    "name": "여수 노을담은호스텔",
+    "formatted_address": "대한민국 전라남도 여수시 돌산읍 평사리 산318-53",
+    "latitude": 34.7026514,
+    "longitude": 127.7570375,
+    "rating": 4.1,
+    "user_ratings_total": 8,
+    "place_id": "ChIJn7V2U9_ZbTURH7ETsbKyD78"
+  },
+  {
+    "name": "포시즌리조트 리베라",
+    "formatted_address": "대한민국 전라남도 여수시 소라면 궁항길 115-1 KR",
+    "latitude": 34.7795192,
+    "longitude": 127.5734063,
+    "rating": 4.6,
+    "user_ratings_total": 17,
+    "place_id": "ChIJh5ZGT_XhbTURMl7VjeejjQo"
+  },
+  {
+    "name": "스테이호텔",
+    "formatted_address": "대한민국 전라남도 여수시 봉산동 봉산남8길 17-15",
+    "latitude": 34.7317984,
+    "longitude": 127.7238717,
+    "rating": 4,
+    "user_ratings_total": 212,
+    "place_id": "ChIJd2-CrNHebTURCZUYMfxMIrs"
+  },
+  {
+    "name": "썬마레 인 여수",
+    "formatted_address": "대한민국 전라남도 여수시 국동 국동남6길 49-10",
+    "latitude": 34.7267699,
+    "longitude": 127.7194672,
+    "rating": 4,
+    "user_ratings_total": 1,
+    "place_id": "ChIJG5A6UHXfbTURSNooA9xLQUo"
+  },
+  {
+    "name": "라 테라스 부티크 리조트 & 스파",
+    "formatted_address": "대한민국 전라남도 여수시 돌산읍 진모1길 29-12",
+    "latitude": 34.7087484,
+    "longitude": 127.7566594,
+    "rating": 4,
+    "user_ratings_total": 1333,
+    "place_id": "ChIJyTmqRg3ZbTURG_X8aTDyDfw"
+  },
+  {
+    "name": "키웨스트리조트",
+    "formatted_address": "대한민국 전라남도 여수시 이순신광장로 139",
+    "latitude": 34.7377401,
+    "longitude": 127.7393889,
+    "rating": 4.5,
+    "user_ratings_total": 131,
+    "place_id": "ChIJ9eAHnwrZbTURHrpZDKN2Ij8"
+  },
+  {
+    "name": "하멜호스텔",
+    "formatted_address": "대한민국 여수시",
+    "latitude": 34.739466,
+    "longitude": 127.7442432,
+    "rating": 4.6,
+    "user_ratings_total": 25,
+    "place_id": "ChIJbZTvaN3YbTURSfZ4CGvo86U"
+  },
+  {
+    "name": "블루망고 풀빌라",
+    "formatted_address": "대한민국 전라남도 여수시 돌산읍 계동해안길 90",
+    "latitude": 34.6603628,
+    "longitude": 127.7939777,
+    "rating": 4.6,
+    "user_ratings_total": 274,
+    "place_id": "ChIJwQobDP7bbTUR4ZoqxZqPfrs"
+  },
+  {
+    "name": "여수마리나유스호스텔",
+    "formatted_address": "대한민국 전라남도 여수시 돌산읍 계동로 407",
+    "latitude": 34.6674623,
+    "longitude": 127.7866686,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "place_id": "ChIJRdJTQj3abTUR0GVs__K-D9w"
+  },
+  {
+    "name": "르컬렉티브 여수",
+    "formatted_address": "대한민국 전라남도 여수시 웅천남1로 66",
+    "latitude": 34.7414038,
+    "longitude": 127.6770404,
+    "rating": 4.3,
+    "user_ratings_total": 3,
+    "place_id": "ChIJ-_batF7ebTURe3kFO13WOqY"
+  },
+  {
+    "name": "호텔JCS",
+    "formatted_address": "대한민국 여수시",
+    "latitude": 34.7038125,
+    "longitude": 127.7573125,
+    "rating": 4.3,
+    "user_ratings_total": 369,
+    "place_id": "ChIJeQy3zXPZbTUR3Vo_px49D74"
+  },
+  {
+    "name": "웨스트힐스 호스텔 여수",
+    "formatted_address": "대한민국 전라남도 여수시 돌산읍 몰둠벙길 22-9",
+    "latitude": 34.7019853,
+    "longitude": 127.7566454,
+    "rating": 4.4,
+    "user_ratings_total": 227,
+    "place_id": "ChIJQ35csAjZbTUR42vRhtx_o1A"
+  },
+  {
+    "name": "더 메이 호텔",
+    "formatted_address": "대한민국 전북특별자치도 전주시 덕진구 팔복동1가 기린대로 800",
+    "latitude": 35.8596902,
+    "longitude": 127.0957812,
+    "rating": 4.4,
+    "user_ratings_total": 673,
+    "place_id": "ChIJG1Pyb5s9cDURdFfXz50he1s"
+  },
+  {
+    "name": "베스트 웨스턴 플러스 전주",
+    "formatted_address": "대한민국 전북특별자치도 전주시 완산구 현무1길 41",
+    "latitude": 35.8222584,
+    "longitude": 127.1470113,
+    "rating": 4.2,
+    "user_ratings_total": 539,
+    "place_id": "ChIJpaeFPhQjcDURF9AVqMvkbqY"
+  },
+  {
+    "name": "라한호텔 전주",
+    "formatted_address": "대한민국 전북특별자치도 전주시 완산구 기린대로 85",
+    "latitude": 35.8170876,
+    "longitude": 127.1540344,
+    "rating": 4.2,
+    "user_ratings_total": 1314,
+    "place_id": "ChIJY9gWA0MjcDURmT4yKrpNCTI"
+  },
+  {
+    "name": "왕의지밀 한옥호텔",
+    "formatted_address": "대한민국 전북특별자치도 전주시 완산구 춘향로 5218-20",
+    "latitude": 35.8003626,
+    "longitude": 127.1781044,
+    "rating": 4.2,
+    "user_ratings_total": 802,
+    "place_id": "ChIJz0nWF3okcDURZp_9BYr-2IY"
+  },
+  {
+    "name": "전주 라임호텔",
+    "formatted_address": "대한민국 전북특별자치도 전주시 우아2동 아중4길 13-3",
+    "latitude": 35.8301383,
+    "longitude": 127.1739974,
+    "rating": 4.5,
+    "user_ratings_total": 198,
+    "place_id": "ChIJyS5CWKEjcDURb_9QO-xA07w"
+  },
+  {
+    "name": "칼튼힐호텔",
+    "formatted_address": "대한민국 전북특별자치도 전주시 덕진구 금암동 461-15",
+    "latitude": 35.8346856,
+    "longitude": 127.1344894,
+    "rating": 4.5,
+    "user_ratings_total": 95,
+    "place_id": "ChIJiTRT4MIjcDURB2maUx878Hw"
+  },
+  {
+    "name": "더클래식호텔",
+    "formatted_address": "대한민국 전북특별자치도 완주군 이서면 오공로 21-19",
+    "latitude": 35.83745,
+    "longitude": 127.0577582,
+    "rating": 4,
+    "user_ratings_total": 299,
+    "place_id": "ChIJiyt_Yew7cDUR8D2C7o18ukI"
+  },
+  {
+    "name": "전주관광 호텔 꽃심",
+    "formatted_address": "대한민국 전북특별자치도 전주시 완산구 경원동1가 102 KR 호텔 꽃심",
+    "latitude": 35.8176084,
+    "longitude": 127.1469416,
+    "rating": 4.7,
+    "user_ratings_total": 131,
+    "place_id": "ChIJw-kgzUUjcDURxZlIQ9tim9I"
+  },
+  {
+    "name": "전주한옥마을숙박 사랑가득",
+    "formatted_address": "대한민국 전북특별자치도 전주시 완산구 교동 17-3",
+    "latitude": 35.8124038,
+    "longitude": 127.158004,
+    "rating": 5,
+    "user_ratings_total": 8,
+    "place_id": "ChIJQ674g_klcDURM0FOtiGhI-g"
+  },
+  {
+    "name": "전주시그니처호텔",
+    "formatted_address": "대한민국 전북특별자치도 전주시 덕진구 백제대로 838",
+    "latitude": 35.8488182,
+    "longitude": 127.1597951,
+    "rating": 4.2,
+    "user_ratings_total": 64,
+    "place_id": "ChIJ44O27QIjcDURaLujr9B9d3o"
+  },
+  {
+    "name": "전주 MH HOTEL 중화산동점",
+    "formatted_address": "대한민국 전북특별자치도 전주시 완산구 어은로 12-6",
+    "latitude": 35.8161038,
+    "longitude": 127.1242184,
+    "rating": 4.4,
+    "user_ratings_total": 9,
+    "place_id": "ChIJR5BcmVI7cDURhlu58vxlULg"
+  },
+  {
+    "name": "호텔 바라한",
+    "formatted_address": "대한민국 전북특별자치도 전주시 덕진구 금암1동 용산2길 17-1",
+    "latitude": 35.8358728,
+    "longitude": 127.1321992,
+    "rating": 4.2,
+    "user_ratings_total": 148,
+    "place_id": "ChIJK84Ysk4jcDUR9eKbVvHMyHo"
+  },
+  {
+    "name": "전주 시화연풍",
+    "formatted_address": "대한민국 전북특별자치도 Do, 전주 완산구 풍남문3길 9-5",
+    "latitude": 35.8138937,
+    "longitude": 127.1467567,
+    "rating": 4.4,
+    "user_ratings_total": 33,
+    "place_id": "ChIJdQZy26EkcDURKjtOH3RemJY"
+  },
+  {
+    "name": "호텔원 전주",
+    "formatted_address": "21-13 Ogong-ro, 이서면 완주군 전북특별자치도 대한민국",
+    "latitude": 35.8369159,
+    "longitude": 127.0577665,
+    "rating": 4.4,
+    "user_ratings_total": 50,
+    "place_id": "ChIJH_laSew7cDURjGsCZxbV9lI"
+  },
+  {
+    "name": "전주 브라운도트 중화산동점",
+    "formatted_address": "대한민국 전북특별자치도 전주시 완산구 한두평2길 14-6",
+    "latitude": 35.8131707,
+    "longitude": 127.1243115,
+    "rating": 4.2,
+    "user_ratings_total": 20,
+    "place_id": "ChIJ3YQa4Uw7cDURez6RhqlgvJM"
+  },
+  {
+    "name": "카마호텔",
+    "formatted_address": "대한민국 전북특별자치도 전주시 완산구 한두평2길 8-9 KR",
+    "latitude": 35.812806,
+    "longitude": 127.1237268,
+    "rating": 4.3,
+    "user_ratings_total": 188,
+    "place_id": "ChIJFxoM22s7cDURccJB77BCu2w"
+  },
+  {
+    "name": "전주 다온 호텔",
+    "formatted_address": "대한민국 전북특별자치도 전주시 완산구 동서학동 6-11",
+    "latitude": 35.810336,
+    "longitude": 127.1557979,
+    "rating": 4.5,
+    "user_ratings_total": 36,
+    "place_id": "ChIJz_B6iNIlcDURMM_b9k22V6g"
+  },
+  {
+    "name": "상관리조트&스파",
+    "formatted_address": "대한민국 전북특별자치도 완주군 상관면 죽림편백길 118-38",
+    "latitude": 35.7443733,
+    "longitude": 127.2075981,
+    "rating": 4.2,
+    "user_ratings_total": 735,
+    "place_id": "ChIJAyQpW9klcDURFjT1RKvkyDk"
+  },
+  {
+    "name": "엔브릿지호텔",
+    "formatted_address": "대한민국 전주시",
+    "latitude": 35.8100143,
+    "longitude": 127.1524221,
+    "rating": 4.3,
+    "user_ratings_total": 242,
+    "place_id": "ChIJ0xgVV5kkcDURrpD6p51RFlM"
+  },
+  {
+    "name": "신라스테이 전주",
+    "formatted_address": "10, Hyunmu, 완산1길 완산구 전주시 전북특별자치도 대한민국",
+    "latitude": 35.8197807,
+    "longitude": 127.1489409,
+    "rating": 4.5,
+    "user_ratings_total": 58,
+    "place_id": "ChIJxZ9hSmcjcDUR4WIURuYIOGc"
+  },
+  {
+    "name": "한빛호텔",
+    "formatted_address": "대한민국 전북특별자치도 전주시 완산구 기린대로 102",
+    "latitude": 35.818573,
+    "longitude": 127.154891,
+    "rating": 4.5,
+    "user_ratings_total": 26,
+    "place_id": "ChIJV7udhmMjcDUR1RuCqehoN_o"
+  },
+  {
+    "name": "메종 드 온유 호텔 전주 한옥마을점",
+    "formatted_address": "대한민국 전북특별자치도 전주시 덕진구 아중4길 9-3",
+    "latitude": 35.830335,
+    "longitude": 127.1743881,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "place_id": "ChIJp10BEPMjcDURZzlPUMow54g"
+  },
+  {
+    "name": "HOUND HOTEL",
+    "formatted_address": "대한민국 전북특별자치도 전주시 덕진구 산정동 863-1",
+    "latitude": 35.8381013,
+    "longitude": 127.1690156,
+    "rating": 4.5,
+    "user_ratings_total": 2,
+    "place_id": "ChIJTRupYwAjcDURKvd3GSRhnTY"
+  },
+  {
+    "name": "전주 호텔 더 빈센트",
+    "formatted_address": "대한민국 전북특별자치도 전주시 완산구 전라감영로 76",
+    "latitude": 35.815688,
+    "longitude": 127.14749,
+    "rating": 4.6,
+    "user_ratings_total": 54,
+    "place_id": "ChIJ0fvb9J8kcDURWyeaUn9Wxrc"
+  },
+  {
+    "name": "이비스 스타일 앰배서더 전주 시티센터",
+    "formatted_address": "대한민국 전북특별자치도 전주시 완산구 전주객사4길 74-50",
+    "latitude": 35.8208252,
+    "longitude": 127.1443089,
+    "rating": 4.3,
+    "user_ratings_total": 18,
+    "place_id": "ChIJucvg408jcDURw4NhbxrfkhA"
+  },
+  {
+    "name": "전주 릴렉스호텔",
+    "formatted_address": "대한민국 전북특별자치도 전주시 덕진구 아중4길 6-9",
+    "latitude": 35.8313938,
+    "longitude": 127.1740132,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "place_id": "ChIJcZBxczojcDUR_5fs07vATjE"
+  },
+  {
+    "name": "전주 료칸호텔-엣지",
+    "formatted_address": "대한민국 전북특별자치도 전주시 덕진구 산정2길 28-5",
+    "latitude": 35.8389367,
+    "longitude": 127.1687206,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "place_id": "ChIJj_D8iQcjcDURKo86nKBKSxw"
+  },
+  {
+    "name": "별빛쉼터",
+    "formatted_address": "대한민국 전북특별자치도 전주시 완산구 향교길 42-9 KR 별빛쉼터",
+    "latitude": 35.8113256,
+    "longitude": 127.1519494,
+    "rating": 4.8,
+    "user_ratings_total": 34,
+    "place_id": "ChIJya5GpPAlcDURARraOHJZVNs"
+  },
+  {
+    "name": "호텔마루",
+    "formatted_address": "대한민국 전북특별자치도 완주군 이서면 갈산리 21-17",
+    "latitude": 35.8371907,
+    "longitude": 127.0578564,
+    "rating": 4,
+    "user_ratings_total": 150,
+    "place_id": "ChIJ33LP6eY7cDURM8T_B5f9Vxw"
+  },
+  {
+    "name": "만상호텔",
+    "formatted_address": "대한민국 전북특별자치도 완주군 이서면 오공로 21-11",
+    "latitude": 35.8366838,
+    "longitude": 127.0578074,
+    "rating": 4.2,
+    "user_ratings_total": 26,
+    "place_id": "ChIJ0W8lcZQ7cDURXMyIzVqb8nI"
+  },
+  {
+    "name": "하늘기와",
+    "formatted_address": "대한민국 전북특별자치도 전주시 완산구 교동 171",
+    "latitude": 35.8116182,
+    "longitude": 127.1548509,
+    "rating": 4.4,
+    "user_ratings_total": 58,
+    "place_id": "ChIJB0myU5wkcDUR4_-lS-q9M8A"
+  },
+  {
+    "name": "전주호텔에코스테이",
+    "formatted_address": "대한민국 전북특별자치도 전주시 덕진구 세병서로 8 27 KR",
+    "latitude": 35.8714631,
+    "longitude": 127.1228185,
+    "rating": 4.1,
+    "user_ratings_total": 155,
+    "place_id": "ChIJJ-iX0-E7cDURmKI2H9dO2Z8"
+  },
+  {
+    "name": "재즈어라운드 관광호텔(Jazz Around Hotel in JeonJu)",
+    "formatted_address": "대한민국 전북특별자치도 전주시 정언신로 182 KR",
+    "latitude": 35.8315859,
+    "longitude": 127.1734168,
+    "rating": 4,
+    "user_ratings_total": 132,
+    "place_id": "ChIJJeGUsaYjcDUR_hA6icp7Ctg"
+  },
+  {
+    "name": "KT&G상상마당춘천스테이호텔",
+    "formatted_address": "대한민국 강원특별자치도 춘천시 스포츠타운길399번길 22",
+    "latitude": 37.8727389,
+    "longitude": 127.7024335,
+    "rating": 4.2,
+    "user_ratings_total": 567,
+    "place_id": "ChIJeyLcVPPmYjURu4KlcT5iESg"
+  },
+  {
+    "name": "레고랜드 코리아 호텔",
+    "formatted_address": "대한민국 강원특별자치도 춘천시 하중도길 128",
+    "latitude": 37.8845546,
+    "longitude": 127.6984943,
+    "rating": 4.2,
+    "user_ratings_total": 345,
+    "place_id": "ChIJqV-JK6XnYjURTEjDaTY2xxA"
+  },
+  {
+    "name": "SH 게스트하우스",
+    "formatted_address": "대한민국 강원특별자치도 춘천시 춘천로 218-4",
+    "latitude": 37.877493,
+    "longitude": 127.7381518,
+    "rating": 4.7,
+    "user_ratings_total": 69,
+    "place_id": "ChIJZROKc8TlYjURQkjffJ3ywx8"
+  },
+  {
+    "name": "Chuncheon W",
+    "formatted_address": "2517, Yeongseo-ro, Chuncheon-s, 춘천시 강원특별자치도 대한민국",
+    "latitude": 37.883075,
+    "longitude": 127.713869,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "place_id": "ChIJ80WSEHDmYjURh5w0FZUqLsw"
+  },
+  {
+    "name": "에스파스 호스텔",
+    "formatted_address": "대한민국 강원특별자치도 춘천시 효자동 683-8",
+    "latitude": 37.8697321,
+    "longitude": 127.7257746,
+    "rating": 4.2,
+    "user_ratings_total": 87,
+    "place_id": "ChIJuU_UItXlYjUR9Lx9I82dQZs"
+  },
+  {
+    "name": "M83 JACKSON HOTEL",
+    "formatted_address": "대한민국 강원특별자치도 춘천시 중앙로 193 JACKSON HOTEL M83",
+    "latitude": 37.8737245,
+    "longitude": 127.714127,
+    "rating": 4,
+    "user_ratings_total": 1,
+    "place_id": "ChIJfXnAZK_nYjUReUGD2UGMKYc"
+  },
+  {
+    "name": "더잭슨나인스호텔",
+    "formatted_address": "대한민국 강원특별자치도 춘천시 중앙로 193",
+    "latitude": 37.8736577,
+    "longitude": 127.7140238,
+    "rating": 4.1,
+    "user_ratings_total": 749,
+    "place_id": "ChIJiyGoqSbnYjURtysh4qbgCB4"
+  },
+  {
+    "name": "Chuncheon Eston Hotel",
+    "formatted_address": "대한민국 강원특별자치도 춘천시 중앙로3가 193",
+    "latitude": 37.873753,
+    "longitude": 127.713907,
+    "rating": 4.7,
+    "user_ratings_total": 3,
+    "place_id": "ChIJB5EzRX3mYjURJT3Isz9n2Ag"
+  },
+  {
+    "name": "춘천루체호텔",
+    "formatted_address": "대한민국 강원특별자치도 춘천시 방송길36번길 73-5",
+    "latitude": 37.873458,
+    "longitude": 127.716644,
+    "rating": 4.8,
+    "user_ratings_total": 6,
+    "place_id": "ChIJ7S1XvH3mYjURbMBoQveAMT0"
+  },
+  {
+    "name": "춘천 도도스테이",
+    "formatted_address": "대한민국 강원특별자치도 춘천시 소양로3가 175-2",
+    "latitude": 37.8826166,
+    "longitude": 127.7230365,
+    "rating": 4,
+    "user_ratings_total": 2,
+    "place_id": "ChIJR8KaEHbmYjURUR5cH70MTR0"
+  },
+  {
+    "name": "넘버25호텔남춘천지점",
+    "formatted_address": "대한민국 강원특별자치도 춘천시 효자2동 305-46",
+    "latitude": 37.8649427,
+    "longitude": 127.7348857,
+    "rating": 4.3,
+    "user_ratings_total": 59,
+    "place_id": "ChIJG2xBuNLlYjUREtWv6Evx57c"
+  },
+  {
+    "name": "봄스테이",
+    "formatted_address": "대한민국 강원특별자치도 춘천시 남춘로36번길 4",
+    "latitude": 37.8640415,
+    "longitude": 127.7318786,
+    "rating": 4.2,
+    "user_ratings_total": 258,
+    "place_id": "ChIJYSUhn5nlYjUR6-W1hGvTUOI"
+  },
+  {
+    "name": "플레인호텔 THE PLAIN",
+    "formatted_address": "대한민국 강원특별자치도 춘천시 스포츠타운길 234 KR",
+    "latitude": 37.8637064,
+    "longitude": 127.6923808,
+    "rating": 4.3,
+    "user_ratings_total": 90,
+    "place_id": "ChIJqZEljkTnYjURcUVqHX3cFjQ"
+  },
+  {
+    "name": "소나무호텔",
+    "formatted_address": "대한민국 강원특별자치도 춘천시 우묵길 55 KR",
+    "latitude": 37.8661684,
+    "longitude": 127.7222663,
+    "rating": 4,
+    "user_ratings_total": 79,
+    "place_id": "ChIJv2rSCD_kYjURGitWUB0v3E8"
+  },
+  {
+    "name": "춘천스테이",
+    "formatted_address": "대한민국 강원특별자치도 춘천시 강창골길 33",
+    "latitude": 37.8703419,
+    "longitude": 127.6995711,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "place_id": "ChIJ9-fDMVbnYjURDVJLSkOp8a0"
+  },
+  {
+    "name": "Chuncheon Hotel Cozy",
+    "formatted_address": "대한민국 강원특별자치도 춘천시 금강로 31",
+    "latitude": 37.881516,
+    "longitude": 127.725851,
+    "rating": 4.1,
+    "user_ratings_total": 15,
+    "place_id": "ChIJCcKY3NjlYjURLWyJPvsWPW4"
+  },
+  {
+    "name": "더스테이힐링파크",
+    "formatted_address": "대한민국 경기도 가평군 설악면 한서로268번길 134 KR",
+    "latitude": 37.6608446,
+    "longitude": 127.5223905,
+    "rating": 4.3,
+    "user_ratings_total": 888,
+    "place_id": "ChIJNWKcqhE7YzUR4aCMgSc195c"
+  },
+  {
+    "name": "가평호텔자라-HOTEL JARA",
+    "formatted_address": "대한민국 경기도 가평군 가평읍 가화로 41-27 KR",
+    "latitude": 37.8136663,
+    "longitude": 127.5152025,
+    "rating": 4.1,
+    "user_ratings_total": 74,
+    "place_id": "ChIJSYDpaXQnYzURN0QT9Nflo-o"
+  },
+  {
+    "name": "더 캐슬",
+    "formatted_address": "대한민국 강원특별자치도 춘천시 동내면 거두리 850-18",
+    "latitude": 37.8579945,
+    "longitude": 127.7528737,
+    "rating": 4.6,
+    "user_ratings_total": 51,
+    "place_id": "ChIJFUSYf-TlYjURwO1IdcF-ux4"
+  },
+  {
+    "name": "마음가",
+    "formatted_address": "대한민국 강원특별자치도 춘천시 신동면 솟발길 65",
+    "latitude": 37.8432941,
+    "longitude": 127.7250282,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "place_id": "ChIJ2ehebR3kYjURSYpMsJCyRSE"
+  },
+  {
+    "name": "호텔공지천",
+    "formatted_address": "대한민국 강원특별자치도 춘천시 수변공원길 11",
+    "latitude": 37.87267,
+    "longitude": 127.707213,
+    "rating": 4.5,
+    "user_ratings_total": 11,
+    "place_id": "ChIJ05Zuo1_nYjURDf9oMUuxZvg"
+  },
+  {
+    "name": "라비에벨 빌라듄스 골프텔",
+    "formatted_address": "대한민국 강원특별자치도 춘천시 동산면 조양리",
+    "latitude": 37.7428814,
+    "longitude": 127.7691424,
+    "rating": 4.4,
+    "user_ratings_total": 111,
+    "place_id": "ChIJRZBGa_fjYjUR-XCfx5SRIvg"
+  },
+  {
+    "name": "춘천 벨라레지던스 호텔",
+    "formatted_address": "대한민국 강원특별자치도 춘천시 시청길 20",
+    "latitude": 37.8803427,
+    "longitude": 127.7300212,
+    "rating": 4.2,
+    "user_ratings_total": 18,
+    "place_id": "ChIJFwEW9tvlYjURI5qVMa1ZWmo"
+  },
+  {
+    "name": "벨라스테이호텔",
+    "formatted_address": "대한민국 강원특별자치도 춘천시 춘천로 352",
+    "latitude": 37.8847644,
+    "longitude": 127.7497567,
+    "rating": 4.2,
+    "user_ratings_total": 16,
+    "place_id": "ChIJ6S6LokrlYjURuBS-2qaALJQ"
+  },
+  {
+    "name": "더반풀빌라",
+    "formatted_address": "대한민국 강원특별자치도 춘천시 서천리 596-9",
+    "latitude": 37.8382688,
+    "longitude": 127.5316103,
+    "rating": 4.8,
+    "user_ratings_total": 4,
+    "place_id": "ChIJK0sL3uXZYjURQRg_w7VBUZk"
+  },
+  {
+    "name": "살롱드방동",
+    "formatted_address": "대한민국 강원특별자치도 춘천시 서면 당산1길 123",
+    "latitude": 37.901681,
+    "longitude": 127.6571343,
+    "rating": 4.6,
+    "user_ratings_total": 11,
+    "place_id": "ChIJp21aA6PnYjURaxRh8V1cKzY"
+  },
+  {
+    "name": "호아가 키즈풀빌라",
+    "formatted_address": "대한민국 강원특별자치도 춘천시 서면 경춘로 702 KR",
+    "latitude": 37.8340361,
+    "longitude": 127.5883207,
+    "rating": 4.5,
+    "user_ratings_total": 6,
+    "place_id": "ChIJ1UQMA1XfYjURIny4LWm8RHw"
+  },
+  {
+    "name": "레고랜드 코리아 리조트",
+    "formatted_address": "대한민국 강원특별자치도 춘천시 하중도길 128",
+    "latitude": 37.8847787,
+    "longitude": 127.6970027,
+    "rating": 4.3,
+    "user_ratings_total": 4470,
+    "place_id": "ChIJoxIhVlnmYjURx0blpULBf0k"
+  },
+  {
+    "name": "춘천 라펠리즈 호텔 CSM",
+    "formatted_address": "대한민국 강원특별자치도 춘천시 강창골길 14",
+    "latitude": 37.8705971,
+    "longitude": 127.6971283,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "place_id": "ChIJA_dM__HmYjURg3FPXATym8A"
+  },
+  {
+    "name": "춘천센트럴호텔",
+    "formatted_address": "대한민국 강원특별자치도 춘천시 낙원동 중앙로68번길 12",
+    "latitude": 37.88013189999999,
+    "longitude": 127.7258793,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "place_id": "ChIJSVbhBeflYjURaTw24qyyRZE"
+  },
+  {
+    "name": "반스힐리조트",
+    "formatted_address": "대한민국 강원특별자치도 홍천군 상귀량길 193",
+    "latitude": 37.6558348,
+    "longitude": 127.6484667,
+    "rating": 5,
+    "user_ratings_total": 6,
+    "place_id": "ChIJtRiIv70ZYzURY_oEIsz_yS0"
+  },
+  {
+    "name": "가온 휴양 빌리지",
+    "formatted_address": "대한민국 강원 홍천군 특별자치도 서면 한서로 1304",
+    "latitude": 37.6534798,
+    "longitude": 127.6176319,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "place_id": "ChIJycFxw2sjYzURQHrvxUKMMrI"
+  },
+  {
+    "name": "Chuncheon 91stay",
+    "formatted_address": "대한민국 강원특별자치도 춘천시 송암길 17-12",
+    "latitude": 37.850903,
+    "longitude": 127.688656,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "place_id": "ChIJQ_iafNHmYjURAyGrW-XUuvE"
+  },
+  {
+    "name": "Chuncheon Paradise",
+    "formatted_address": "대한민국 강원특별자치도 춘천시 보안길 87",
+    "latitude": 37.881998,
+    "longitude": 127.748911,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "place_id": "ChIJtZ5ma5TlYjURHSNQvy4X3Jw"
+  },
+  {
+    "name": "카시아 속초",
+    "formatted_address": "대한민국 강원특별자치도 속초시 대포항희망길 120",
+    "latitude": 38.1764535,
+    "longitude": 128.6100193,
+    "rating": 4.5,
+    "user_ratings_total": 496,
+    "place_id": "ChIJNyAP8SC72F8R9xsu3XxBvCU"
+  },
+  {
+    "name": "라마다 바이윈덤 속초",
+    "formatted_address": "대한민국 강원특별자치도 속초시 대포항희망길 106",
+    "latitude": 38.1742272,
+    "longitude": 128.6100937,
+    "rating": 4.1,
+    "user_ratings_total": 4461,
+    "place_id": "ChIJl1WU9hy72F8RGeFc5O4ayco"
+  },
+  {
+    "name": "씨크루즈호텔",
+    "formatted_address": "대한민국 강원특별자치도 속초시 특별자치도, 청초호반로 273",
+    "latitude": 38.2012493,
+    "longitude": 128.5870139,
+    "rating": 4.2,
+    "user_ratings_total": 2342,
+    "place_id": "ChIJvV-w5Hi82F8RJMy7z9f0Mic"
+  },
+  {
+    "name": "롯데리조트 속초",
+    "formatted_address": "대한민국 강원특별자치도 속초시 대포동 대포항길 186",
+    "latitude": 38.1804848,
+    "longitude": 128.6121764,
+    "rating": 4.5,
+    "user_ratings_total": 5786,
+    "place_id": "ChIJmdGH3gu82F8R3yA_TjR9zPk"
+  },
+  {
+    "name": "속초관광호텔 베리트 Hotel BERITH",
+    "formatted_address": "대한민국 강원특별자치도 속초시 교동로1길 10",
+    "latitude": 38.2002634,
+    "longitude": 128.5809923,
+    "rating": 4.9,
+    "user_ratings_total": 14,
+    "place_id": "ChIJ-7dwbhK92F8R2aKUgj7km4c"
+  },
+  {
+    "name": "속초 아이파크 스위트 호텔 앤 리조트",
+    "formatted_address": "대한민국 강원특별자치도 속초시 영금정로1길 19-1",
+    "latitude": 38.2136358,
+    "longitude": 128.5967671,
+    "rating": 4.5,
+    "user_ratings_total": 909,
+    "place_id": "ChIJc8EAGxC92F8RT_4QLARCNJA"
+  },
+  {
+    "name": "체스터톤스 호텔 속초",
+    "formatted_address": "대한민국 강원특별자치도 속초시 교동 1024-1",
+    "latitude": 38.1945164,
+    "longitude": 128.5798605,
+    "rating": 4.2,
+    "user_ratings_total": 928,
+    "place_id": "ChIJMQPMnPS72F8Rj5ufkA6od0o"
+  },
+  {
+    "name": "속초아이파크스위트 호텔 앤 레지던스",
+    "formatted_address": "대한민국 강원특별자치도 속초시 영금정로1길 19-1",
+    "latitude": 38.2136358,
+    "longitude": 128.5967671,
+    "rating": 4.1,
+    "user_ratings_total": 138,
+    "place_id": "ChIJpcaM2w282F8RGfIU4Ik-XcU"
+  },
+  {
+    "name": "홈마리나속초",
+    "formatted_address": "대한민국 강원특별자치도 속초시 동해대로 4014",
+    "latitude": 38.1902508,
+    "longitude": 128.5957387,
+    "rating": 4.9,
+    "user_ratings_total": 403,
+    "place_id": "ChIJj9XhZQC72F8R5VAb1fNfoeM"
+  },
+  {
+    "name": "속초",
+    "formatted_address": "대한민국 속초시 씨크루즈호텔",
+    "latitude": 38.20114969999999,
+    "longitude": 128.5869152,
+    "rating": 0,
+    "user_ratings_total": 0,
+    "place_id": "ChIJSyWqUQC92F8RbG-Z3iVArbk"
+  },
+  {
+    "name": "더마크속초레지던스",
+    "formatted_address": "대한민국 강원특별자치도 속초시 동해대로 3951",
+    "latitude": 38.187563,
+    "longitude": 128.6006576,
+    "rating": 4,
+    "user_ratings_total": 212,
+    "place_id": "ChIJG6KeHw272F8RdSUm6kgRYfA"
+  },
+  {
+    "name": "속초 아이파크 스위트호텔",
+    "formatted_address": "대한민국 강원특별자치도 속초시 수복로 235",
+    "latitude": 38.2089963,
+    "longitude": 128.5891243,
+    "rating": 4.1,
+    "user_ratings_total": 10,
+    "place_id": "ChIJmUAdR3K82F8Rw1mIJlWnzkA"
+  },
+  {
+    "name": "도미니클라바 속초",
+    "formatted_address": "대한민국 강원특별자치도 속초시 엑스포로 109",
+    "latitude": 38.1941894,
+    "longitude": 128.5805334,
+    "rating": 4,
+    "user_ratings_total": 2,
+    "place_id": "ChIJF1nKwpq72F8Rnusph3CjuBw"
+  },
+  {
+    "name": "팜파스 호텔&리조트 속초",
+    "formatted_address": "대한민국 강원특별자치도 속초시 동해대로 3964",
+    "latitude": 38.189058,
+    "longitude": 128.60087,
+    "rating": 4.1,
+    "user_ratings_total": 1338,
+    "place_id": "ChIJK5PygnW72F8RgN_5uj52_6Y"
+  },
+  {
+    "name": "델피노 리조트",
+    "formatted_address": "대한민국 강원특별자치도 고성군 토성면 미시령옛길 1153",
+    "latitude": 38.21120459999999,
+    "longitude": 128.4951558,
+    "rating": 4.3,
+    "user_ratings_total": 9847,
+    "place_id": "ChIJ-9Y4bUK92F8RvwQtEsra0Vw"
+  },
+  {
+    "name": "위드유 호텔&게스트하우스",
+    "formatted_address": "대한민국 강원특별자치도 속초시 조양동 1420-6",
+    "latitude": 38.1898138,
+    "longitude": 128.5981347,
+    "rating": 4.5,
+    "user_ratings_total": 314,
+    "place_id": "ChIJ6xx14XW72F8R724jspBBAVU"
+  },
+  {
+    "name": "속초 JOON96 호텔",
+    "formatted_address": "대한민국 강원특별자치도 속초시 조양동 636-40",
+    "latitude": 38.1905076,
+    "longitude": 128.5812776,
+    "rating": 4,
+    "user_ratings_total": 9,
+    "place_id": "ChIJsXJAiti72F8RHg_kMrotx9w"
+  },
+  {
+    "name": "청초호베스트호텔",
+    "formatted_address": "대한민국 강원특별자치도 속초시 청초호반로 28",
+    "latitude": 38.1905391,
+    "longitude": 128.5922684,
+    "rating": 4.1,
+    "user_ratings_total": 63,
+    "place_id": "ChIJMRZqKbq72F8RYsifA4GpuVs"
+  },
+  {
+    "name": "호텔어라운드 속초",
+    "formatted_address": "대한민국 강원특별자치도 속초시 동해대로 4027",
+    "latitude": 38.18912,
+    "longitude": 128.595097,
+    "rating": 5,
+    "user_ratings_total": 1,
+    "place_id": "ChIJk38fjHa72F8R7XbpgdAzvyM"
+  },
+  {
+    "name": "모어댄속초 호텔",
+    "formatted_address": "대한민국 강원특별자치도 속초시 중앙로 266",
+    "latitude": 38.2131185,
+    "longitude": 128.5964623,
+    "rating": 5,
+    "user_ratings_total": 2,
+    "place_id": "ChIJYx2PB3-92F8RpyWx3ac5Oww"
+  },
+  {
+    "name": "속초컨피네스비치호텔",
+    "formatted_address": "대한민국 강원특별자치도 속초시 조양동 해오름로 171",
+    "latitude": 38.1893261,
+    "longitude": 128.6028498,
+    "rating": 4.1,
+    "user_ratings_total": 71,
+    "place_id": "ChIJI6Hftni72F8R_jFaPHwDk48"
+  },
+  {
+    "name": "속초 비즈니스 호텔 카멜",
+    "formatted_address": "대한민국 강원특별자치도 속초시 청초호반로 202",
+    "latitude": 38.1972185,
+    "longitude": 128.5808177,
+    "rating": 4.6,
+    "user_ratings_total": 38,
+    "place_id": "ChIJ-WNlOQK92F8RKb2K4R9_0g4"
+  },
+  {
+    "name": "어반스테이 속초해변AB",
+    "formatted_address": "대한민국 강원특별자치도 속초시 해오름로 167",
+    "latitude": 38.1890905,
+    "longitude": 128.6032457,
+    "rating": 4.5,
+    "user_ratings_total": 24,
+    "place_id": "ChIJ-Q6JYAC72F8RT_UlDzDF1GQ"
+  },
+  {
+    "name": "더블루마크호텔속초",
+    "formatted_address": "대한민국 강원특별자치도 속초시 동해대로 3920 KR",
+    "latitude": 38.1848101,
+    "longitude": 128.6014308,
+    "rating": 4.1,
+    "user_ratings_total": 187,
+    "place_id": "ChIJzY1RZk-72F8RbhqMFG5Gb2I"
+  },
+  {
+    "name": "썬라이즈호텔",
+    "formatted_address": "대한민국 강원특별자치도 속초시 청초호반로 291",
+    "latitude": 38.201775,
+    "longitude": 128.58885,
+    "rating": 4,
+    "user_ratings_total": 575,
+    "place_id": "ChIJkeRsRHi82F8RwXH_PJhURsE"
+  },
+  {
+    "name": "속초 더샵 스파펜션",
+    "formatted_address": "대한민국 강원특별자치도 속초시 장사항해안길 21",
+    "latitude": 38.223599,
+    "longitude": 128.5891603,
+    "rating": 4.1,
+    "user_ratings_total": 23,
+    "place_id": "ChIJLyBN_yK82F8RVnG6aVlsScw"
+  },
+  {
+    "name": "르컬렉티브 속초중앙 Lecollective Sokcho Central",
+    "formatted_address": "대한민국 강원특별자치도 속초시 엑스포로 109",
+    "latitude": 38.1939691,
+    "longitude": 128.5809017,
+    "rating": 4.6,
+    "user_ratings_total": 15,
+    "place_id": "ChIJKVdcpY272F8RvMODuR_7FMs"
+  },
+  {
+    "name": "켄싱턴리조트 설악비치",
+    "formatted_address": "대한민국 강원특별자치도 고성군 토성면 동해대로 4800 KR",
+    "latitude": 38.2432185,
+    "longitude": 128.5723665,
+    "rating": 4.1,
+    "user_ratings_total": 4814,
+    "place_id": "ChIJI9TNoXC-2F8RyOK70mnIXxo"
+  },
+  {
+    "name": "등대비치 레지던스호텔/카페",
+    "formatted_address": "대한민국 강원특별자치도 속초시 영랑해안4길 7",
+    "latitude": 38.2145065,
+    "longitude": 128.5962984,
+    "rating": 4.2,
+    "user_ratings_total": 51,
+    "place_id": "ChIJubqTf0G92F8Rtm6Ho9dfo1Y"
+  },
+  {
+    "name": "리센오션파크호텔",
+    "formatted_address": "대한민국 강원특별자치도 속초시 해오름로 167",
+    "latitude": 38.1888608,
+    "longitude": 128.6030034,
+    "rating": 4.1,
+    "user_ratings_total": 311,
+    "place_id": "ChIJ10MHJsO72F8RtuivT3H0yU8"
+  },
+  {
+    "name": "소노펠리체 빌리지 델피노",
+    "formatted_address": "대한민국 강원특별자치도 고성군 토성면 미시령옛길",
+    "latitude": 38.2106216,
+    "longitude": 128.4907007,
+    "rating": 4.6,
+    "user_ratings_total": 185,
+    "place_id": "ChIJY57UNfu92F8Rj25sF187TlA"
+  }
+]
