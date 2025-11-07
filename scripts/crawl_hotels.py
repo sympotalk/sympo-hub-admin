@@ -47,7 +47,7 @@ def search_hotels_in_city(city: str, api_key: str) -> List[Dict]:
     
     try:
         # Google Places API Text Search
-        query = f"{city} 5성급 호텔"
+        query = f"{city} 호텔"
         url = "https://maps.googleapis.com/maps/api/place/textsearch/json"
         params = {
             "query": query,
@@ -59,23 +59,38 @@ def search_hotels_in_city(city: str, api_key: str) -> List[Dict]:
         response = requests.get(url, params=params)
         data = response.json()
         
-        if data.get("status") == "OK" and "results" in data:
+        # API 응답 상태 확인
+        status = data.get("status")
+        if status != "OK":
+            error_message = data.get("error_message", "Unknown error")
+            print(f"  ⚠️ API 오류 ({status}): {error_message}")
+            if status == "REQUEST_DENIED":
+                print(f"  💡 API 키를 확인하세요. Google Cloud Console에서 Places API가 활성화되어 있는지 확인하세요.")
+            return hotels
+        
+        if "results" in data:
+            results_count = len(data["results"])
+            print(f"  📍 {results_count}개 장소 발견")
+            
             for place in data["results"]:
-                # 5성급 호텔만 필터링 (rating이 4.0 이상)
-                if place.get("rating", 0) >= 4.0:
+                # 평점이 4.0 이상인 호텔만 필터링 (평점이 없으면 포함)
+                rating = place.get("rating", 0)
+                if rating >= 4.0 or rating == 0:
                     hotel = {
                         "name": place.get("name", ""),
                         "formatted_address": place.get("formatted_address", ""),
                         "latitude": place.get("geometry", {}).get("location", {}).get("lat"),
                         "longitude": place.get("geometry", {}).get("location", {}).get("lng"),
-                        "rating": place.get("rating"),
+                        "rating": rating,
                         "user_ratings_total": place.get("user_ratings_total", 0),
                         "place_id": place.get("place_id"),
                     }
                     hotels.append(hotel)
+                    print(f"    ✓ {hotel['name']} (평점: {rating})")
         
         # 다음 페이지가 있으면 추가 검색
         if "next_page_token" in data:
+            print(f"  📄 다음 페이지 검색 중...")
             time.sleep(2)  # API 제한을 위한 대기
             params["pagetoken"] = data["next_page_token"]
             response = requests.get(url, params=params)
@@ -83,22 +98,26 @@ def search_hotels_in_city(city: str, api_key: str) -> List[Dict]:
             
             if next_data.get("status") == "OK" and "results" in next_data:
                 for place in next_data["results"]:
-                    if place.get("rating", 0) >= 4.0:
+                    rating = place.get("rating", 0)
+                    if rating >= 4.0 or rating == 0:
                         hotel = {
                             "name": place.get("name", ""),
                             "formatted_address": place.get("formatted_address", ""),
                             "latitude": place.get("geometry", {}).get("location", {}).get("lat"),
                             "longitude": place.get("geometry", {}).get("location", {}).get("lng"),
-                            "rating": place.get("rating"),
+                            "rating": rating,
                             "user_ratings_total": place.get("user_ratings_total", 0),
                             "place_id": place.get("place_id"),
                         }
                         hotels.append(hotel)
+                        print(f"    ✓ {hotel['name']} (평점: {rating})")
         
         time.sleep(1)  # API 제한 방지
         
     except Exception as e:
-        print(f"Error searching hotels in {city}: {e}")
+        print(f"  ❌ Error searching hotels in {city}: {e}")
+        import traceback
+        traceback.print_exc()
     
     return hotels
 
@@ -161,35 +180,67 @@ def insert_to_supabase(hotels: List[Dict], supabase: Client):
 
 def main():
     """메인 함수"""
+    print("=" * 60)
+    print("호텔 크롤링 스크립트 시작")
+    print("=" * 60)
+    
+    # 환경 변수 확인
     if not GOOGLE_PLACES_API_KEY:
-        print("Error: GOOGLE_PLACES_API_KEY environment variable is not set")
+        print("❌ 오류: GOOGLE_PLACES_API_KEY 환경 변수가 설정되지 않았습니다.")
+        print("💡 .env 파일에 GOOGLE_PLACES_API_KEY를 추가하세요.")
+        print(f"   현재 .env 파일 경로: {env_path}")
         return
     
     if not SUPABASE_URL or not SUPABASE_KEY:
-        print("Error: SUPABASE_URL and SUPABASE_SERVICE_ROLE_KEY environment variables are not set")
+        print("❌ 오류: SUPABASE_URL 또는 SUPABASE_SERVICE_ROLE_KEY 환경 변수가 설정되지 않았습니다.")
+        print("💡 .env 파일에 다음 변수들을 추가하세요:")
+        print("   - SUPABASE_URL")
+        print("   - SUPABASE_SERVICE_ROLE_KEY")
+        print(f"   현재 .env 파일 경로: {env_path}")
         return
+    
+    print(f"✅ Google Places API 키: {GOOGLE_PLACES_API_KEY[:20]}...")
+    print(f"✅ Supabase URL: {SUPABASE_URL}")
+    print(f"✅ Supabase Service Role Key: {SUPABASE_KEY[:20]}...")
+    print()
     
     # Supabase 클라이언트 생성
     supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
     
     print("Starting hotel crawling...")
     print(f"Searching in {len(CITIES)} cities...")
+    print()
     
     # 모든 호텔 수집
     hotels = get_all_hotels(GOOGLE_PLACES_API_KEY)
     
-    print(f"\nTotal hotels found: {len(hotels)}")
+    print()
+    print("=" * 60)
+    print(f"총 {len(hotels)}개의 호텔을 찾았습니다.")
+    print("=" * 60)
+    
+    if len(hotels) == 0:
+        print("\n⚠️ 호텔을 찾지 못했습니다. 다음을 확인하세요:")
+        print("1. Google Places API 키가 올바른지 확인")
+        print("2. Google Cloud Console에서 Places API가 활성화되어 있는지 확인")
+        print("3. API 키에 Places API 사용 권한이 있는지 확인")
+        print("4. API 키의 사용량 제한을 확인")
+        return
     
     # JSON 파일로 저장 (백업)
-    with open("hotels_data.json", "w", encoding="utf-8") as f:
+    json_path = os.path.join(script_dir, "hotels_data.json")
+    with open(json_path, "w", encoding="utf-8") as f:
         json.dump(hotels, f, ensure_ascii=False, indent=2)
-    print("Saved to hotels_data.json")
+    print(f"\n💾 백업 파일 저장: {json_path}")
     
     # Supabase에 삽입
-    print("\nInserting to Supabase...")
+    print("\n📤 Supabase에 데이터 삽입 중...")
     total_inserted = insert_to_supabase(hotels, supabase)
     
-    print(f"\n✅ Successfully inserted {total_inserted} hotels to Supabase!")
+    print()
+    print("=" * 60)
+    print(f"✅ 성공적으로 {total_inserted}개의 호텔을 Supabase에 삽입했습니다!")
+    print("=" * 60)
 
 if __name__ == "__main__":
     main()
