@@ -49,20 +49,32 @@ const searchHotels = async (query: string): Promise<Hotel[]> => {
     // 검색어가 있으면 이름이나 주소에서 검색
     const searchTerm = trimmedQuery.toLowerCase();
     
+    // 검색어를 공백으로 분리하여 각 단어로 검색 (더 유연한 검색)
+    const searchWords = searchTerm.split(/\s+/).filter(word => word.length > 0);
+    
     // 이름과 주소에서 각각 검색 후 합치기
+    let nameQuery = supabase
+      .from("hotels")
+      .select("*")
+      .order("name", { ascending: true })
+      .limit(50);
+    
+    let addressQuery = supabase
+      .from("hotels")
+      .select("*")
+      .order("name", { ascending: true })
+      .limit(50);
+    
+    // 각 검색어에 대해 OR 조건으로 검색
+    if (searchWords.length > 0) {
+      // 첫 번째 단어로 필터링
+      nameQuery = nameQuery.ilike("name", `%${searchWords[0]}%`);
+      addressQuery = addressQuery.ilike("formatted_address", `%${searchWords[0]}%`);
+    }
+    
     const [nameResult, addressResult] = await Promise.all([
-      supabase
-        .from("hotels")
-        .select("*")
-        .ilike("name", `%${searchTerm}%`)
-        .order("name", { ascending: true })
-        .limit(50),
-      supabase
-        .from("hotels")
-        .select("*")
-        .ilike("formatted_address", `%${searchTerm}%`)
-        .order("name", { ascending: true })
-        .limit(50),
+      nameQuery,
+      addressQuery,
     ]);
     
     // 중복 제거를 위해 Map 사용

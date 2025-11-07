@@ -13,6 +13,7 @@ import { Calendar, MapPin, Users, Plus, Search, Pencil, Trash2, Hotel } from "lu
 import { format } from "date-fns";
 import { ko } from "date-fns/locale";
 import { HotelSearch } from "@/components/HotelSearch";
+import { HotelRoomTypeSelector } from "@/components/HotelRoomTypeSelector";
 
 interface Hotel {
   id: string;
@@ -51,6 +52,7 @@ const Projects = () => {
     description: "",
   });
   const [selectedHotel, setSelectedHotel] = useState<Hotel | null>(null);
+  const [selectedRoomTypeId, setSelectedRoomTypeId] = useState<string | null>(null);
 
   useEffect(() => {
     if (profile?.agency_id) {
@@ -116,7 +118,10 @@ const Projects = () => {
       // 호텔이 선택된 경우 JSON으로 저장, 아니면 일반 텍스트로 저장
       let locationValue: string | null = null;
       if (selectedHotel) {
-        locationValue = JSON.stringify(selectedHotel);
+        locationValue = JSON.stringify({
+          ...selectedHotel,
+          room_type_id: selectedRoomTypeId,
+        });
       } else if (formData.location.trim()) {
         locationValue = formData.location.trim();
       }
@@ -146,6 +151,7 @@ const Projects = () => {
         description: "",
       });
       setSelectedHotel(null);
+      setSelectedRoomTypeId(null);
       loadProjects();
     } catch (error) {
       console.error("Failed to create project:", error);
@@ -219,6 +225,7 @@ const Projects = () => {
                       description: "",
                     });
                     setSelectedHotel(null);
+                    setSelectedRoomTypeId(null);
                   }
                 }}
               >
@@ -251,10 +258,20 @@ const Projects = () => {
                         <Label htmlFor="hotel">호텔 검색</Label>
                         <HotelSearch
                           value={selectedHotel}
-                          onSelect={setSelectedHotel}
+                          onSelect={(hotel) => {
+                            setSelectedHotel(hotel);
+                            setSelectedRoomTypeId(null); // 호텔 변경 시 객실 타입 초기화
+                          }}
                           placeholder="호텔을 검색하여 선택하세요"
                         />
                       </div>
+                      {selectedHotel && (
+                        <HotelRoomTypeSelector
+                          hotelId={selectedHotel.id}
+                          value={selectedRoomTypeId}
+                          onSelect={setSelectedRoomTypeId}
+                        />
+                      )}
                       <div className="space-y-2">
                         <Label htmlFor="location">장소 (직접 입력)</Label>
                         <Input

@@ -41,8 +41,29 @@ CITIES = [
     "속초",
 ]
 
+def get_place_details(place_id: str, api_key: str) -> Dict:
+    """Place Details API로 호텔 상세 정보 가져오기 (객실 타입 포함)"""
+    try:
+        url = "https://maps.googleapis.com/maps/api/place/details/json"
+        params = {
+            "place_id": place_id,
+            "fields": "name,formatted_address,geometry,rating,user_ratings_total,types,editorial_summary",
+            "language": "ko",
+            "key": api_key,
+        }
+        
+        response = requests.get(url, params=params)
+        data = response.json()
+        
+        if data.get("status") == "OK" and "result" in data:
+            return data["result"]
+        return {}
+    except Exception as e:
+        print(f"  [ERROR] Place Details API 오류: {e}")
+        return {}
+
 def search_hotels_in_city(city: str, api_key: str) -> List[Dict]:
-    """특정 도시에서 5성급 호텔 검색"""
+    """특정 도시에서 4성급 이상 호텔 검색"""
     hotels = []
     
     try:
@@ -73,9 +94,9 @@ def search_hotels_in_city(city: str, api_key: str) -> List[Dict]:
             print(f"  [INFO] {results_count}개 장소 발견")
             
             for place in data["results"]:
-                # 평점이 4.0 이상인 호텔만 필터링 (평점이 없으면 포함)
+                # 평점이 4.0 이상인 호텔만 필터링 (평점이 없으면 제외)
                 rating = place.get("rating", 0)
-                if rating >= 4.0 or rating == 0:
+                if rating >= 4.0:
                     hotel = {
                         "name": place.get("name", ""),
                         "formatted_address": place.get("formatted_address", ""),
@@ -99,7 +120,7 @@ def search_hotels_in_city(city: str, api_key: str) -> List[Dict]:
             if next_data.get("status") == "OK" and "results" in next_data:
                 for place in next_data["results"]:
                     rating = place.get("rating", 0)
-                    if rating >= 4.0 or rating == 0:
+                    if rating >= 4.0:
                         hotel = {
                             "name": place.get("name", ""),
                             "formatted_address": place.get("formatted_address", ""),
@@ -168,11 +189,19 @@ def get_all_hotels(api_key: str, existing_place_ids: set) -> List[Dict]:
     
     return all_hotels
 
+def delete_low_rated_hotels(supabase: Client):
+    """4성급 미만 호텔 삭제"""
+    try:
+        result = supabase.table("hotels").delete().lt("rating", 4.0).execute()
+        deleted_count = len(result.data) if result.data else 0
+        print(f"[INFO] 4성급 미만 호텔 {deleted_count}개 삭제됨")
+        return deleted_count
+    except Exception as e:
+        print(f"[ERROR] 호텔 삭제 오류: {e}")
+        return 0
+
 def insert_to_supabase(hotels: List[Dict], supabase: Client):
     """Supabase에 호텔 데이터 삽입"""
-    # 기존 데이터 삭제 (선택사항)
-    # supabase.table("hotels").delete().neq("id", "00000000-0000-0000-0000-000000000000").execute()
-    
     # 배치로 삽입 (한 번에 100개씩)
     batch_size = 100
     total_inserted = 0
@@ -237,6 +266,11 @@ def main():
     
     print("Starting hotel crawling...")
     print(f"Searching in {len(CITIES)} cities...")
+    print()
+    
+    # 4성급 미만 호텔 삭제
+    print("[INFO] 4성급 미만 호텔 삭제 중...")
+    delete_low_rated_hotels(supabase)
     print()
     
     # 기존 호텔의 place_id 목록 가져오기
